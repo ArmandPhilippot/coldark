@@ -1,4 +1,10 @@
+<p align="center">
+    <img src="assets/coldark-banner.svg" alt="Coldark Banner" />
+</p>
+
 # Coldark
+
+![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark?style=for-the-badge) ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ArmandPhilippot.coldark?label=Version&style=for-the-badge) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ArmandPhilippot.coldark?label=Downloads&style=for-the-badge) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/ArmandPhilippot.coldark?label=Rating&style=for-the-badge)
 
 An optimized theme for web development that comes with two versions: light & dark.
 
