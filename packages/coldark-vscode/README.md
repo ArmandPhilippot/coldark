@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/coldark-banner.svg" alt="Coldark Banner" />
+    <img src="assets/coldark-banner.png" alt="Coldark Banner" width="400" />
 </p>
 
 # Coldark
