@@ -21,7 +21,7 @@
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.45.0"
   },
   "categories": [
     "Themes"
