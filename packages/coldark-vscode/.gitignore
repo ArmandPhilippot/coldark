@@ -13,3 +13,4 @@ node_modules
 # Files to ignore
 package-lock.json
 *.vsix
+keepachangelog.hbs
