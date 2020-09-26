@@ -5,27 +5,49 @@
   "version": "1.0.2",
   "publisher": "armandphilippot",
   "author": {
-    "name": "ArmandPhilippot"
+    "name": "ArmandPhilippot",
+    "url": "https://www.armandphilippot.com/"
+  },
+  "homepage": "https://github.com/ArmandPhilippot/coldark-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArmandPhilippot/coldark-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/ArmandPhilippot/coldark-vscode/issues"
   },
   "license": "MIT",
   "icon": "assets/logo.png",
-  "category": [
-    "Themes"
-  ],
-  "homepage": "https://github.com/ArmandPhilippot/coldark",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ArmandPhilippot/coldark"
-  },
-  "bugs": {
-    "url": "https://github.com/ArmandPhilippot/coldark/issues"
-  },
-  "engines": {
-    "vscode": "^1.45.0"
-  },
+  "markdown": "github",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "grey",
+    "blue",
+    "light",
+    "dark"
+  ],
+  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/v/ArmandPhilippot.coldark?colorA=111B27&color=d8e0eb&logo=visual-studio-code&logoColor=E3E9F2&style=for-the-badge",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ArmandPhilippot.coldark",
+      "description": "Extension version"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/d/ArmandPhilippot.coldark?colorA=111B27&color=d8e0eb&logo=visual-studio-code&logoColor=E3E9F2&style=for-the-badge",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ArmandPhilippot.coldark",
+      "description": "Extension downloads"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/r/ArmandPhilippot.coldark?colorA=111B27&color=d8e0eb&logo=visual-studio-code&logoColor=E3E9F2&style=for-the-badge",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ArmandPhilippot.coldark",
+      "description": "Extension Rating"
+    }
+  ],
+  "engines": {
+    "vscode": "^1.45.0"
+  },
   "contributes": {
     "themes": [
       {
@@ -45,7 +67,7 @@
     "vsce": "^1.79.5"
   },
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
     "package": "vsce package",
     "publish": "vsce publish"
   }
