@@ -49,7 +49,7 @@ Coldark consists of three color palettes. The first is common to both versions. 
   (Used for text editor gutters & user interaction/form components like inputs, checkboxes and dropdowns. Can also be used for borders.)
 - **`coldark05`: Default foreground**  
   Also used with opacity for borders and shadows. Can also be used for punctuation.
-- **`coldark06`: Alternative foreground 2**
+- **`coldark06`: Alternative foreground 2**  
   Used for modals and floating popups like notifications or auto completion.
 - **`coldark07`: Alternative background 2**  
   Used for modals and floating popups like notifications or auto completion. Also used for active tab.
@@ -76,13 +76,13 @@ These screenshots were taken on Windows. On Linux, the title bar and the menu ar
 
 ### Cold
 
-| HTML                                                                                | SCSS                                                                                | PHP                                                                              |
+| PHP                                                                                 | CSS                                                                                 | JS                                                                               |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [![Coldark Cold PHP](./assets/coldark-cold-php.jpg)](./assets/coldark-cold-php.jpg) | [![Coldark Cold CSS](./assets/coldark-cold-css.jpg)](./assets/coldark-cold-css.jpg) | [![Coldark Cold JS](./assets/coldark-cold-js.jpg)](./assets/coldark-cold-js.jpg) |
 
 ### Dark
 
-| HTML                                                                                | SCSS                                                                                | PHP                                                                              |
+| PHP                                                                                 | CSS                                                                                 | JS                                                                               |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [![Coldark Dark PHP](./assets/coldark-dark-php.jpg)](./assets/coldark-dark-php.jpg) | [![Coldark Dark CSS](./assets/coldark-dark-css.jpg)](./assets/coldark-dark-css.jpg) | [![Coldark Dark JS](./assets/coldark-dark-js.jpg)](./assets/coldark-dark-js.jpg) |
 
