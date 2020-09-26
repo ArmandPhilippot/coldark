@@ -1,0 +1,5 @@
+# Files to ignore
+package-lock.json
+
+# Packages folders
+node_modules
