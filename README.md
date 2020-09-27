@@ -17,7 +17,7 @@ Coldark is a gray-blue theme. The colors used respect the Web Content Accessibil
 Coldark is available for:
 
 - [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=armandphilippot.coldark) (repo: [Coldark - VS Code](https://github.com/ArmandPhilippot/coldark-vscode/))
-- XFCE4 Terminal: _Coming soon..._
+- [XFCE4 Terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal)
 
 ## Color pallets
 
@@ -57,7 +57,6 @@ Coldark consists of three color pallets. The first is common to both versions. T
   Used for description, comment or invisible, icons.
 - **`coldark04`: Alternative foreground 1**  
   Used for activityBar background (both versions) and as foreground for status bar when no folder is opened.
-  (Used for text editor gutters & user interaction/form components like inputs, checkboxes and dropdowns. Can also be used for borders.)
 - **`coldark05`: Default foreground**  
   Also used with opacity for borders and shadows. Can also be used for punctuation.
 - **`coldark06`: Alternative foreground 2**
