@@ -46,7 +46,6 @@ Coldark consists of three color palettes. The first is common to both versions. 
   Used for description, comment or invisible, icons.
 - **`coldark04`: Alternative foreground 1**  
   Used for activityBar background (both versions) and as foreground for status bar when no folder is opened.
-  (Used for text editor gutters & user interaction/form components like inputs, checkboxes and dropdowns. Can also be used for borders.)
 - **`coldark05`: Default foreground**  
   Also used with opacity for borders and shadows. Can also be used for punctuation.
 - **`coldark06`: Alternative foreground 2**  
