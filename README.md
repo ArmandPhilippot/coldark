@@ -59,7 +59,7 @@ Coldark consists of three color pallets. The first is common to both versions. T
   Used for activityBar background (both versions) and as foreground for status bar when no folder is opened.
 - **`coldark05`: Default foreground**  
   Also used with opacity for borders and shadows. Can also be used for punctuation.
-- **`coldark06`: Alternative foreground 2**
+- **`coldark06`: Alternative foreground 2**  
   Used for modals and floating popups like notifications or auto completion.
 - **`coldark07`: Alternative background 2**  
   Used for modals and floating popups like notifications or auto completion. Also used for active tab.
