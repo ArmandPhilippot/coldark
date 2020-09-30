@@ -77,4 +77,4 @@ If the folder `~/.local/share/xfce4/terminal/colorschemes/` does not exist, crea
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/master/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-xfce4-terminal/blob/master/LICENSE).
