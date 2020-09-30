@@ -18,6 +18,7 @@ Coldark is available for:
 
 - [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=armandphilippot.coldark) (repo: [Coldark - VS Code](https://github.com/ArmandPhilippot/coldark-vscode/))
 - [XFCE4 Terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal)
+- [Dir_colors](https://github.com/ArmandPhilippot/coldark-dircolors)
 
 ## Color pallets
 
