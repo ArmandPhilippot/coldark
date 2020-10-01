@@ -224,6 +224,7 @@ STICKY 01;30;44                 # dir sticky and not other-writable
 .swp 00;37
 
 # Images
+.ai 01;35
 .bmp 01;35
 .cgm 01;35
 .dl 01;35
@@ -303,6 +304,7 @@ STICKY 01;30;44                 # dir sticky and not other-writable
 .txt 00;32
 .vim 00;32
 .xml 00;32
+.yml 00;32
 .zsh 00;32
 
 # Video
