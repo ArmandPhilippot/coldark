@@ -14,11 +14,13 @@ An optimized theme for web development that comes with two versions: light & dar
 
 Coldark dircolors can be installed for all application that respect the `LS_COLORS` environment variable. You can thus use it with commands like `ls`, `tree` ...
 
+It is recommended to use it with [Coldark for XFCE4 terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal) so that the colors match those of Coldark.
+
 ## Colors
 
 Coldark consists of three color palettes. The first is common to both versions. The other two each apply to a version. Coldark uses 16 colors for each theme.
 
-Coldark dircolors reuses the colors of the terminal: black, white, red, magenta, green, blue, yellow & cyan. If you are using [Coldark for XFCE4 terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal), it will only use 8 colors since the normal and bright versions of the colors are the same.
+Coldark dircolors reuses the colors of the terminal: black, white, red, magenta, green, blue, yellow & cyan. If you are using Coldark for XFCE4 terminal, it will only use 8 colors since the normal and bright versions of the colors are the same.
 
 |                | Light Theme |                                                          | Dark Theme |                                                          |
 | -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
