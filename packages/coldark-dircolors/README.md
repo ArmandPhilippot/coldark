@@ -37,17 +37,17 @@ Coldark dircolors reuses the colors of the terminal: black, white, red, magenta,
 - **`coldark05`: White**  
   Used as foreground for missing files, files with setuid or setgid permissions, files with capability, sticky not other writable directories and ignored files (like `.log`, `.bak` ...).
 - **`coldark08`: Cyan**  
-  Used as foreground for symbolic links, regular files with more than one link, pipes, executable and audio files.
+  Used as foreground for symbolic links, regular files with more than one link, pipes and audio files.
 - **`coldark09`: Yellow**  
-  Used as foreground for socket files, block devices drivers and character device drivers.
+  Used as foreground for socket files, block devices drivers and character device drivers and video files.
 - **`coldark10`: Blue**  
   Used as foreground for directories and as background for sticky not other writable directories.
 - **`coldark11`: Green**  
   Used as foreground for other writable directories, archives and various documents. Also used as background for sticky other writable directories.
 - **`coldark12`: Magenta**  
-  Used as foreground for doors, images and video.
+  Used as foreground for doors and images..
 - **`coldark15`: Red**  
-  Used as foreground for orphaned symbolic links and as background for missing files.
+  Used as foreground for orphaned symbolic links and executable. Also used as background for missing files.
 
 ## Screenshots
 

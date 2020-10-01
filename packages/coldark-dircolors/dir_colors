@@ -102,14 +102,14 @@ DOOR 04;01;35                   # door
 BLK 01;33                       # block device driver
 CHR 00;33                       # character device driver
 ORPHAN 00;31                    # orphaned symlinks
-MISSING 01;37;41                # ... and the files they point to
-EXEC 01;36                      # files with execute permission
+MISSING 01;30;41                # ... and the files they point to
+EXEC 01;31                      # files with execute permission
 SETUID 01;04;37                 # files with setuid permissions (u+s)
 SETGID 01;04;37                 # files with setgid permissions (g+s)
 CAPABILITY 01;37                # files with capability
 STICKY_OTHER_WRITABLE 01;30;42  # dir that is sticky and other-writable
 OTHER_WRITABLE 04;32            # dir that is other-writable and not sticky
-STICKY 01;37;44                 # dir sticky and not other-writable
+STICKY 01;30;44                 # dir sticky and not other-writable
 
 ###################
 # Extension Pattern
@@ -201,28 +201,23 @@ STICKY 01;37;44                 # dir sticky and not other-writable
 .xlsx 00;32
 
 # Executable
-.app 01;36
-.bat 01;36
-.btm 01;36
-.cmd 01;36
-.com 01;36
-.exe 01;36
-.reg 01;36
+.app 01;31
+.bat 01;31
+.btm 01;31
+.cmd 01;31
+.com 01;31
+.exe 01;31
+.reg 01;31
 
 # Ignores
 *~ 00;37
 .bak 00;37
 .BAK 00;37
 .diff 00;37
-.dist 01;37
-.DIST 01;37
 .log 00;37
 .LOG 00;37
-.off 01;37
-.OFF 01;37
 .old 00;37
 .OLD 00;37
-.org_archive 01;37
 .orig 00;37
 .ORIG 00;37
 .swo 00;37
@@ -311,31 +306,31 @@ STICKY 01;37;44                 # dir sticky and not other-writable
 .zsh 00;32
 
 # Video
-.anx 01;35
-.asf 01;35
-.avi 01;35
-.axv 01;35
-.flc 01;35
-.fli 01;35
-.flv 01;35
-.gl 01;35
-.m2v 01;35
-.m4v 01;35
-.mkv 01;35
-.mov 01;35
-.MOV 01;35
-.mp4 01;35
-.mp4v 01;35
-.mpeg 01;35
-.mpg 01;35
-.nuv 01;35
-.ogm 01;35
-.ogv 01;35
-.ogx 01;35
-.qt  01;35
-.rm  01;35
-.rmvb 01;35
-.swf 01;35
-.vob 01;35
-.webm 01;35
-.wmv 01;35
+.anx 01;33
+.asf 01;33
+.avi 01;33
+.axv 01;33
+.flc 01;33
+.fli 01;33
+.flv 01;33
+.gl 01;33
+.m2v 01;33
+.m4v 01;33
+.mkv 01;33
+.mov 01;33
+.MOV 01;33
+.mp4 01;33
+.mp4v 01;33
+.mpeg 01;33
+.mpg 01;33
+.nuv 01;33
+.ogm 01;33
+.ogv 01;33
+.ogx 01;33
+.qt  01;33
+.rm  01;33
+.rmvb 01;33
+.swf 01;33
+.vob 01;33
+.webm 01;33
+.wmv 01;33
