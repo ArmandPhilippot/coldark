@@ -16,7 +16,7 @@ An optimized theme for web development that comes with two versions: light & dar
 
 Coldark consists of three color palettes. The first is common to both versions. The other two each apply to a version.
 
-Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 10 colors.
+Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 12 colors.
 
 |                | Light Theme |                                                          | Dark Theme |                                                          |
 | -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
@@ -25,6 +25,8 @@ Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE
 | `coldark02`    | `#ccd6e4`   | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) | `#304259`  | ![#304259](https://placehold.it/20/304259/000000?text=+) |
 | `coldark03`    | `#304259`   | ![#304259](https://placehold.it/20/304259/000000?text=+) | `#ccd6e4`  | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) |
 | `coldark05`    | `#111B27`   | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2`  | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
+| `coldark06`    | `#213043`   | ![#213043](https://placehold.it/20/213043/000000?text=+) | `#f0f3f8`  | ![#f0f3f8](https://placehold.it/20/f0f3f8/000000?text=+) |
+| `coldark07`    | `#f0f3f8`   | ![#f0f3f8](https://placehold.it/20/f0f3f8/000000?text=+) | `#213043`  | ![#213043](https://placehold.it/20/213043/000000?text=+) |
 | `coldark08`    | `#007474`   | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2`  | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
 | `coldark09`    | `#7d6600`   | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a`  | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
 | `coldark10`    | `#005c99`   | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4`  | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
@@ -32,14 +34,14 @@ Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE
 | `coldark12`    | `#b800b8`   | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea`  | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
 | `coldark15`    | `#bf0100`   | ![#bf0100](https://placehold.it/20/bf0100/000000?text=+) | `#f57a73`  | ![#f57a73](https://placehold.it/20/f57a73/000000?text=+) |
 
-- **`coldark00`: Default background**  
-  Also used as black.
+- **`coldark00`: Default background**
 - **`coldark02`: Selection background**
   Also used as dark gray.
 - **`coldark03`: Selection foreground**  
   Also used as light gray.
-- **`coldark05`: Default foreground**  
-  Also used for bold and as white.
+- **`coldark05`: Default foreground**
+- **`coldark06`: White**
+- **`coldark07`: Black**
 - **`coldark08`: Cyan**  
   Also used as light cyan.
 - **`coldark09`: Yellow**  
