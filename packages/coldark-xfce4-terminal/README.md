@@ -16,9 +16,7 @@ An optimized theme for web development that comes with two versions: light & dar
 
 Coldark consists of three color palettes. The first is common to both versions. The other two each apply to a version.
 
-Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 11 colors.
-
-Color adjustment was also necessary on the light theme: `#0b121b` was not suitable, so it was replaced by `#ccd6e4`.
+Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 10 colors.
 
 |                | Light Theme |                                                          | Dark Theme |                                                          |
 | -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
@@ -26,7 +24,6 @@ Color adjustment was also necessary on the light theme: `#0b121b` was not suitab
 | `coldark00`    | `#E3E9F2`   | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27`  | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
 | `coldark02`    | `#ccd6e4`   | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) | `#304259`  | ![#304259](https://placehold.it/20/304259/000000?text=+) |
 | `coldark03`    | `#304259`   | ![#304259](https://placehold.it/20/304259/000000?text=+) | `#ccd6e4`  | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) |
-| `coldark04`    | `#ccd6e4`   | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) | `#d8e0eb`  | ![#d8e0eb](https://placehold.it/20/d8e0eb/000000?text=+) |
 | `coldark05`    | `#111B27`   | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2`  | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
 | `coldark08`    | `#007474`   | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2`  | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
 | `coldark09`    | `#7d6600`   | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a`  | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
@@ -38,9 +35,9 @@ Color adjustment was also necessary on the light theme: `#0b121b` was not suitab
 - **`coldark00`: Default background**  
   Also used as black.
 - **`coldark02`: Selection background**
-- **`coldark03`: Selection foreground**  
   Also used as dark gray.
-- **`coldark04`: Light Gray**
+- **`coldark03`: Selection foreground**  
+  Also used as light gray.
 - **`coldark05`: Default foreground**  
   Also used for bold and as white.
 - **`coldark08`: Cyan**  
