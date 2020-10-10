@@ -20,6 +20,7 @@ Coldark is available for:
 - [XFCE4 Terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal)
 - [Dir_colors](https://github.com/ArmandPhilippot/coldark-dircolors)
 - [Zsh Theme](https://github.com/ArmandPhilippot/coldark-zsh-theme)
+- [Prism.js](https://github.com/ArmandPhilippot/coldark-prism)
 
 ## Color pallets
 
