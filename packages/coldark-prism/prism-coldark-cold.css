@@ -204,21 +204,30 @@ div.code-toolbar > .toolbar button:focus {
   text-decoration: none;
 }
 
+div.code-toolbar > .toolbar span,
+div.code-toolbar > .toolbar span:hover,
+div.code-toolbar > .toolbar span:focus {
+  color: #e3e9f2;
+  background: #304259;
+}
+
 /* overrides color-values for the Line Highlight plugin
  * http://prismjs.com/plugins/line-highlight/
  */
 .line-highlight {
-  background: #ccd6e45e;
+  background: #3042591f;
+  background: linear-gradient(to right, #3042591f 70%, #30425915);
 }
 
 .line-highlight:before,
 .line-highlight[data-end]:after {
   background-color: #304259;
   color: #e3e9f2;
+  box-shadow: 0 1px #ccd6e4;
 }
 
 pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
-  background-color: #ccd6e45e;
+  background-color: #3042591f;
 }
 
 /* overrides color-values for the Line Numbers plugin
@@ -230,5 +239,53 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
 }
 
 .line-numbers-rows > span:before {
+  color: #111b2796;
+}
+
+/* overrides color-values for the Match Braces plugin
+ * https://prismjs.com/plugins/match-braces/
+ */
+.rainbow-braces .token.punctuation.brace-level-1,
+.rainbow-braces .token.punctuation.brace-level-5,
+.rainbow-braces .token.punctuation.brace-level-9 {
+  color: #7d6600;
+}
+.rainbow-braces .token.punctuation.brace-level-2,
+.rainbow-braces .token.punctuation.brace-level-6,
+.rainbow-braces .token.punctuation.brace-level-10 {
+  color: #b800b8;
+}
+.rainbow-braces .token.punctuation.brace-level-3,
+.rainbow-braces .token.punctuation.brace-level-7,
+.rainbow-braces .token.punctuation.brace-level-11 {
+  color: #005c99;
+}
+.rainbow-braces .token.punctuation.brace-level-4,
+.rainbow-braces .token.punctuation.brace-level-8,
+.rainbow-braces .token.punctuation.brace-level-12 {
+  color: #8600c6;
+}
+
+/* overrides color-values for the Diff Highlight plugin
+ * https://prismjs.com/plugins/diff-highlight/
+ */
+pre.diff-highlight > code .token.deleted:not(.prefix),
+pre > code.diff-highlight .token.deleted:not(.prefix) {
+  background-color: #bf01001f;
+}
+
+pre.diff-highlight > code .token.inserted:not(.prefix),
+pre > code.diff-highlight .token.inserted:not(.prefix) {
+  background-color: #2378001f;
+}
+
+/* overrides color-values for the Command Line plugin
+ * https://prismjs.com/plugins/command-line/
+ */
+.command-line-prompt {
+  border-right: 1px solid #111b271f;
+}
+
+.command-line-prompt > span:before {
   color: #111b2796;
 }
