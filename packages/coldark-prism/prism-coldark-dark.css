@@ -177,6 +177,9 @@ pre[class*="language-"] {
   color: #e3e9f2;
 }
 
+/* overrides color-values for the Show Invisibles plugin
+ * https://prismjs.com/plugins/show-invisibles/
+ */
 .token.tab:not(:empty):before,
 .token.cr:before,
 .token.lf:before,
@@ -184,7 +187,9 @@ pre[class*="language-"] {
   color: #ccd6e4;
 }
 
-/* Plugin using toolbar - Color override */
+/* overrides color-values for the Toolbar plugin
+ * https://prismjs.com/plugins/toolbar/
+ */
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button {
   color: #111b27;
@@ -200,7 +205,9 @@ div.code-toolbar > .toolbar button:focus {
   text-decoration: none;
 }
 
-/* Line highlight Plugin - Color override */
+/* overrides color-values for the Line Highlight plugin
+ * http://prismjs.com/plugins/line-highlight/
+ */
 .line-highlight {
   background: #3042595e;
 }
@@ -211,7 +218,13 @@ div.code-toolbar > .toolbar button:focus {
   color: #111b27;
 }
 
-/* Line numbers Plugin - Color override */
+pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
+  background-color: #3042595e;
+}
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
 .line-numbers .line-numbers-rows {
   border-right: 1px solid #0b121b;
   background: #0b121b7a;
