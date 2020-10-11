@@ -89,6 +89,8 @@ These screenshots were taken on Windows. On Linux, the title bar and the menu ar
 
 Coldark for VS Code can be installed via the extension manager by searching for "_Coldark_".
 
+Coldark is available in the [VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=ArmandPhilippot.coldark) and in the [Open VSX Registry](https://open-vsx.org/extension/armandphilippot/coldark). So, you can install it in VS Code, Code - OSS and VSCodium.
+
 ## Disclaimer
 
 - I tested the theme on Linux (Manjaro) and Windows, but not on Mac.
