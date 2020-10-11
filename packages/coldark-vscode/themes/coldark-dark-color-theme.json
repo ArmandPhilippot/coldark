@@ -81,6 +81,7 @@
     "editor.hoverHighlightBackground": "#3042597a",
     "editor.lineHighlightBackground": "#3042598f",
     "editor.lineHighlightBorder": "#3042597a",
+    "editor.onTypeRenameBackground": "#304259da",
     "editor.rangeHighlightBackground": "#3042597a",
     "editor.rangeHighlightBorder": "#3042597a",
     "editor.selectionBackground": "#304259ad",
@@ -617,6 +618,13 @@
       }
     },
     {
+      "name": "Support Type Object",
+      "scope": "support.type.object",
+      "settings": {
+        "foreground": "#F39BF3"
+      }
+    },
+    {
       "name": "Token Debug",
       "scope": "token.debug-token",
       "settings": {
@@ -667,6 +675,20 @@
       }
     },
     {
+      "name": "[CSS] Constant Color W3C Name",
+      "scope": "source.css support.constant.color.w3c-standard-color-name",
+      "settings": {
+        "foreground": "#82C366"
+      }
+    },
+    {
+      "name": "[CSS] Constant font name",
+      "scope": "source.css support.constant.font-name",
+      "settings": {
+        "foreground": "#82C366"
+      }
+    },
+    {
       "name": "[CSS] Constant Other Color RGB Value",
       "scope": "source.css constant.other.color.rgb-value",
       "settings": {
@@ -695,6 +717,13 @@
       }
     },
     {
+      "name": "[CSS] Attribute selector",
+      "scope": "source.css meta.attribute-selector",
+      "settings": {
+        "foreground": "#82C366"
+      }
+    },
+    {
       "name": "[CSS] Meta Property-Value",
       "scope": "source.css meta.property-value",
       "settings": {
@@ -706,6 +735,13 @@
       "scope": "source.css support.type.vendored",
       "settings": {
         "foreground": "#6AB3E4bd"
+      }
+    },
+    {
+      "name": "[SCSS] Property value variable",
+      "scope": "source.css meta.property-value variable",
+      "settings": {
+        "foreground": "#5DC2C2"
       }
     },
     {
