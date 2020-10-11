@@ -13,7 +13,6 @@ Some settings show "not allowed" on Windows. No information is provided on Linux
 - `button.secondaryBackground`
 - `button.secondaryForeground`
 - `button.secondaryHoverBackground`
-- `editor.onTypeRenameBackground`
 - `gitlens.lineHighlightOverviewRulerColor`
 - `notebook.cellHoverBackground`
 - `notebook.cellInsertionIndicator`
