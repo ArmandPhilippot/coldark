@@ -21,9 +21,13 @@
     "url": "https://github.com/ArmandPhilippot/coldark-prism/issues"
   },
   "scripts": {
-    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md"
+    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
+    "lint": "stylelint \"*.css\"",
+    "lint-fix": "stylelint \"*.css\" --fix"
   },
   "dependencies": {
-    "auto-changelog": "^2.2.1"
+    "auto-changelog": "^2.2.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
