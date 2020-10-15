@@ -10,4 +10,5 @@ ColorSelectionUseDefault=FALSE
 ColorBold=#E3E9F2
 ColorBoldIsBright=TRUE
 ColorBoldUseDefault=FALSE
-ColorPalette=#213043;#f57a73;#82c366;#cdb74a;#6ab3e4;#ea89ea;#5dc2c2;#ccd6e4;#304259;#f57a73;#82c366;#cdb74a;#6ab3e4;#ea89ea;#5dc2c2;#f0f3f8
+ColorPalette=#0b121b;#f57a73;#82c366;#cdb74a;#6ab3e4;#ea89ea;#5dc2c2;#213043;#304259;#f57a73;#82c366;#cdb74a;#6ab3e4;#ea89ea;#5dc2c2;#f0f3f8
+
