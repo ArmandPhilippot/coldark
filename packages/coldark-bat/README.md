@@ -87,7 +87,7 @@ Then, if you use `bat --list-themes`, you should see the themes.
 
 ## Activation
 
-To select one of the Coldark themes, call `bat` with the `--theme=Coldark-Cold` (or `--theme=Coldark-Dark`) option or set the `BAT_THEME` environment variable to `Coldark-Cold` (or `Coldark-Dark`). Use export `BAT_THEME="Coldark-Cold"` (or `BAT_THEME="Coldark-Dark"`) in your shell's startup file to make the change permanent.
+To select one of the Coldark themes, call `bat` with the `--theme=Coldark-Cold` (or `--theme=Coldark-Dark`) option or set the `BAT_THEME` environment variable to `Coldark-Cold` (or `Coldark-Dark`). Use `export BAT_THEME="Coldark-Cold"` (or `export BAT_THEME="Coldark-Dark"`) in your shell's startup file to make the change permanent.
 
 ## License
 
