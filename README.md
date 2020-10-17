@@ -21,6 +21,7 @@ Coldark is available for:
 - [Dir_colors](https://github.com/ArmandPhilippot/coldark-dircolors)
 - [Zsh Theme](https://github.com/ArmandPhilippot/coldark-zsh-theme)
 - [Prism.js](https://github.com/ArmandPhilippot/coldark-prism)
+- [Bat](https://github.com/ArmandPhilippot/coldark-bat)
 
 ## Color pallets
 
