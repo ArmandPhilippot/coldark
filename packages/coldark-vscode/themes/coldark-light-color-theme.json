@@ -452,6 +452,20 @@
       }
     },
     {
+      "name": "[Comment/Entity] Comment Block Type Instance",
+      "scope": "comment.block.documentation entity.name.type.instance",
+      "settings": {
+        "foreground": "#b800b8"
+      }
+    },
+    {
+      "name": "[Comment/Keyword] Comment Block Keyword Other Type",
+      "scope": "comment.block.documentation keyword.other.type",
+      "settings": {
+        "foreground": "#b800b8"
+      }
+    },
+    {
       "name": "[Constant] Character",
       "scope": "constant.character",
       "settings": {
@@ -466,6 +480,13 @@
       }
     },
     {
+      "name": "[Constant] Character Escape Codepoint",
+      "scope": "constant.character.escape.codepoint",
+      "settings": {
+        "foreground": "#237800"
+      }
+    },
+    {
       "name": "[Constant] Language",
       "scope": "constant.language",
       "settings": {
@@ -477,6 +498,20 @@
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#7d6600"
+      }
+    },
+    {
+      "name": "[Constant] Other",
+      "scope": "constant.other",
+      "settings": {
+        "foreground": "#111b27"
+      }
+    },
+    {
+      "name": "[Constant] Placeholder",
+      "scope": "constant.other.placeholder",
+      "settings": {
+        "foreground": "#b800b8"
       }
     },
     {
@@ -537,6 +572,13 @@
       }
     },
     {
+      "name": "[Keyword] Doctype",
+      "scope": "keyword.other.doctype",
+      "settings": {
+        "foreground": "#007474"
+      }
+    },
+    {
       "name": "[Markup] Fenced Code Block",
       "scope": "markup.fenced_code.block",
       "settings": {
@@ -559,7 +601,7 @@
       }
     },
     {
-      "name": "[Markup] List punctuation",
+      "name": "[Markup][Punctuation] List",
       "scope": "markup.list punctuation.definition.list.begin",
       "settings": {
         "foreground": "#b800b8"
@@ -573,7 +615,7 @@
       }
     },
     {
-      "name": "[Markup] Quote punctuation",
+      "name": "[Markup][Punctuation] Quote",
       "scope": "markup.quote punctuation.definition.quote.begin",
       "settings": {
         "foreground": "#b800b8"
@@ -616,10 +658,59 @@
       }
     },
     {
+      "name": "[Meta] Function-Call",
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#b800b8"
+      }
+    },
+    {
+      "name": "[Meta] Scope Case-pattern",
+      "scope": "meta.scope.case-pattern",
+      "settings": {
+        "foreground": "#7d6600"
+      }
+    },
+    {
+      "name": "[Meta] Tag SGML Doctype",
+      "scope": "meta.tag.sgml.doctype",
+      "settings": {
+        "foreground": "#007474"
+      }
+    },
+    {
       "name": "[Meta] Tag Template Block",
       "scope": "meta.tag.template.block",
       "settings": {
         "foreground": "#bf0100"
+      }
+    },
+    {
+      "name": "[Meta/Punctuation] Tag Template Block Section Tag",
+      "scope": "meta.tag.template.block punctuation.section.tag",
+      "settings": {
+        "foreground": "#aa4d00"
+      }
+    },
+    {
+      "name": "[Meta] Tag Template Value",
+      "scope": "meta.tag.template.value",
+      "settings": {
+        "foreground": "#b800b8"
+      }
+    },
+    {
+      "name": "[Meta/Punctuation] Tag Template Value Section Tag",
+      "scope": "meta.tag.template.value punctuation.section.tag",
+      "settings": {
+        "foreground": "#b800b8"
+      }
+    },
+    {
+      "name": "[Punctuation] Definition Arguments",
+      "scope": "punctuation.definition.arguments",
+      "settings": {
+        "foreground": "#111b27"
       }
     },
     {
@@ -634,10 +725,31 @@
       }
     },
     {
+      "name": "[Punctuation] Definition Interpolation",
+      "scope": "punctuation.definition.interpolation",
+      "settings": {
+        "foreground": "#111b27"
+      }
+    },
+    {
+      "name": "[Punctuation] Definition Parameters",
+      "scope": "punctuation.definition.parameters",
+      "settings": {
+        "foreground": "#111b27"
+      }
+    },
+    {
       "name": "[Punctuation] Definition Tag",
       "scope": "punctuation.definition.tag",
       "settings": {
         "foreground": "#007474"
+      }
+    },
+    {
+      "name": "[Punctuation] Section",
+      "scope": "punctuation.section",
+      "settings": {
+        "foreground": "#111b27"
       }
     },
     {
@@ -648,6 +760,20 @@
       ],
       "settings": {
         "foreground": "#bf0100"
+      }
+    },
+    {
+      "name": "[Punctuation] Section Hash",
+      "scope": "punctuation.section.hash",
+      "settings": {
+        "foreground": "#111b27"
+      }
+    },
+    {
+      "name": "[Punctuation] Separator",
+      "scope": "punctuation.separator",
+      "settings": {
+        "foreground": "#111b27"
       }
     },
     {
@@ -673,7 +799,11 @@
     },
     {
       "name": "[String] Regexp",
-      "scope": "string.regexp",
+      "scope": [
+        "string.regexp",
+        "string.regexp constant.other",
+        "string.regexp keyword"
+      ],
       "settings": {
         "foreground": "#b800b8"
       }
@@ -718,6 +848,13 @@
       "scope": "support.type.object",
       "settings": {
         "foreground": "#b800b8"
+      }
+    },
+    {
+      "name": "[Support] Type Primitive",
+      "scope": "support.type.primitive",
+      "settings": {
+        "foreground": "#aa4d00"
       }
     },
     {
@@ -768,6 +905,16 @@
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#007474"
+      }
+    },
+    {
+      "name": "[C/CPP][Entity] Namespace",
+      "scope": [
+        "source.c entity.name.namespace",
+        "source.cpp entity.name.namespace"
+      ],
+      "settings": {
+        "foreground": "#005c99"
       }
     },
     {
@@ -873,6 +1020,20 @@
       }
     },
     {
+      "name": "[PHP][Entity] Namespace",
+      "scope": "source.php entity.name.type.namespace",
+      "settings": {
+        "foreground": "#005c99"
+      }
+    },
+    {
+      "name": "[Python][Constant] Other Caps",
+      "scope": "source.python constant.other.caps",
+      "settings": {
+        "foreground": "#005c99"
+      }
+    },
+    {
       "name": "[Python][Meta] Function Call Arguments",
       "scope": "source.python meta.function-call.arguments",
       "settings": {
@@ -901,6 +1062,13 @@
       }
     },
     {
+      "name": "[Python][Variable] Parameter Function",
+      "scope": ["source.python variable.parameter.function.language"],
+      "settings": {
+        "foreground": "#007474"
+      }
+    },
+    {
       "name": "[SCSS][Variable] Interpolation",
       "scope": "source.css.scss variable.interpolation",
       "settings": {
@@ -909,10 +1077,10 @@
       }
     },
     {
-      "name": "[Python][Variable] Parameter Function",
-      "scope": ["source.python variable.parameter.function.language"],
+      "name": "[Shell][Comment] Shebang",
+      "scope": "source.shell comment.line.number-sign.shebang",
       "settings": {
-        "foreground": "#007474"
+        "foreground": "#bf0100"
       }
     },
     {
@@ -920,6 +1088,13 @@
       "scope": "source.shell meta.scope.logical-expression",
       "settings": {
         "foreground": "#7d6600"
+      }
+    },
+    {
+      "name": "[Shell][Punctuation] Comment Shebang",
+      "scope": "punctuation.definition.comment.shebang",
+      "settings": {
+        "foreground": "#bf0100"
       }
     },
     {
