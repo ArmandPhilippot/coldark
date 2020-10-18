@@ -10,8 +10,6 @@ Coldark doesn't use some VS Code settings.
 
 Some settings show "not allowed" on Windows. No information is provided on Linux. In either case, I don't see any change.
 
-- `button.secondaryBackground`
-- `button.secondaryForeground`
 - `button.secondaryHoverBackground`
 - `gitlens.lineHighlightOverviewRulerColor`
 - `notebook.cellHoverBackground`
