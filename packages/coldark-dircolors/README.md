@@ -75,6 +75,17 @@ To activate and use Coldark dircolors as your default color theme for all sessio
 eval "$(dircolors ~/.dir_colors)"
 ```
 
+## For OhMyZsh users
+
+If you are using OhMyZsh on GNU/Linux, you should place the following code in `~/.zshrc`, right after the `eval`, so that the tab completion uses the same colors:
+
+```
+# Zsh Completion with LS Colors
+zstyle ':completion:*:default' list-colors "$LS_COLORS"
+```
+
+Thanks to [rarylson](https://github.com/ohmyzsh/ohmyzsh/issues/6060#issuecomment-572863893) for the trick.
+
 ## License
 
 This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-dircolors/blob/master/LICENSE).
