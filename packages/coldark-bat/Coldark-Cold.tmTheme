@@ -838,6 +838,28 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>[CSS][Entity] Pseudo-class</string>
+        <key>scope</key>
+        <string>source.css entity.other.pseudo-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DFC95F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[CSS][Entity] Pseudo-element</string>
+        <key>scope</key>
+        <string>source.css entity.other.pseudo-element</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DFC95F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[CSS][Keyword] !important keyword</string>
         <key>scope</key>
         <string>source.css keyword.other.important</string>
