@@ -10,3 +10,6 @@
 [submodule "Coldark-VSCode"]
 	path = Coldark-VSCode
 	url = git@github.com:ArmandPhilippot/coldark-vscode.git
+[submodule "Coldark-XFCE4-Terminal"]
+	path = Coldark-XFCE4-Terminal
+	url = git@github.com:ArmandPhilippot/coldark-xfce4-terminal.git
