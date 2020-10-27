@@ -4,3 +4,6 @@
 [submodule "Coldark-dircolors"]
 	path = Coldark-dircolors
 	url = git@github.com:ArmandPhilippot/coldark-dircolors.git
+[submodule "Coldark-Prism"]
+	path = Coldark-Prism
+	url = git@github.com:ArmandPhilippot/coldark-prism.git
