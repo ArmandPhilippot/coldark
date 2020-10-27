@@ -1,14 +1,13 @@
 [Scheme]
 Name=Coldark - Dark
-ColorForeground=#E3E9F2
-ColorBackground=#111B27
-TabActivityColor=#6ab3e4
+ColorForeground=#e3eaf2
+ColorBackground=#111b27
+TabActivityColor=#6cb8e6
 ColorCursor=x
-ColorSelection=#ccd6e4
-ColorSelectionBackground=#304259
+ColorSelectionBackground=#213043
 ColorSelectionUseDefault=FALSE
-ColorBold=#E3E9F2
+ColorBold=#e3eaf2
 ColorBoldIsBright=TRUE
 ColorBoldUseDefault=FALSE
-ColorPalette=#0b121b;#f57a73;#82c366;#cdb74a;#6ab3e4;#ea89ea;#5dc2c2;#213043;#304259;#f57a73;#82c366;#cdb74a;#6ab3e4;#ea89ea;#5dc2c2;#f0f3f8
+ColorPalette=#0b121b;#f57a73;#91d076;#e6d37a;#6cb8e6;#f4adf4;#66cccc;#213043;#3c526d;#f57a73;#91d076;#e6d37a;#6cb8e6;#f4adf4;#66cccc;#f0f4f8
 
