@@ -1,3 +1,6 @@
 [submodule "Coldark-bat"]
 	path = Coldark-bat
 	url = git@github.com:ArmandPhilippot/coldark-bat.git
+[submodule "Coldark-dircolors"]
+	path = Coldark-dircolors
+	url = git@github.com:ArmandPhilippot/coldark-dircolors.git
