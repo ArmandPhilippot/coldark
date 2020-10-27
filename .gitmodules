@@ -13,3 +13,6 @@
 [submodule "Coldark-XFCE4-Terminal"]
 	path = Coldark-XFCE4-Terminal
 	url = git@github.com:ArmandPhilippot/coldark-xfce4-terminal.git
+[submodule "Coldark-ZSH-Theme"]
+	path = Coldark-ZSH-Theme
+	url = git@github.com:ArmandPhilippot/coldark-zsh-theme.git
