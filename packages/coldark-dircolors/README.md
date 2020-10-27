@@ -4,7 +4,7 @@
 
 # Coldark - Dircolors
 
-![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-dircolors?colorA=111B27&color=d8e0eb&logo=Github&logoColor=E3E9F2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-dircolors?colorA=111B27&color=d8e0eb&logo=Github&logoColor=E3E9F2&style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-dircolors?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-dircolors?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
 An optimized theme for web development that comes with two versions: light & dark.
 
@@ -22,17 +22,17 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 Coldark dircolors reuses the colors of the terminal: black, white, red, magenta, green, blue, yellow & cyan. If you are using Coldark for XFCE4 terminal, it will only use 8 colors since the normal and bright versions of the colors are the same.
 
-|                | Light Theme |                                                          | Dark Theme |                                                          |
-| -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
-| **Usage code** | **Hex**     |                       **Preview**                        |  **Hex**   |                       **Preview**                        |
-| `coldark00`    | `#E3E9F2`   | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27`  | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
-| `coldark05`    | `#111B27`   | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2`  | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
-| `coldark08`    | `#007474`   | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2`  | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
-| `coldark09`    | `#7d6600`   | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a`  | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
-| `coldark10`    | `#005c99`   | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4`  | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
-| `coldark11`    | `#237800`   | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366`  | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
-| `coldark12`    | `#b800b8`   | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea`  | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
-| `coldark15`    | `#bf0100`   | ![#bf0100](https://placehold.it/20/bf0100/000000?text=+) | `#f57a73`  | ![#f57a73](https://placehold.it/20/f57a73/000000?text=+) |
+|  | Light Theme |  | Dark Theme |  |
+| --- | --- | :-: | :-: | :-: |
+| **Usage code** | **Hex** | **Preview** | **Hex** | **Preview** |
+| `coldark00` | `#E3E9F2` | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27` | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
+| `coldark05` | `#111B27` | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2` | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
+| `coldark08` | `#007474` | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2` | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
+| `coldark09` | `#7d6600` | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a` | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
+| `coldark10` | `#005c99` | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4` | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
+| `coldark11` | `#237800` | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366` | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
+| `coldark12` | `#b800b8` | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea` | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
+| `coldark15` | `#bf0100` | ![#bf0100](https://placehold.it/20/bf0100/000000?text=+) | `#f57a73` | ![#f57a73](https://placehold.it/20/f57a73/000000?text=+) |
 
 - **`coldark00`: Black**  
   Used as foreground for sticky other writable directories.
@@ -55,12 +55,12 @@ Coldark dircolors reuses the colors of the terminal: black, white, red, magenta,
 
 Some examples with `ls`, symbolic links (and missing file), `exa` and `tree`.
 
-|                       Light Theme                        |                       Dark Theme                        |
-| :------------------------------------------------------: | :-----------------------------------------------------: |
-|       ![Coldark LS](./assets/coldark-light-ls.jpg)       |       ![Coldark LS](./assets/coldark-dark-ls.jpg)       |
+| Light Theme | Dark Theme |
+| :-: | :-: |
+| ![Coldark LS](./assets/coldark-light-ls.jpg) | ![Coldark LS](./assets/coldark-dark-ls.jpg) |
 | ![Coldark Symlinks](./assets/coldark-light-symlinks.jpg) | ![Coldark Symlinks](./assets/coldark-dark-symlinks.jpg) |
-|      ![Coldark exa](./assets/coldark-light-exa.jpg)      |      ![Coldark exa](./assets/coldark-dark-exa.jpg)      |
-|     ![Coldark tree](./assets/coldark-light-tree.jpg)     |     ![Coldark tree](./assets/coldark-dark-tree.jpg)     |
+| ![Coldark exa](./assets/coldark-light-exa.jpg) | ![Coldark exa](./assets/coldark-dark-exa.jpg) |
+| ![Coldark tree](./assets/coldark-light-tree.jpg) | ![Coldark tree](./assets/coldark-dark-tree.jpg) |
 
 ## Install
 
