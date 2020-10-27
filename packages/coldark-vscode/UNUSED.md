@@ -6,54 +6,37 @@
 
 Coldark doesn't use some VS Code settings.
 
-## Not allowed
-
-Some settings show "not allowed" on Windows. No information is provided on Linux. In either case, I don't see any change.
+I tested, I saw no change. If anyone knows what these settings do, I'll add them.
 
 - `button.secondaryHoverBackground`
+- `debugIcon.disconnectForeground`
+- `debugView.exceptionLabelBackground`
+- `debugView.exceptionLabelForeground`
+- `editor.findRangeHighlightBackground`
+- `editor.findRangeHighlightBorder`
+- `editor.foldBackground`
+- `editor.onTypeRenameBackground`
+- `editor.selectionForeground`
+- `editorGutter.commentRangeForeground`
+- `editorOverviewRuler.wordHighlightStrongForeground`
+- `extensionBadge.remoteBackground`
+- `extensionBadge.remoteForeground`
 - `gitlens.lineHighlightOverviewRulerColor`
+- `merge.commonContentBackground`
+- `merge.commonHeaderBackground`
+- `notebook.cellBorderColor`
 - `notebook.cellHoverBackground`
 - `notebook.cellInsertionIndicator`
+- `notebook.cellStatusBarItemHoverBackground`
 - `notebook.cellToolbarSeparator`
 - `notebook.focusedCellBackground`
 - `notebook.focusedCellBorder`
 - `notebook.focusedEditorBorder`
+- `notebook.outputContainerBackgroundColor`
 - `notebook.symbolHighlightBackground`
 - `notebookScrollbarSlider.activeBackground`
 - `notebookScrollbarSlider.background`
 - `notebookScrollbarSlider.hoverBackground`
-- `scm.providerBorder`
-
-## I don't know what these settings change
-
-I tested, I saw no change. If anyone knows what these settings do, I'll add them.
-
-- `debugConsoleInputIcon.foreground`
-- `debugExceptionWidget.background`
-- `debugExceptionWidget.border`
-- `debugIcon.disconnectForeground`
-- `debugView.exceptionLabelBackground`
-- `debugView.exceptionLabelForeground`
-- `debugView.valueChangedHighlight`
-- `editor.focusedStackFrameHighlightBackground`
-- `editor.selectionForeground`
-- `editor.snippetFinalTabstopHighlightBackground`
-- `editor.snippetFinalTabstopHighlightBorder`
-- `editor.snippetTabstopHighlightBackground`
-- `editor.snippetTabstopHighlightBorder`
-- `editorGutter.commentRangeForeground`
-- `editorOverviewRuler.commonContentForeground`
-- `editorOverviewRuler.rangeHighlightForeground`
-- `extensionBadge.remoteBackground`
-- `extensionBadge.remoteForeground`
-- `list.deemphasizedForeground`
-- `list.invalidItemForeground`
-- `list.warningForeground`
-- `merge.commonContentBackground`
-- `merge.commonHeaderBackground`
-- `notebook.cellBorderColor`
-- `notebook.cellStatusBarItemHoverBackground`
-- `notebook.outputContainerBackgroundColor`
 - `notebookStatusErrorIcon.foreground`
 - `notebookStatusRunningIcon.foreground`
 - `notebookStatusSuccessIcon.foreground`
@@ -63,5 +46,9 @@ I tested, I saw no change. If anyone knows what these settings do, I'll add them
 - `panelSectionHeader.background`
 - `panelSectionHeader.border`
 - `panelSectionHeader.foreground`
+- `quickInputTitle.background`
+- `scm.providerBorder`
 - `settings.dropdownListBorder`
+- `statusBarItem.remoteBackground`
+- `statusBarItem.remoteForeground`
 - `textSeparator.foreground`
