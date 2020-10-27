@@ -7,3 +7,6 @@
 [submodule "Coldark-Prism"]
 	path = Coldark-Prism
 	url = git@github.com:ArmandPhilippot/coldark-prism.git
+[submodule "Coldark-VSCode"]
+	path = Coldark-VSCode
+	url = git@github.com:ArmandPhilippot/coldark-vscode.git
