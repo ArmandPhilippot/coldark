@@ -21,7 +21,13 @@
     "url": "https://github.com/ArmandPhilippot/coldark-bat/issues"
   },
   "scripts": {
-    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "remote": "github",
+    "commitLimit": false,
+    "releaseSummary": true
   },
   "dependencies": {
     "auto-changelog": "^2.2.1"
