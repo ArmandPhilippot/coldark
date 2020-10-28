@@ -633,6 +633,27 @@
       }
     },
     {
+      "name": "[Markup] Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#e6d37a"
+      }
+    },
+    {
+      "name": "[Markup] Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#f28e88"
+      }
+    },
+    {
+      "name": "[Markup][Punctuation] Fenced Code Block",
+      "scope": "markup.fenced_code.block punctuation.definition",
+      "settings": {
+        "foreground": "#66cccc"
+      }
+    },
+    {
       "name": "[Markup] Heading",
       "scope": "markup.heading",
       "settings": {
@@ -648,10 +669,17 @@
       }
     },
     {
-      "name": "[Markup] Underline Link",
-      "scope": "markup.underline.link",
+      "name": "[Markup] Inserted",
+      "scope": "markup.inserted",
       "settings": {
-        "foreground": "#e6d37a"
+        "foreground": "#91d076"
+      }
+    },
+    {
+      "name": "[Markup] Italic+Bold",
+      "scope": ["markup.italic markup.bold", "markup.bold markup.italic"],
+      "settings": {
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -659,6 +687,27 @@
       "scope": "markup.list punctuation.definition.list",
       "settings": {
         "foreground": "#f4adf4"
+      }
+    },
+    {
+      "name": "[Markup] Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Markup] Quote",
+      "scope": "markup.quote punctuation.definition.quote",
+      "settings": {
+        "foreground": "#f4adf4"
+      }
+    },
+    {
+      "name": "[Markup] Underline Link",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "#e6d37a"
       }
     },
     {
@@ -939,6 +988,13 @@
       "scope": "source.css variable",
       "settings": {
         "foreground": "#66cccc"
+      }
+    },
+    {
+      "name": "[Markdown][Meta] Separator",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "#6cb8e6"
       }
     },
     {
