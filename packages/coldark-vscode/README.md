@@ -64,15 +64,21 @@ I tried to keep the same descriptions for both versions. However, for complex th
 
 ## Screenshots
 
-These screenshots were taken on Windows. On Linux, the title bar and the menu are not customizable.
-
 ### Cold
+
+[![Coldark Cold](./assets/coldark-cold.jpg)](./assets/coldark-cold.jpg)
+
+As you can see above, on Linux, the title bar and the menu are not customizable. The following screenshots were taken on Windows.
 
 | PHP | CSS | JS |
 | --- | --- | --- |
 | [![Coldark Cold PHP](./assets/coldark-cold-php.jpg)](./assets/coldark-cold-php.jpg) | [![Coldark Cold CSS](./assets/coldark-cold-css.jpg)](./assets/coldark-cold-css.jpg) | [![Coldark Cold JS](./assets/coldark-cold-js.jpg)](./assets/coldark-cold-js.jpg) |
 
 ### Dark
+
+[![Coldark Dark](./assets/coldark-dark.jpg)](./assets/coldark-dark.jpg)
+
+As you can see above, on Linux, the title bar and the menu are not customizable. The following screenshots were taken on Windows.
 
 | PHP | CSS | JS |
 | --- | --- | --- |
