@@ -21,7 +21,14 @@
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
   "scripts": {
-    "version": "auto-changelog -p --template keepachangelog --starting-version v1.1.0 && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "remote": "github",
+    "commitLimit": false,
+    "releaseSummary": true,
+    "startingVersion": "v1.1.0"
   },
   "dependencies": {
     "auto-changelog": "^2.2.1"
