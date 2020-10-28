@@ -1,33 +1,39 @@
 {
-  "name": "coldark-prism",
-  "description": "A blue-grey theme with light & dark versions.",
-  "version": "1.0.3",
-  "author": {
-    "name": "ArmandPhilippot",
-    "url": "https://www.armandphilippot.com"
-  },
-  "license": "MIT",
-  "icon": "assets/logo.png",
-  "keywords": [
-    "Coldark",
-    "theme"
-  ],
-  "homepage": "https://github.com/ArmandPhilippot/coldark-prism#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ArmandPhilippot/coldark-prism"
-  },
-  "bugs": {
-    "url": "https://github.com/ArmandPhilippot/coldark-prism/issues"
-  },
-  "scripts": {
-    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
-    "lint": "stylelint \"*.css\"",
-    "lint-fix": "stylelint \"*.css\" --fix"
-  },
-  "dependencies": {
-    "auto-changelog": "^2.2.1",
-    "stylelint": "^13.7.2",
-    "stylelint-config-standard": "^20.0.0"
-  }
+	"name": "coldark-prism",
+	"description": "A blue-grey theme with light & dark versions.",
+	"version": "1.0.3",
+	"author": {
+		"name": "ArmandPhilippot",
+		"url": "https://www.armandphilippot.com"
+	},
+	"license": "MIT",
+	"icon": "assets/logo.png",
+	"keywords": [
+		"Coldark",
+		"theme"
+	],
+	"homepage": "https://github.com/ArmandPhilippot/coldark-prism#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ArmandPhilippot/coldark-prism"
+	},
+	"bugs": {
+		"url": "https://github.com/ArmandPhilippot/coldark-prism/issues"
+	},
+	"scripts": {
+		"version": "auto-changelog -p && git add CHANGELOG.md",
+		"lint": "stylelint \"*.css\"",
+		"lint-fix": "stylelint \"*.css\" --fix"
+	},
+	"auto-changelog": {
+		"template": "keepachangelog",
+		"remote": "github",
+		"commitLimit": false,
+		"releaseSummary": true
+	},
+	"dependencies": {
+		"auto-changelog": "^2.2.1",
+		"stylelint": "^13.7.2",
+		"stylelint-config-standard": "^20.0.0"
+	}
 }
