@@ -67,8 +67,15 @@
     "vsce": "^1.81.0"
   },
   "scripts": {
-    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
     "package": "vsce package",
     "publish": "vsce publish"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "remote": "github",
+    "commitLimit": false,
+    "releaseSummary": true,
+    "startingVersion": "v1.2.1"
   }
 }
