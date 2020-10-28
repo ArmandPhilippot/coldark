@@ -4,7 +4,7 @@
 
 # Coldark - Prism
 
-![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-prism?colorA=111B27&color=d8e0eb&logo=Github&logoColor=E3E9F2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-prism?colorA=111B27&color=d8e0eb&logo=Github&logoColor=E3E9F2&style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-prism?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-prism?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
 An optimized theme for web development that comes with two versions: light & dark.
 
@@ -22,56 +22,89 @@ The Prism version uses almost the same colors as [VS code version](https://githu
 
 ## Colors in detail
 
-|                | Light Theme |                                                          | Dark Theme |                                                          |
-| -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
-| **Usage code** | **Hex**     |                       **Preview**                        |  **Hex**   |                       **Preview**                        |
-| `coldark00`    | `#E3E9F2`   | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27`  | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
-| `coldark01`    | `#d8e0eb`   | ![#d8e0eb](https://placehold.it/20/d8e0eb/000000?text=+) | `#0b121b`  | ![#0b121b](https://placehold.it/20/0b121b/000000?text=+) |
-| `coldark02`    | `#ccd6e4`   | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) | `#304259`  | ![#304259](https://placehold.it/20/304259/000000?text=+) |
-| `coldark03`    | `#304259`   | ![#304259](https://placehold.it/20/304259/000000?text=+) | `#ccd6e4`  | ![#ccd6e4](https://placehold.it/20/ccd6e4/000000?text=+) |
-| `coldark05`    | `#111B27`   | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2`  | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
-| `coldark08`    | `#007474`   | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2`  | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
-| `coldark09`    | `#7d6600`   | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a`  | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
-| `coldark10`    | `#005c99`   | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4`  | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
-| `coldark11`    | `#237800`   | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366`  | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
-| `coldark12`    | `#b800b8`   | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea`  | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
-| `coldark13`    | `#8600c6`   | ![#8600c6](https://placehold.it/20/8600c6/000000?text=+) | `#cf7ef6`  | ![#cf7ef6](https://placehold.it/20/cf7ef6/000000?text=+) |
-| `coldark14`    | `#aa4d00`   | ![#aa4d00](https://placehold.it/20/aa4d00/000000?text=+) | `#d88b4a`  | ![#d88b4a](https://placehold.it/20/d88b4a/000000?text=+) |
-| `coldark15`    | `#bf0100`   | ![#bf0100](https://placehold.it/20/bf0100/000000?text=+) | `#f57a73`  | ![#f57a73](https://placehold.it/20/f57a73/000000?text=+) |
+### Light Theme
 
-- **`coldark00`: Default background**  
-  Also used as foreground for some elements (_e.g.: buttons_).
-- **`coldark01`: Alternative background 1**  
-  Used for line numbers.
-- **`coldark02`: Selection background**  
-  Also used as background for the line highlight.
-- **`coldark03`: Comments**  
-  Also used for invisible (space, tabs).
-- **`coldark05`: Default foreground**  
-  Also used with opacity for borders. Can also be used for punctuation.
-- **`coldark08`: Cyan**  
-  Used for tags and parameters. Also used for Markup code.
-- **`coldark09`: Yellow**  
-  Used for numeric, constants, attributes, Markup link url.
-- **`coldark10`: Blue**  
-  Used for classes, variables and Markup headings.
-- **`coldark11`: Green**  
-  Used for added elements, strings and color value (CSS).
-- **`coldark12`: Magenta**  
-  Used for support, regular expressions, Markup list.
-- **`coldark13`: Purple**  
-  Used for functions and CSS classes & IDs.
-- **`coldark14`: Orange**  
-  Used for keywords and storage.
-- **`coldark15`: Red**  
-  Used for errors, deleted elements, invalid or deprecated elements.
+| Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
+| :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
+| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** – Also used as foreground for Button & Badges.                                                                                                                                       | `coldark00`  |
+| `#d0dae7` | ![#d0dae7][#d0dae7] | **Selection background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar.                                                                         | `coldark01`  |
+| `#8da1b9` | ![#8da1b9][#8da1b9] | **Darker background** - Code block, Secondary buttons, Some highlighting. Also used for Borders.                                                                                                            | `coldark02`  |
+| `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder.                                                                                                                                                             | `coldark03`  |
+| `#213043` | ![#213043][#213043] | **Lighter foreground** – Inputs, Status bar (no folder), Embedded modals & Widgets.                                                                                                                         | `coldark04`  |
+| `#111b27` | ![#111b27][#111b27] | **Default foreground** - Also used as Shadow and for most of Punctuation.                                                                                                                                   | `coldark05`  |
+| `#0b121b` | ![#0b121b][#0b121b] | **Darker foreground** – Also used as background for Activity bar.                                                                                                                                           | `coldark06`  |
+| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter background** – Tab active, Embedded modals, Widgets.                                                                                                                                              | `coldark07`  |
+| `#006d6d` | ![#006d6d][#006d6d] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`)                                                     | `coldark08`  |
+| `#755f00` | ![#755f00][#755f00] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL                                                                                  | `coldark09`  |
+| `#005a8e` | ![#005a8e][#005a8e] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10`  |
+| `#116b00` | ![#116b00][#116b00] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text                                                                                                                           | `coldark11`  |
+| `#af00af` | ![#af00af][#af00af] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values            | `coldark12`  |
+| `#7c00aa` | ![#7c00aa][#7c00aa] | **Purple** - Unverified, Functions, CSS Classes & IDs                                                                                                                                                       | `coldark13`  |
+| `#a04900` | ![#a04900][#a04900] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
+| `#c70100` | ![#c70100][#c70100] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
+
+### Dark Theme
+
+| Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
+| :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
+| `#111b27` | ![#111b27][#111b27] | **Default background** – Also used as foreground for Button & Badges.                                                                                                                                       | `coldark00`  |
+| `#213043` | ![#213043][#213043] | **Selection background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active.                                                                                                             | `coldark01`  |
+| `#3c526d` | ![#3c526d][#3c526d] | **Light background** - Code block, Secondary buttons, Some highlighting.                                                                                                                                    | `coldark02`  |
+| `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder.                                                                                                                                                             | `coldark03`  |
+| `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark foreground** – Activity bar, Inputs, Status bar (no folder), Embedded modals & Widgets.                                                                                                              | `coldark04`  |
+| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** - Also used for most of Punctuation.                                                                                                                                                 | `coldark05`  |
+| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter foreground** – Menu, Tab hover.                                                                                                                                                                   | `coldark06`  |
+| `#0b121b` | ![#0b121b][#0b121b] | **Dark background** - Activity bar, Inputs, Status bar (no folder). Also used for Borders.                                                                                                                  | `coldark07`  |
+| `#66cccc` | ![#66cccc][#66cccc] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`)                                                     | `coldark08`  |
+| `#e6d37a` | ![#e6d37a][#e6d37a] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL                                                                                  | `coldark09`  |
+| `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10`  |
+| `#91d076` | ![#91d076][#91d076] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text                                                                                                                           | `coldark11`  |
+| `#f4adf4` | ![#f4adf4][#f4adf4] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values            | `coldark12`  |
+| `#c699e3` | ![#c699e3][#c699e3] | **Purple** - Unverified, Functions, CSS Classes & IDs                                                                                                                                                       | `coldark13`  |
+| `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
+| `#f57a73` | ![#f57a73][#f57a73] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
 
 ## Install
 
-Go to the Prism website. Then, select the desired languages and plugins and download the JS file.
+Go to the [Prism website](https://prismjs.com/). Then, select the desired languages and plugins and download the JS file.
 
 Two versions of the theme are available in the repo. Choose the variation you want and download it. Then, to use it, just include the theme's CSS file in your page and the Prism JS file.
 
 ## License
 
 This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-prism/blob/master/LICENSE).
+
+<!-- REFERENCES -->
+
+<!-- UI Colors -->
+
+[#f0f4f8]: https://placehold.it/20/f0f4f8/000000?text=+
+[#e3eaf2]: https://placehold.it/20/e3eaf2/000000?text=+
+[#d0dae7]: https://placehold.it/20/d0dae7/000000?text=+
+[#8da1b9]: https://placehold.it/20/8da1b9/000000?text=+
+[#3c526d]: https://placehold.it/20/3c526d/000000?text=+
+[#213043]: https://placehold.it/20/213043/000000?text=+
+[#111b27]: https://placehold.it/20/111b27/000000?text=+
+[#0b121b]: https://placehold.it/20/0b121b/000000?text=+
+
+<!-- Syntax - Light Theme Colors -->
+
+[#c70100]: https://placehold.it/20/c70100/000000?text=+
+[#116b00]: https://placehold.it/20/116b00/000000?text=+
+[#755f00]: https://placehold.it/20/755f00/000000?text=+
+[#005a8e]: https://placehold.it/20/005a8e/000000?text=+
+[#af00af]: https://placehold.it/20/af00af/000000?text=+
+[#006d6d]: https://placehold.it/20/006d6d/000000?text=+
+[#7c00aa]: https://placehold.it/20/7c00aa/000000?text=+
+[#a04900]: https://placehold.it/20/a04900/000000?text=+
+
+<!-- Syntax - Dark Theme Colors -->
+
+[#f57a73]: https://placehold.it/20/f57a73/000000?text=+
+[#91d076]: https://placehold.it/20/91d076/000000?text=+
+[#e6d37a]: https://placehold.it/20/e6d37a/000000?text=+
+[#6cb8e6]: https://placehold.it/20/6cb8e6/000000?text=+
+[#f4adf4]: https://placehold.it/20/f4adf4/000000?text=+
+[#66cccc]: https://placehold.it/20/66cccc/000000?text=+
+[#c699e3]: https://placehold.it/20/c699e3/000000?text=+
+[#e9ae7e]: https://placehold.it/20/e9ae7e/000000?text=+
