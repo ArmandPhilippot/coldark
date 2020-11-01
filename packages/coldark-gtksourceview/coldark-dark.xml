@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ This file is part of GtkSourceView
+
+ Copyright (C) 2020 Armand Philippot
+ Author: Armand Philippot <contact@armandphilippot.com>
+
+ GtkSourceView is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+
+ GtkSourceView is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+-->
+<style-scheme id="coldark-dark" name="Coldark - Dark" version="1.0">
+  <author>Armand Philippot</author>
+  <_description>Coldark color scheme - A grey-blue theme for web development.</_description>
+
+  <!-- Coldark colors -->
+  <color name="coldark00" value="#111b27"/>
+  <color name="coldark01" value="#213043"/>
+  <color name="coldark02" value="#3c526d"/>
+  <color name="coldark03" value="#8da1b9"/>
+  <color name="coldark04" value="#d0dae7"/>
+  <color name="coldark05" value="#e3eaf2"/>
+  <color name="coldark06" value="#f0f4f8"/>
+  <color name="coldark07" value="#0b121b"/>
+  <color name="coldark08" value="#66cccc"/>
+  <color name="coldark09" value="#e6d37a"/>
+  <color name="coldark10" value="#6cb8e6"/>
+  <color name="coldark11" value="#91d076"/>
+  <color name="coldark12" value="#f4adf4"/>
+  <color name="coldark13" value="#c699e3"/>
+  <color name="coldark14" value="#e9ae7e"/>
+  <color name="coldark15" value="#f57a73"/>
+
+  <!-- Global Settings -->
+  <style name="text" foreground="coldark05" background="coldark00"/>
+  <style name="selection" foreground="coldark05" background="coldark02" />
+  <style name="selection-unfocused" foreground="coldark03" background="coldark02" />
+  <style name="cursor" foreground="coldark05" />
+  <style name="secondary-cursor" foreground="coldark05" />
+  <style name="current-line" background="coldark01" />
+  <style name="line-numbers" foreground="coldark03" background="coldark07" />
+  <style name="current-line-number" background="coldark01" />
+  <style name="bracket-match" foreground="coldark10" background="coldark02" />
+  <style name="bracket-mismatch" foreground="coldark15" background="coldark02" />
+  <style name="right-margin" foreground="coldark05" background="coldark00" />
+  <style name="draw-spaces" foreground="coldark02" />
+  <style name="background-pattern" background="coldark07" />
+
+  <!-- Comments -->
+  <style name="def:comment" foreground="coldark03" />
+  <style name="def:shebang" foreground="coldark08" />
+  <style name="def:doc-comment" foreground="coldark11" />
+  <style name="def:doc-comment-element" foreground="coldark14" />
+
+  <!-- Constants -->
+  <style name="def:constant" foreground="coldark10" />
+  <style name="def:character" foreground="coldark12" />
+  <style name="def:string" foreground="coldark11" />
+  <style name="def:special-char" foreground="coldark12" />
+  <style name="def:number" foreground="coldark09" />
+  <style name="def:floating-point" foreground="coldark09" />
+  <style name="def:decimal" foreground="coldark09" />
+  <style name="def:base-n-integer" foreground="coldark09" />
+  <style name="def:complex" foreground="coldark09" />
+  <style name="def:special-constant" foreground="coldark09" />
+  <style name="def:boolean" foreground="coldark09" />
+
+  <!-- Variables -->
+  <style name="def:identifier" foreground="coldark10" />
+
+  <!-- Functions -->
+  <style name="def:function" foreground="coldark13" />
+
+  <!-- Builtin -->
+  <style name="def:builtin" foreground="coldark12" />
+
+  <!-- Statements -->
+  <style name="def:statement" foreground="coldark12" />
+  <style name="def:operator" foreground="coldark14" />
+  <style name="def:keyword" foreground="coldark14" />
+
+  <!-- Types -->
+  <style name="def:type" foreground="coldark14" />
+
+  <!-- Others -->
+  <style name="def:preprocessor" foreground="coldark14" />
+  <style name="def:error" foreground="coldark15" />
+  <style name="def:warning" foreground="coldark14" />
+  <style name="def:reserved" foreground="#FF0000" /> <!--Reserved keywords: like "const" and "goto" in Java -->
+  <style name="def:note" foreground="coldark14" bold="true" />
+  <style name="def:underlined" underline="single" />
+
+  <!-- LANGUAGES -->
+  <!-- CSS -->
+  <style name="css:vendor-specific" foreground="coldark14" />
+  <style name="css:keyword" foreground="coldark12" />
+  <style name="css:symbol" foreground="coldark08" />
+  <style name="css:delimiter" foreground="coldark05" />
+  <style name="css:color" foreground="coldark11" />
+  <style name="css:function" foreground="coldark12" />
+  <style name="css:property-name" foreground="coldark10" />
+  <style name="css:modifier" foreground="coldark14" />
+  <style name="css:selector-symbol" foreground="coldark14" />
+  <style name="css:id-selector" foreground="coldark13" />
+  <style name="css:class-selector" foreground="coldark13" />
+  <style name="css:type-selector" foreground="coldark08" />
+  <style name="css:universal-selector" foreground="coldark08" />
+  <style name="css:attribute-selector" foreground="coldark05" />
+  <style name="css:attribute-selector-name" foreground="coldark09" />
+  <style name="css:pseudo-element" foreground="coldark14" />
+  <style name="css:pseudo-class" foreground="coldark14" />
+
+  <!-- Diff -->
+  <style name="diff:added-line" foreground="coldark11" />
+  <style name="diff:removed-line" foreground="coldark15" />
+  <style name="diff:changed-line" foreground="coldark09" />
+  <style name="diff:location" foreground="coldark13" />
+  <style name="diff:diff-file" foreground="coldark10" />
+
+  <!-- Javascript -->
+  <style name="javascript:function" foreground="coldark13" />
+  <style name="javascript:regex" foreground="coldark12" />
+
+  <!-- Makefile -->
+  <style name="makefile:assignment-rhs" foreground="coldark11" />
+  <style name="makefile:assignment-lhs" foreground="coldark10" />
+  <style name="makefile:prereq" foreground="coldark14" />
+  <style name="makefile:command" foreground="coldark08" />
+
+  <!-- Markdown -->
+  <style name="markdown:header" foreground="coldark10" bold="true" />
+  <style name="markdown:horizontal-rule" foreground="coldark10" />
+  <style name="markdown:code" foreground="coldark14" />
+  <style name="markdown:blockquote-marker" foreground="coldark12" />
+  <style name="markdown:url" foreground="coldark09" />
+  <style name="markdown:link-text" foreground="coldark11" />
+  <style name="markdown:label" foreground="coldark10" />
+  <style name="markdown:attribute-value" foreground="coldark11" />
+  <style name="markdown:image-marker" foreground="coldark05" />
+  <style name="markdown:emphasis" foreground="coldark05" italic="true" />
+  <style name="markdown:strong-emphasis" foreground="coldark05" bold="true" />
+
+  <!-- PHP -->
+  <style name="php:variable" foreground="coldark10" />
+  <style name="php:identifier" foreground="coldark12" />
+  <style name="php:type" foreground="coldark12" />
+
+  <!-- Python -->
+  <style name="python:string-conversion" foreground="#FF0000" />
+  <style name="python:builtin-object" foreground="coldark12" />
+  <style name="python:class-name" foreground="coldark10" />
+  <style name="python:decorator" foreground="coldark12" />
+
+  <!-- Rust -->
+  <style name="rust:scope" foreground="coldark12" />
+  <style name="rust:attribute" foreground="coldark08" />
+  <style name="rust:macro" foreground="coldark12" />
+
+  <!-- SH -->
+  <style name="sh:variable" foreground="coldark10" />
+  <style name="sh:common-command" foreground="coldark12" />
+
+  <!-- TOML -->
+  <style name="toml:variable" foreground="coldark10" />
+  <style name="toml:datetime-value" foreground="coldark12" />
+
+  <!-- XML -->
+  <style name="xml:doctype" foreground="coldark08" />
+  <style name="xml:cdata-delim" foreground="#FF0000" />
+  <style name="xml:processing-instruction" foreground="coldark08" />
+  <style name="xml:element-name" foreground="coldark08" />
+  <style name="xml:attribute-name" foreground="coldark09" />
+  <style name="xml:attribute-value" foreground="coldark11" />
+
+  <!-- YAML -->
+  <style name="yaml:map-key" foreground="coldark10" />
+</style-scheme>
