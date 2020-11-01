@@ -16,3 +16,6 @@
 [submodule "Coldark-ZSH-Theme"]
 	path = Coldark-ZSH-Theme
 	url = git@github.com:ArmandPhilippot/coldark-zsh-theme.git
+[submodule "Coldark-GTKSourceView"]
+	path = Coldark-GTKSourceView
+	url = git@github.com:ArmandPhilippot/coldark-gtksourceview.git
