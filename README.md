@@ -18,6 +18,7 @@ Coldark is available for:
 
 - [Bat](https://github.com/ArmandPhilippot/coldark-bat)
 - [Dir_colors](https://github.com/ArmandPhilippot/coldark-dircolors)
+- [GTKSourceView](https://github.com/ArmandPhilippot/coldark-gtksourceview)
 - [Prism.js](https://github.com/ArmandPhilippot/coldark-prism)
 - [Visual Studio Code](https://github.com/ArmandPhilippot/coldark-vscode/)
 - [XFCE4 Terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal)
