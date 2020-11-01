@@ -711,6 +711,48 @@
       }
     },
     {
+      "name": "[Meta] Diff Header",
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#6cb8e6"
+      }
+    },
+    {
+      "name": "[Meta][Punctuation] Diff Header From File",
+      "scope": "meta.diff.header punctuation.definition.from-file",
+      "settings": {
+        "foreground": "#f28e88"
+      }
+    },
+    {
+      "name": "[Meta][Punctuation] Diff Header To File",
+      "scope": "meta.diff.header punctuation.definition.to-file",
+      "settings": {
+        "foreground": "#91d076"
+      }
+    },
+    {
+      "name": "[Meta] Diff Index",
+      "scope": "meta.diff.index",
+      "settings": {
+        "foreground": "#8da1b9"
+      }
+    },
+    {
+      "name": "[Meta] Diff Range",
+      "scope": "meta.diff.range",
+      "settings": {
+        "foreground": "#c699e3"
+      }
+    },
+    {
+      "name": "[Meta][Punctuation] Diff Range",
+      "scope": "meta.diff.range punctuation.definition.range",
+      "settings": {
+        "foreground": "#c699e3"
+      }
+    },
+    {
       "name": "[Meta] Function-call",
       "scope": "meta.function-call",
       "settings": {
@@ -743,6 +785,20 @@
       "scope": "meta.property-name support.type.property-name",
       "settings": {
         "foreground": "#6cb8e6"
+      }
+    },
+    {
+      "name": "[Meta] Scope Prerequisites",
+      "scope": "meta.scope.prerequisites",
+      "settings": {
+        "foreground": "#e9ae7e"
+      }
+    },
+    {
+      "name": "[Meta] Scope Recipe",
+      "scope": "meta.scope.recipe",
+      "settings": {
+        "foreground": "#66cccc"
       }
     },
     {
@@ -998,6 +1054,13 @@
       }
     },
     {
+      "name": "[Rust][Meta] Attribute",
+      "scope": "source.rust meta.attribute",
+      "settings": {
+        "foreground": "#66cccc"
+      }
+    },
+    {
       "name": "[Shell][Comment] Shebang",
       "scope": "source.shell comment.line.number-sign.shebang",
       "settings": {
@@ -1016,6 +1079,13 @@
       "scope": "source.shell punctuation.definition.comment.shebang",
       "settings": {
         "foreground": "#66cccc"
+      }
+    },
+    {
+      "name": "[Shell][Punctuation] Terminator Case Clause",
+      "scope": "source.shell punctuation.terminator.case-clause",
+      "settings": {
+        "foreground": "#e9ae7e"
       }
     },
     {
