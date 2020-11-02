@@ -120,7 +120,7 @@ I have also tried adding support for the following languages:
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-gtksourceview/blob/master/LICENSE).
+This project is open source and available under the [LGPLv2.1 License](https://github.com/ArmandPhilippot/coldark-gtksourceview/blob/master/LICENSE).
 
 <!-- REFERENCES -->
 
