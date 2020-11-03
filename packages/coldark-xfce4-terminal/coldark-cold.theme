@@ -9,5 +9,4 @@ ColorSelectionUseDefault=FALSE
 ColorBold=#111b27
 ColorBoldIsBright=TRUE
 ColorBoldUseDefault=FALSE
-ColorPalette=#f0f4f8;#c70100;#116b00;#755f00;#005a8e;#af00af;#006d6d;#d0dae7;#8da1b9;#c70100;#116b00;#755f00;#005a8e;#af00af;#006d6d;#213043
-
+ColorPalette=#d0dae7;#c70100;#116b00;#755f00;#005a8e;#af00af;#006d6d;#3c526d;#8da1b9;#c70100;#116b00;#755f00;#005a8e;#af00af;#006d6d;#213043
