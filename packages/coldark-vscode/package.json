@@ -64,12 +64,15 @@
   },
   "devDependencies": {
     "auto-changelog": "^2.1.0",
+    "cross-var": "^1.1.0",
+    "dotenv-cli": "^4.0.0",
+    "ovsx": "0.1.0-next.e000fdb",
     "vsce": "^1.81.0"
   },
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "dotenv -- cross-var \"vsce publish && ovsx publish -p %OVSX_TOKEN%\""
   },
   "auto-changelog": {
     "template": "keepachangelog",
