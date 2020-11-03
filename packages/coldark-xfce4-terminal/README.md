@@ -16,38 +16,23 @@ An optimized theme for web development that comes with two versions: light & dar
 
 Coldark consists of three color palettes. The first is common to both versions. The other two each apply to a version.
 
-Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 13 colors.
+Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 12 colors.
 
-|  | Light Theme |  | Dark Theme |  |
-| :-: | --- | :-: | --- | :-: |
-| Denomination | Hex Code | Preview | Hex Code | Preview |
-| `coldark00` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | `#111b27` | ![#111b27][#111b27] |
-| `coldark01` | `#d0dae7` | ![#d0dae7][#d0dae7] | `#213043` | ![#213043][#213043] |
-| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] |
-| `coldark04` | `#213043` | ![#213043][#213043] | `#d0dae7` | ![#d0dae7][#d0dae7] |
-| `coldark05` | `#111b27` | ![#111b27][#111b27] | `#e3eaf2` | ![#e3eaf2][#e3eaf2] |
-| `coldark06` | `#0b121b` | ![#0b121b][#0b121b] | `#f0f4f8` | ![#f0f4f8][#f0f4f8] |
-| `coldark07` | `#f0f4f8` | ![#f0f4f8][#f0f4f8] | `#0b121b` | ![#0b121b][#0b121b] |
-| `coldark08` | `#006d6d` | ![#006d6d][#006d6d] | `#66cccc` | ![#66cccc][#66cccc] |
-| `coldark09` | `#755f00` | ![#755f00][#755f00] | `#e6d37a` | ![#e6d37a][#e6d37a] |
-| `coldark10` | `#005a8e` | ![#005a8e][#005a8e] | `#6cb8e6` | ![#6cb8e6][#6cb8e6] |
-| `coldark11` | `#116b00` | ![#116b00][#116b00] | `#91d076` | ![#91d076][#91d076] |
-| `coldark12` | `#af00af` | ![#af00af][#af00af] | `#f4adf4` | ![#f4adf4][#f4adf4] |
-| `coldark15` | `#c70100` | ![#c70100][#c70100] | `#f57a73` | ![#f57a73][#f57a73] |
-
-- **`coldark00`:** Default background.
-- **`coldark01`:** Light gray. Also used as Selection background.
-- **`coldark02`:** Dark gray.
-- **`coldark04`:** White for Light Theme.
-- **`coldark05`:** Default foreground.
-- **`coldark06`:** White for Dark Theme.
-- **`coldark07`:** Black.
-- **`coldark08`:** Cyan & light cyan.
-- **`coldark09`:** Yellow & light yellow.
-- **`coldark10`:** Blue & light blue. Also used as tab activity color.
-- **`coldark11`:** Green & light green.
-- **`coldark12`:** Magenta & light magenta.
-- **`coldark15`:** Red & light red.
+|  | Light Theme |  | Dark Theme |  | Both |
+| :-: | --- | :-: | --- | :-: | --- |
+| **Denomination** | **Hex Code** | **Preview** | **Hex Code** | **Preview** | **Description** |
+| `coldark00` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | `#111b27` | ![#111b27][#111b27] | Default background |
+| `coldark01` | `#d0dae7` | ![#d0dae7][#d0dae7] | `#213043` | ![#213043][#213043] | Black / Selection background |
+| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] | Dark gray |
+| `coldark03` | `#3c526d` | ![#3c526d][#3c526d] | `#8da1b9` | ![#8da1b9][#8da1b9] | Light gray |
+| `coldark04` | `#213043` | ![#213043][#213043] | `#d0dae7` | ![#d0dae7][#d0dae7] | White |
+| `coldark05` | `#111b27` | ![#111b27][#111b27] | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Default foreground |
+| `coldark08` | `#006d6d` | ![#006d6d][#006d6d] | `#66cccc` | ![#66cccc][#66cccc] | Cyan |
+| `coldark09` | `#755f00` | ![#755f00][#755f00] | `#e6d37a` | ![#e6d37a][#e6d37a] | Yellow |
+| `coldark10` | `#005a8e` | ![#005a8e][#005a8e] | `#6cb8e6` | ![#6cb8e6][#6cb8e6] | Blue / Tab activity color |
+| `coldark11` | `#116b00` | ![#116b00][#116b00] | `#91d076` | ![#91d076][#91d076] | Green |
+| `coldark12` | `#af00af` | ![#af00af][#af00af] | `#f4adf4` | ![#f4adf4][#f4adf4] | Magenta |
+| `coldark15` | `#c70100` | ![#c70100][#c70100] | `#f57a73` | ![#f57a73][#f57a73] | Red |
 
 ## Screenshots
 
