@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/coldark-banner.png" alt="Coldark Banner" width="400" />
+    <img src="assets/img/coldark-banner.png" alt="Coldark Banner" width="400" />
 </p>
 
 # Coldark Firefox
