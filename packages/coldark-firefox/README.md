@@ -60,7 +60,7 @@ If the shortcut doesn't work, make sure it is not used by another extension. If 
 
 ## Install
 
-1. Download Coldark for Firefox
+1. Download Coldark for Firefox. The `xpi` file is in the folder `web-ext-artifacts`.
 2. Open Addons menu (e.g. `about:addons`)
 3. Select "_Extensions_"
 4. Click on the gear icon ; you should see "_Install Add-on from file..._"
