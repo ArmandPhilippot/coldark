@@ -19,3 +19,6 @@
 [submodule "Coldark-GTKSourceView"]
 	path = Coldark-GTKSourceView
 	url = git@github.com:ArmandPhilippot/coldark-gtksourceview.git
+[submodule "Coldark-Firefox"]
+	path = Coldark-Firefox
+	url = git@github.com:ArmandPhilippot/coldark-firefox.git
