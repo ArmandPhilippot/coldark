@@ -25,10 +25,18 @@
     "theme"
   ],
   "devDependencies": {
-    "auto-changelog": "^2.1.0"
+    "auto-changelog": "^2.1.0",
+    "cross-var": "^1.1.0",
+    "dotenv-cli": "^4.0.0",
+    "web-ext": "^5.3.0"
   },
   "scripts": {
-    "version": "bump manifest.json && auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "run": "web-ext run",
+    "lint": "web-ext lint",
+    "build": "web-ext build",
+    "sign": "dotenv -- cross-var \"web-ext sign --api-key=%AMO_JWT_ISSUER% --api-secret=%AMO_JWT_SECRET%\"",
+    "signTest": "dotenv -- cross-var \"web-ext sign --channel=unlisted --api-key=%AMO_JWT_ISSUER% --api-secret=%AMO_JWT_SECRET%\""
   },
   "auto-changelog": {
     "template": "keepachangelog",
@@ -36,7 +44,11 @@
     "commitLimit": false,
     "releaseSummary": true
   },
-  "dependencies": {
-    "version-bump-prompt": "^6.1.0"
+  "webExt": {
+    "ignoreFiles": [
+      "package-lock.json",
+      "yarn.lock",
+      "keepachangelog.hbs"
+    ]
   }
 }
