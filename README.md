@@ -40,8 +40,8 @@ I tried to keep the same descriptions for both versions. However, for complex th
 | Hex Code | Preview | Description | Denomination |
 | :-: | :-: | --- | :-: |
 | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** – Also used as foreground for Button & Badges. | `coldark00` |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Selection background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar. | `coldark01` |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Darker background** - Code block, Secondary buttons, Some highlighting. Also used for Borders. | `coldark02` |
+| `#d0dae7` | ![#d0dae7][#d0dae7] | **Darker background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar. | `coldark01` |
+| `#8da1b9` | ![#8da1b9][#8da1b9] | **Selection background** - Code block, Secondary buttons, Some highlighting. Also used for Borders. | `coldark02` |
 | `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder. | `coldark03` |
 | `#213043` | ![#213043][#213043] | **Lighter foreground** – Inputs, Status bar (no folder), Embedded modals & Widgets. | `coldark04` |
 | `#111b27` | ![#111b27][#111b27] | **Default foreground** - Also used as Shadow and for most of Punctuation. | `coldark05` |
@@ -61,8 +61,8 @@ I tried to keep the same descriptions for both versions. However, for complex th
 | Hex Code | Preview | Description | Denomination |
 | :-: | :-: | --- | :-: |
 | `#111b27` | ![#111b27][#111b27] | **Default background** – Also used as foreground for Button & Badges. | `coldark00` |
-| `#213043` | ![#213043][#213043] | **Selection background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active. | `coldark01` |
-| `#3c526d` | ![#3c526d][#3c526d] | **Light background** - Code block, Secondary buttons, Some highlighting. | `coldark02` |
+| `#213043` | ![#213043][#213043] | **Light background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active. | `coldark01` |
+| `#3c526d` | ![#3c526d][#3c526d] | **Selection background** - Code block, Secondary buttons, Some highlighting. | `coldark02` |
 | `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder. | `coldark03` |
 | `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark foreground** – Activity bar, Inputs, Status bar (no folder), Embedded modals & Widgets. | `coldark04` |
 | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** - Also used for most of Punctuation. | `coldark05` |
