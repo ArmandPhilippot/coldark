@@ -65,11 +65,11 @@ I tried to keep the same descriptions for both versions. However, for complex th
 
 ## Screenshots
 
+On Linux, the title bar and the menu are not customizable. The following screenshots were taken on Windows.
+
 ### Cold
 
 [![Coldark Cold](./assets/coldark-cold.jpg)](./assets/coldark-cold.jpg)
-
-As you can see above, on Linux, the title bar and the menu are not customizable. The following screenshots were taken on Windows.
 
 | PHP | CSS | JS |
 | --- | --- | --- |
@@ -78,8 +78,6 @@ As you can see above, on Linux, the title bar and the menu are not customizable.
 ### Dark
 
 [![Coldark Dark](./assets/coldark-dark.jpg)](./assets/coldark-dark.jpg)
-
-As you can see above, on Linux, the title bar and the menu are not customizable. The following screenshots were taken on Windows.
 
 | PHP | CSS | JS |
 | --- | --- | --- |
