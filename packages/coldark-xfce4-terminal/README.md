@@ -22,8 +22,8 @@ Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE
 | :-: | --- | :-: | --- | :-: | --- |
 | **Denomination** | **Hex Code** | **Preview** | **Hex Code** | **Preview** | **Description** |
 | `coldark00` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | `#111b27` | ![#111b27][#111b27] | Default background |
-| `coldark01` | `#d0dae7` | ![#d0dae7][#d0dae7] | `#213043` | ![#213043][#213043] | Black / Selection background |
-| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] | Dark gray |
+| `coldark01` | `#d0dae7` | ![#d0dae7][#d0dae7] | `#213043` | ![#213043][#213043] | Black |
+| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] | Dark gray / Selection background |
 | `coldark03` | `#3c526d` | ![#3c526d][#3c526d] | `#8da1b9` | ![#8da1b9][#8da1b9] | Light gray |
 | `coldark04` | `#213043` | ![#213043][#213043] | `#d0dae7` | ![#d0dae7][#d0dae7] | White |
 | `coldark05` | `#111b27` | ![#111b27][#111b27] | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Default foreground |
