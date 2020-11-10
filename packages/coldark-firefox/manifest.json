@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Coldark",
   "description": "Coldark themes for Firefox: Cold (light version) and Dark (dark version).",
   "homepage_url": "https://github.com/ArmandPhilippot/coldark-firefox",
