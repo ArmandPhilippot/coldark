@@ -7,7 +7,7 @@ const THEMES = {
       icons: "hsl(213, 34%, 20%)",
       icons_attention: "hsl(202, 100%, 28%)",
       frame: "hsl(213, 37%, 92%)",
-      frame_inactive: "hsl(213, 24%, 64%)",
+      frame_inactive: "hsl(213, 32%, 86%)",
       ntp_background: "hsl(213, 37%, 92%)",
       ntp_text: "hsl(213, 34%, 20%)",
       popup: "hsl(213, 36%, 96%)",
