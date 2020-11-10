@@ -6,9 +6,17 @@
 
 Coldark doesn't use some VS Code settings.
 
-I tested, I saw no change. If anyone knows what these settings do, I'll add them.
+For the most part I tested, I saw no change. If anyone knows what these settings do, I'll add them.
 
 - `button.secondaryHoverBackground`
+- `charts.blue`
+- `charts.foreground`
+- `charts.green`
+- `charts.lines`
+- `charts.orange`
+- `charts.purple`
+- `charts.red`
+- `charts.yellow`
 - `debugIcon.disconnectForeground`
 - `debugView.exceptionLabelBackground`
 - `debugView.exceptionLabelForeground`
@@ -19,6 +27,8 @@ I tested, I saw no change. If anyone knows what these settings do, I'll add them
 - `editorGutter.commentRangeForeground`
 - `extensionBadge.remoteBackground`
 - `extensionBadge.remoteForeground`
+- `gitDecoration.stageDeletedResourceForeground`
+- `gitDecoration.stageModifiedResourceForeground`
 - `merge.commonContentBackground`
 - `merge.commonHeaderBackground`
 - `notebook.cellBorderColor`
