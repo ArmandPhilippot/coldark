@@ -76,7 +76,7 @@
     "dropdown.listBackground": "#213043",
     "editor.background": "#111b27",
     "editor.foreground": "#e3eaf2",
-    "editor.inactiveSelectionBackground": "#2130438a",
+    "editor.inactiveSelectionBackground": "#3c526d4a",
     "editor.findMatchBackground": "#6cb8e62a",
     "editor.findMatchBorder": "#6cb8e61a",
     "editor.findMatchHighlightBackground": "#6cb8e62a",
@@ -88,7 +88,7 @@
     "editor.onTypeRenameBackground": "#213043",
     "editor.rangeHighlightBackground": "#213043da",
     "editor.rangeHighlightBorder": "#213043",
-    "editor.selectionBackground": "#213043",
+    "editor.selectionBackground": "#3c526d8a",
     "editor.selectionHighlightBackground": "#3c526d6a",
     "editor.selectionHighlightBorder": "#3c526d6a",
     "editor.snippetFinalTabstopHighlightBackground": "#3c526d3a",
@@ -405,9 +405,9 @@
     "terminal.ansiGreen": "#91d076",
     "terminal.ansiMagenta": "#f4adf4",
     "terminal.ansiRed": "#f28e88",
-    "terminal.ansiWhite": "#3c526d",
+    "terminal.ansiWhite": "#8da1b9",
     "terminal.ansiYellow": "#e6d37a",
-    "terminal.ansiBrightBlack": "#8da1b9",
+    "terminal.ansiBrightBlack": "#3c526d",
     "terminal.ansiBrightBlue": "#6cb8e6",
     "terminal.ansiBrightCyan": "#66cccc",
     "terminal.ansiBrightGreen": "#91d076",
@@ -647,6 +647,13 @@
       "scope": "markup.deleted",
       "settings": {
         "foreground": "#f28e88"
+      }
+    },
+    {
+      "name": "[Markup] Fenced Code Block Language",
+      "scope": "markup.fenced_code.block fenced_code.block.language",
+      "settings": {
+        "foreground": "#c699e3"
       }
     },
     {
