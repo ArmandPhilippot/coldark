@@ -32,7 +32,7 @@ Coldark dircolors reuses the colors of the terminal: black, white, red, magenta,
 | `coldark10` | `#005c99` | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4` | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
 | `coldark11` | `#237800` | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366` | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
 | `coldark12` | `#b800b8` | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea` | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
-| `coldark15` | `#bf0100` | ![#bf0100](https://placehold.it/20/bf0100/000000?text=+) | `#f57a73` | ![#f57a73](https://placehold.it/20/f57a73/000000?text=+) |
+| `coldark15` | `#c22f2e` | ![#c22f2e](https://placehold.it/20/c22f2e/000000?text=+) | `#cd6660` | ![#cd6660](https://placehold.it/20/cd6660/000000?text=+) |
 
 - **`coldark00`: Black**  
   Used as foreground for sticky other writable directories.

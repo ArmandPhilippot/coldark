@@ -107,9 +107,9 @@ EXEC 01;31                      # files with execute permission
 SETUID 01;04;37                 # files with setuid permissions (u+s)
 SETGID 01;04;37                 # files with setgid permissions (g+s)
 CAPABILITY 01;37                # files with capability
-STICKY_OTHER_WRITABLE 01;30;42  # dir that is sticky and other-writable
+STICKY_OTHER_WRITABLE 00;30;42  # dir that is sticky and other-writable
 OTHER_WRITABLE 04;32            # dir that is other-writable and not sticky
-STICKY 01;30;44                 # dir sticky and not other-writable
+STICKY 00;30;44                 # dir sticky and not other-writable
 
 ###################
 # Extension Pattern
@@ -210,18 +210,18 @@ STICKY 01;30;44                 # dir sticky and not other-writable
 .reg 01;31
 
 # Ignores
-*~ 01;37
-.bak 01;37
-.BAK 01;37
-.diff 01;37
-.log 01;37
-.LOG 01;37
-.old 01;37
-.OLD 01;37
-.orig 01;37
-.ORIG 01;37
-.swo 01;37
-.swp 01;37
+*~ 01;30
+.bak 01;30
+.BAK 01;30
+.diff 01;30
+.log 01;30
+.LOG 01;30
+.old 01;30
+.OLD 01;30
+.orig 01;30
+.ORIG 01;30
+.swo 01;30
+.swp 01;30
 
 # Images
 .ai 01;35
