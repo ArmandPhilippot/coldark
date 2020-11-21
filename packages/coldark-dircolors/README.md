@@ -26,6 +26,7 @@ Coldark dircolors reuses the colors of the terminal: black, white, red, magenta,
 | --- | --- | :-: | :-: | :-: |
 | **Usage code** | **Hex** | **Preview** | **Hex** | **Preview** |
 | `coldark00` | `#E3E9F2` | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27` | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
+| `coldark03` | `#3c526d` | ![#3c526d](https://placehold.it/20/3c526d/000000?text=+) | `#8da1b9` | ![#8da1b9](https://placehold.it/20/8da1b9/000000?text=+) |
 | `coldark05` | `#111B27` | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2` | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
 | `coldark08` | `#007474` | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2` | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
 | `coldark09` | `#7d6600` | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a` | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
@@ -36,8 +37,10 @@ Coldark dircolors reuses the colors of the terminal: black, white, red, magenta,
 
 - **`coldark00`: Black**  
   Used as foreground for sticky other writable directories.
+- **`coldark00`: Dark gray**  
+  Used as foreground for ignored files (like `.log`, `.bak` ...).
 - **`coldark05`: White**  
-  Used as foreground for missing files, files with setuid or setgid permissions, files with capability, sticky not other writable directories and ignored files (like `.log`, `.bak` ...).
+  Used as foreground for missing files, files with setuid or setgid permissions, files with capability, sticky not other writable directories.
 - **`coldark08`: Cyan**  
   Used as foreground for symbolic links, regular files with more than one link, pipes and audio files.
 - **`coldark09`: Yellow**  
