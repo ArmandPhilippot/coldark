@@ -16,23 +16,22 @@ An optimized theme for web development that comes with two versions: light & dar
 
 Coldark consists of three color palettes. The first is common to both versions. The other two each apply to a version.
 
-Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 12 colors.
+Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 11 colors.
 
 |  | Light Theme |  | Dark Theme |  | Both |
 | :-: | --- | :-: | --- | :-: | --- |
 | **Denomination** | **Hex Code** | **Preview** | **Hex Code** | **Preview** | **Description** |
-| `coldark00` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | `#111b27` | ![#111b27][#111b27] | Default background |
-| `coldark01` | `#d0dae7` | ![#d0dae7][#d0dae7] | `#213043` | ![#213043][#213043] | Black |
-| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] | Dark gray / Selection background |
-| `coldark03` | `#3c526d` | ![#3c526d][#3c526d] | `#8da1b9` | ![#8da1b9][#8da1b9] | Light gray |
-| `coldark04` | `#213043` | ![#213043][#213043] | `#d0dae7` | ![#d0dae7][#d0dae7] | White |
-| `coldark05` | `#111b27` | ![#111b27][#111b27] | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Default foreground |
+| `coldark00` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | `#111b27` | ![#111b27][#111b27] | Default background & Black |
+| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] | Selection background |
+| `coldark03` | `#3c526d` | ![#3c526d][#3c526d] | `#8da1b9` | ![#8da1b9][#8da1b9] | Dark gray |
+| `coldark05` | `#111b27` | ![#111b27][#111b27] | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Default foreground & Light gray |
+| `coldark06` | `#0b121b` | ![#0b121b][#0b121b] | `#f0f4f8` | ![#f0f4f8][#f0f4f8] | White |
 | `coldark08` | `#006d6d` | ![#006d6d][#006d6d] | `#66cccc` | ![#66cccc][#66cccc] | Cyan |
 | `coldark09` | `#755f00` | ![#755f00][#755f00] | `#e6d37a` | ![#e6d37a][#e6d37a] | Yellow |
 | `coldark10` | `#005a8e` | ![#005a8e][#005a8e] | `#6cb8e6` | ![#6cb8e6][#6cb8e6] | Blue / Tab activity color |
 | `coldark11` | `#116b00` | ![#116b00][#116b00] | `#91d076` | ![#91d076][#91d076] | Green |
 | `coldark12` | `#af00af` | ![#af00af][#af00af] | `#f4adf4` | ![#f4adf4][#f4adf4] | Magenta |
-| `coldark15` | `#c70100` | ![#c70100][#c70100] | `#f57a73` | ![#f57a73][#f57a73] | Red |
+| `coldark15` | `#c22f2e` | ![#c22f2e][#c22f2e] | `#cd6660` | ![#cd6660][#cd6660] | Red |
 
 ## Screenshots
 
@@ -72,7 +71,7 @@ This project is open source and available under the [MIT License](https://github
 
 <!-- Syntax - Light Theme Colors -->
 
-[#c70100]: https://placehold.it/20/c70100/000000?text=+
+[#c22f2e]: https://placehold.it/20/c22f2e/000000?text=+
 [#116b00]: https://placehold.it/20/116b00/000000?text=+
 [#755f00]: https://placehold.it/20/755f00/000000?text=+
 [#005a8e]: https://placehold.it/20/005a8e/000000?text=+
@@ -83,7 +82,7 @@ This project is open source and available under the [MIT License](https://github
 
 <!-- Syntax - Dark Theme Colors -->
 
-[#f57a73]: https://placehold.it/20/f57a73/000000?text=+
+[#cd6660]: https://placehold.it/20/cd6660/000000?text=+
 [#91d076]: https://placehold.it/20/91d076/000000?text=+
 [#e6d37a]: https://placehold.it/20/e6d37a/000000?text=+
 [#6cb8e6]: https://placehold.it/20/6cb8e6/000000?text=+
