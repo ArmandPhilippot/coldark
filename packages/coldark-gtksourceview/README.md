@@ -39,7 +39,7 @@ The colors differ slightly from VS Code since the scopes are not the same. In ad
 | `#af00af` | ![#af00af][#af00af] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values | `coldark12` |
 | `#7c00aa` | ![#7c00aa][#7c00aa] | **Purple** - Unverified, Functions, CSS Classes & IDs | `coldark13` |
 | `#a04900` | ![#a04900][#a04900] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements | `coldark14` |
-| `#c70100` | ![#c70100][#c70100] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
+| `#c22f2e` | ![#c22f2e][#c22f2e] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
 
 ### Dark Theme
 
@@ -60,7 +60,7 @@ The colors differ slightly from VS Code since the scopes are not the same. In ad
 | `#f4adf4` | ![#f4adf4][#f4adf4] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values | `coldark12` |
 | `#c699e3` | ![#c699e3][#c699e3] | **Purple** - Unverified, Functions, CSS Classes & IDs | `coldark13` |
 | `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements | `coldark14` |
-| `#f57a73` | ![#f57a73][#f57a73] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
+| `#cd6660` | ![#cd6660][#cd6660] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
 
 ## Screenshots
 
@@ -137,7 +137,7 @@ This project is open source and available under the [LGPLv2.1 License](https://g
 
 <!-- Syntax - Light Theme Colors -->
 
-[#c70100]: https://placehold.it/20/c70100/000000?text=+
+[#c22f2e]: https://placehold.it/20/c22f2e/000000?text=+
 [#116b00]: https://placehold.it/20/116b00/000000?text=+
 [#755f00]: https://placehold.it/20/755f00/000000?text=+
 [#005a8e]: https://placehold.it/20/005a8e/000000?text=+
@@ -148,7 +148,7 @@ This project is open source and available under the [LGPLv2.1 License](https://g
 
 <!-- Syntax - Dark Theme Colors -->
 
-[#f57a73]: https://placehold.it/20/f57a73/000000?text=+
+[#cd6660]: https://placehold.it/20/cd6660/000000?text=+
 [#91d076]: https://placehold.it/20/91d076/000000?text=+
 [#e6d37a]: https://placehold.it/20/e6d37a/000000?text=+
 [#6cb8e6]: https://placehold.it/20/6cb8e6/000000?text=+

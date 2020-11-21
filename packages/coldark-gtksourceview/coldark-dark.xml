@@ -41,7 +41,7 @@
   <color name="coldark12" value="#f4adf4"/>
   <color name="coldark13" value="#c699e3"/>
   <color name="coldark14" value="#e9ae7e"/>
-  <color name="coldark15" value="#f57a73"/>
+  <color name="coldark15" value="#cd6660"/>
 
   <!-- Global Settings -->
   <style name="text" foreground="coldark05" background="coldark00"/>
