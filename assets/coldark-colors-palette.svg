@@ -694,7 +694,7 @@
        id="g1993"
        transform="translate(-200.73717,-0.39783436)">
       <rect
-         style="fill:#c70100;fill-opacity:1;stroke:none;stroke-width:0.263105;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#c22f2e;fill-opacity:1;stroke:none;stroke-width:0.263105;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect839-2-8"
          width="20"
          height="50"
@@ -757,13 +757,13 @@
          x="345.73712"
          y="100.54866" />
       <text
-         transform="translate(362.35509,4.559314)"
+         transform="translate(362.95557,4.559314)"
          style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1232-3);fill:#000000;fill-opacity:1;stroke:none;"
          id="text1230-94"
          xml:space="preserve"><tspan
            x="-134.66602"
            y="152.01241"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">#c70100</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">#c22f2e</tspan></tspan></text>
       <text
          xml:space="preserve"
          id="text1230-8-7"
@@ -845,7 +845,7 @@
          height="50"
          width="20"
          id="rect839-2-9-52"
-         style="fill:#f57a73;fill-opacity:1;stroke:none;stroke-width:0.263105;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#cd6660;fill-opacity:1;stroke:none;stroke-width:0.263105;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          style="fill:#e6d37a;fill-opacity:1;stroke:none;stroke-width:0.263106;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect839-6-9-22-5"
@@ -903,13 +903,13 @@
          id="rect839-6-7-5-0-2-9-7"
          style="fill:#c699e3;fill-opacity:1;stroke:none;stroke-width:0.263106;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
-         transform="translate(260.09544,-10.387556)"
+         transform="translate(259.61485,-10.387556)"
          style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1441-6);fill:#000000;fill-opacity:1;stroke:none;"
          id="text1439-8"
          xml:space="preserve"><tspan
            x="-31.925781"
            y="244.46358"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">#f57a73</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">#cd6660</tspan></tspan></text>
       <text
          xml:space="preserve"
          id="text1439-3-6"
