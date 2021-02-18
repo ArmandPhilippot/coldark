@@ -78,7 +78,6 @@
     "template": "keepachangelog",
     "remote": "github",
     "commitLimit": false,
-    "releaseSummary": true,
-    "startingVersion": "v1.2.8"
+    "startingVersion": "v1.2.9"
   }
 }
