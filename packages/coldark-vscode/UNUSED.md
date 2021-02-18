@@ -37,6 +37,7 @@ For the most part I tested, I saw no change. If anyone knows what these settings
 - `notebook.focusedCellBorder`
 - `notebook.focusedEditorBorder`
 - `notebook.outputContainerBackgroundColor`
+- `notebook.selectedCellBorder`
 - `notebook.symbolHighlightBackground`
 - `notebookScrollbarSlider.activeBackground`
 - `notebookScrollbarSlider.background`
@@ -50,9 +51,10 @@ For the most part I tested, I saw no change. If anyone knows what these settings
 - `panelSectionHeader.background`
 - `panelSectionHeader.border`
 - `panelSectionHeader.foreground`
-- `quickInputTitle.background`
 - `scm.providerBorder`
 - `settings.dropdownListBorder`
+- `statusBarItem.errorBackground`
+- `statusBarItem.errorForeground`
 - `statusBarItem.remoteBackground`
 - `statusBarItem.remoteForeground`
 - `textSeparator.foreground`
