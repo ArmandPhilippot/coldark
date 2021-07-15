@@ -25,8 +25,8 @@
     "theme"
   ],
   "devDependencies": {
-    "auto-changelog": "^2.1.0",
-    "web-ext": "^6.1.0"
+    "auto-changelog": "^2.3.0",
+    "web-ext": "^6.2.0"
   },
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md",
