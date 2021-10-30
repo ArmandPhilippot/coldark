@@ -6,8 +6,11 @@
 
 Coldark doesn't use some VS Code settings.
 
-For the most part I tested, I saw no change. If anyone knows what these settings do, I'll add them.
+I tested most of these settings, but didn't see any changes.
 
+- `banner.background`
+- `banner.foreground`
+- `banner.iconForeground`
 - `button.secondaryHoverBackground`
 - `charts.blue`
 - `charts.foreground`
@@ -22,13 +25,42 @@ For the most part I tested, I saw no change. If anyone knows what these settings
 - `debugView.exceptionLabelForeground`
 - `editor.findRangeHighlightBackground`
 - `editor.findRangeHighlightBorder`
+- `editor.inlineValuesBackground`
+- `editor.inlineValuesForeground`
 - `editor.selectionForeground`
+- `editorBracketHighlight.foreground1`
+- `editorBracketHighlight.foreground2`
+- `editorBracketHighlight.foreground3`
+- `editorBracketHighlight.foreground4`
+- `editorBracketHighlight.foreground5`
+- `editorBracketHighlight.foreground6`
+- `editorBracketHighlight.unexpectedBracket.foreground`
+- `editorGhostText.border`
+- `editorGhostText.foreground`
 - `editorGutter.commentRangeForeground`
+- `editorInlayHint.background`
+- `editorInlayHint.foreground`
+- `editorInlayHint.parameterBackground`
+- `editorInlayHint.parameterForeground`
+- `editorInlayHint.typeBackground`
+- `editorInlayHint.typeForeground`
 - `extensionBadge.remoteBackground`
 - `extensionBadge.remoteForeground`
+- `gitDecoration.renamedResourceForeground`
+- `gitlens.closedPullRequestIconColor`
+- `gitlens.decorations.branchBehindForegroundColor`
+- `gitlens.decorations.branchDivergedForegroundColor`
+- `gitlens.decorations.copiedForegroundColor`
+- `gitlens.decorations.ignoredForegroundColor`
+- `gitlens.mergedPullRequestIconColor`
+- `gitlens.openPullRequestIconColor`
+- `gitlens.unpulledChangesIconColor`
+- `interactive.activeCodeBorder`
+- `interactive.inactiveCodeBorder`
 - `merge.commonContentBackground`
 - `merge.commonHeaderBackground`
 - `notebook.cellBorderColor`
+- `notebook.cellEditorBackground`
 - `notebook.cellHoverBackground`
 - `notebook.cellInsertionIndicator`
 - `notebook.cellStatusBarItemHoverBackground`
@@ -36,7 +68,11 @@ For the most part I tested, I saw no change. If anyone knows what these settings
 - `notebook.focusedCellBackground`
 - `notebook.focusedCellBorder`
 - `notebook.focusedEditorBorder`
+- `notebook.inactiveFocusedCellBorder`
+- `notebook.inactiveSelectedCellBorder`
 - `notebook.outputContainerBackgroundColor`
+- `notebook.outputContainerBorderColor`
+- `notebook.selectedCellBackground`
 - `notebook.selectedCellBorder`
 - `notebook.symbolHighlightBackground`
 - `notebookScrollbarSlider.activeBackground`
@@ -51,10 +87,28 @@ For the most part I tested, I saw no change. If anyone knows what these settings
 - `panelSectionHeader.background`
 - `panelSectionHeader.border`
 - `panelSectionHeader.foreground`
+- `ports.iconRunningProcessForeground`
 - `scm.providerBorder`
 - `settings.dropdownListBorder`
 - `statusBarItem.errorBackground`
 - `statusBarItem.errorForeground`
 - `statusBarItem.remoteBackground`
 - `statusBarItem.remoteForeground`
+- `statusBarItem.warningBackground`
+- `statusBarItem.warningForeground`
+- `testing.iconErrored`
+- `testing.iconFailed`
+- `testing.iconPassed`
+- `testing.iconQueued`
+- `testing.iconSkipped`
+- `testing.iconUnset`
+- `testing.message.error.decorationForeground`
+- `testing.message.error.lineBackground`
+- `testing.message.info.decorationForeground`
+- `testing.message.info.lineBackground`
+- `testing.peekBorder`
+- `testing.peekHeaderBackground`
+- `testing.runAction`
 - `textSeparator.foreground`
+- `tree.tableColumnsBorder`
+- `welcomePage.tileShadow.`
