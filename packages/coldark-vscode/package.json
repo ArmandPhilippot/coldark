@@ -63,21 +63,18 @@
     ]
   },
   "devDependencies": {
-    "auto-changelog": "^2.1.0",
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
     "cross-var": "^1.1.0",
     "dotenv-cli": "^4.0.0",
+    "husky": "^7.0.4",
     "ovsx": "^0.2.1",
+    "standard-version": "^9.3.2",
     "vsce": "^1.88.0"
   },
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md",
     "package": "vsce package",
-    "publish": "dotenv -- cross-var \"vsce publish && ovsx publish -p %OVSX_TOKEN%\""
-  },
-  "auto-changelog": {
-    "template": "keepachangelog",
-    "remote": "github",
-    "commitLimit": false,
-    "startingVersion": "v1.2.9"
+    "publish": "dotenv -- cross-var \"vsce publish && ovsx publish -p %OVSX_TOKEN%\"",
+    "release": "standard-version -s"
   }
 }
