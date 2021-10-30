@@ -1052,6 +1052,13 @@
       }
     },
     {
+      "name": "[CSS][Property name]",
+      "scope": ["source.css meta.property-name"],
+      "settings": {
+        "foreground": "#005a8e"
+      }
+    },
+    {
       "name": "[CSS][Support] Constant Property Value",
       "scope": "source.css support.constant.property-value",
       "settings": {
