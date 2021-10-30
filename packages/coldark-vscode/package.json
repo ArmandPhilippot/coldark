@@ -66,8 +66,8 @@
     "auto-changelog": "^2.1.0",
     "cross-var": "^1.1.0",
     "dotenv-cli": "^4.0.0",
-    "ovsx": "0.1.0-next.e000fdb",
-    "vsce": "^1.81.0"
+    "ovsx": "^0.2.1",
+    "vsce": "^1.88.0"
   },
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md",
