@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.11](https://github.com/ArmandPhilippot/coldark-vscode/compare/v1.2.10...v1.2.11) (2022-05-14)
+
+
+### Changes
+
+* add bracket highlight colors ([f85a32f](https://github.com/ArmandPhilippot/coldark-vscode/commit/f85a32fe222fa2902371c314faff17a9091318cf))
+* complete settings & diffEditor colors ([863581f](https://github.com/ArmandPhilippot/coldark-vscode/commit/863581fa3258c1128c54772b8729485a12f68399))
+* remove/replace deprecated settings ([0a37bf4](https://github.com/ArmandPhilippot/coldark-vscode/commit/0a37bf440f12d160bf0cfc3e7c969e5d3c9e7495))
+* update terminal find match colors ([1810c72](https://github.com/ArmandPhilippot/coldark-vscode/commit/1810c72a33210f0c4899c3a165c83ba1b1f71e6e))
+
+
+### Docs
+
+* replace website used for colors preview ([355dbee](https://github.com/ArmandPhilippot/coldark-vscode/commit/355dbee2be50748f6a7a1551c8d33f72093cf55b))
+* update unused settings ([f58c585](https://github.com/ArmandPhilippot/coldark-vscode/commit/f58c585a718138c539c7a3ddd9d6ad1dc0eca127))
+
 ### [1.2.10](https://github.com/ArmandPhilippot/coldark-vscode/compare/v1.2.9...v1.2.10) (2021-10-30)
 
 ### Bug Fixes
