@@ -1,3 +1,6 @@
 {
-  "prettier.requireConfig": false
+  "prettier.requireConfig": false,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
 }
