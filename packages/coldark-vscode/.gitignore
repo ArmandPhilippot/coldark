@@ -1,0 +1,16 @@
+# Numerous always-ignore extensions
+*.log
+*~
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.Trashes
+
+# Packages folders
+node_modules
+
+# Files to ignore
+*.vsix
+keepachangelog.hbs
+.env
