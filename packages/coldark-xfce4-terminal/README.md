@@ -18,25 +18,25 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 Coldark uses 16 colors for each theme. However, the Coldark version for the XFCE4 terminal only uses 11 colors.
 
-|  | Light Theme |  | Dark Theme |  | Both |
-| :-: | --- | :-: | --- | :-: | --- |
-| **Denomination** | **Hex Code** | **Preview** | **Hex Code** | **Preview** | **Description** |
-| `coldark00` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | `#111b27` | ![#111b27][#111b27] | Default background & Black |
-| `coldark02` | `#8da1b9` | ![#8da1b9][#8da1b9] | `#3c526d` | ![#3c526d][#3c526d] | Selection background |
-| `coldark03` | `#3c526d` | ![#3c526d][#3c526d] | `#8da1b9` | ![#8da1b9][#8da1b9] | Dark gray |
-| `coldark05` | `#111b27` | ![#111b27][#111b27] | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Default foreground & Light gray |
-| `coldark06` | `#0b121b` | ![#0b121b][#0b121b] | `#f0f4f8` | ![#f0f4f8][#f0f4f8] | White |
-| `coldark08` | `#006d6d` | ![#006d6d][#006d6d] | `#66cccc` | ![#66cccc][#66cccc] | Cyan |
-| `coldark09` | `#755f00` | ![#755f00][#755f00] | `#e6d37a` | ![#e6d37a][#e6d37a] | Yellow |
-| `coldark10` | `#005a8e` | ![#005a8e][#005a8e] | `#6cb8e6` | ![#6cb8e6][#6cb8e6] | Blue / Tab activity color |
-| `coldark11` | `#116b00` | ![#116b00][#116b00] | `#91d076` | ![#91d076][#91d076] | Green |
-| `coldark12` | `#af00af` | ![#af00af][#af00af] | `#f4adf4` | ![#f4adf4][#f4adf4] | Magenta |
-| `coldark15` | `#c22f2e` | ![#c22f2e][#c22f2e] | `#cd6660` | ![#cd6660][#cd6660] | Red |
+|                  | Light Theme  |                     | Dark Theme   |                     | Both                            |
+| :--------------: | ------------ | :-----------------: | ------------ | :-----------------: | ------------------------------- |
+| **Denomination** | **Hex Code** |     **Preview**     | **Hex Code** |     **Preview**     | **Description**                 |
+|   `coldark00`    | `#e3eaf2`    | ![#e3eaf2][#e3eaf2] | `#111b27`    | ![#111b27][#111b27] | Default background & Black      |
+|   `coldark02`    | `#8da1b9`    | ![#8da1b9][#8da1b9] | `#3c526d`    | ![#3c526d][#3c526d] | Selection background            |
+|   `coldark03`    | `#3c526d`    | ![#3c526d][#3c526d] | `#8da1b9`    | ![#8da1b9][#8da1b9] | Dark gray                       |
+|   `coldark05`    | `#111b27`    | ![#111b27][#111b27] | `#e3eaf2`    | ![#e3eaf2][#e3eaf2] | Default foreground & Light gray |
+|   `coldark06`    | `#0b121b`    | ![#0b121b][#0b121b] | `#f0f4f8`    | ![#f0f4f8][#f0f4f8] | White                           |
+|   `coldark08`    | `#006d6d`    | ![#006d6d][#006d6d] | `#66cccc`    | ![#66cccc][#66cccc] | Cyan                            |
+|   `coldark09`    | `#755f00`    | ![#755f00][#755f00] | `#e6d37a`    | ![#e6d37a][#e6d37a] | Yellow                          |
+|   `coldark10`    | `#005a8e`    | ![#005a8e][#005a8e] | `#6cb8e6`    | ![#6cb8e6][#6cb8e6] | Blue / Tab activity color       |
+|   `coldark11`    | `#116b00`    | ![#116b00][#116b00] | `#91d076`    | ![#91d076][#91d076] | Green                           |
+|   `coldark12`    | `#af00af`    | ![#af00af][#af00af] | `#f4adf4`    | ![#f4adf4][#f4adf4] | Magenta                         |
+|   `coldark15`    | `#c22f2e`    | ![#c22f2e][#c22f2e] | `#cd6660`    | ![#cd6660][#cd6660] | Red                             |
 
 ## Screenshots
 
-| Light Theme | Dark Theme |
-| :-: | :-: |
+|                             Light Theme                              |                             Dark Theme                             |
+| :------------------------------------------------------------------: | :----------------------------------------------------------------: |
 | ![Coldark Terminal Light](./assets/coldark-xfce4-light-terminal.jpg) | ![Coldark Terminal Dark](./assets/coldark-xfce4-dark-terminal.jpg) |
 
 ## Install

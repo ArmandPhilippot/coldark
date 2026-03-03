@@ -22,18 +22,18 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 Coldark dircolors reuses the colors of the terminal: black, white, red, magenta, green, blue, yellow & cyan. If you are using Coldark for XFCE4 terminal, it will only use 8 colors since the normal and bright versions of the colors are the same.
 
-|  | Light Theme |  | Dark Theme |  |
-| --- | --- | :-: | :-: | :-: |
-| **Usage code** | **Hex** | **Preview** | **Hex** | **Preview** |
-| `coldark00` | `#E3E9F2` | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27` | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
-| `coldark03` | `#3c526d` | ![#3c526d](https://placehold.it/20/3c526d/000000?text=+) | `#8da1b9` | ![#8da1b9](https://placehold.it/20/8da1b9/000000?text=+) |
-| `coldark05` | `#111B27` | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2` | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
-| `coldark08` | `#007474` | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2` | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
-| `coldark09` | `#7d6600` | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a` | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
-| `coldark10` | `#005c99` | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4` | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
-| `coldark11` | `#237800` | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366` | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
-| `coldark12` | `#b800b8` | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea` | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
-| `coldark15` | `#c22f2e` | ![#c22f2e](https://placehold.it/20/c22f2e/000000?text=+) | `#cd6660` | ![#cd6660](https://placehold.it/20/cd6660/000000?text=+) |
+|                | Light Theme |                                                          | Dark Theme |                                                          |
+| -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
+| **Usage code** | **Hex**     |                       **Preview**                        |  **Hex**   |                       **Preview**                        |
+| `coldark00`    | `#E3E9F2`   | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27`  | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
+| `coldark03`    | `#3c526d`   | ![#3c526d](https://placehold.it/20/3c526d/000000?text=+) | `#8da1b9`  | ![#8da1b9](https://placehold.it/20/8da1b9/000000?text=+) |
+| `coldark05`    | `#111B27`   | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2`  | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
+| `coldark08`    | `#007474`   | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2`  | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
+| `coldark09`    | `#7d6600`   | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a`  | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
+| `coldark10`    | `#005c99`   | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4`  | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
+| `coldark11`    | `#237800`   | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366`  | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
+| `coldark12`    | `#b800b8`   | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea`  | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
+| `coldark15`    | `#c22f2e`   | ![#c22f2e](https://placehold.it/20/c22f2e/000000?text=+) | `#cd6660`  | ![#cd6660](https://placehold.it/20/cd6660/000000?text=+) |
 
 - **`coldark00`: Black**  
   Used as foreground for sticky other writable directories.
@@ -58,12 +58,12 @@ Coldark dircolors reuses the colors of the terminal: black, white, red, magenta,
 
 Some examples with `ls`, symbolic links (and missing file), `exa` and `tree`.
 
-| Light Theme | Dark Theme |
-| :-: | :-: |
-| ![Coldark LS](./assets/coldark-light-ls.jpg) | ![Coldark LS](./assets/coldark-dark-ls.jpg) |
+|                       Light Theme                        |                       Dark Theme                        |
+| :------------------------------------------------------: | :-----------------------------------------------------: |
+|       ![Coldark LS](./assets/coldark-light-ls.jpg)       |       ![Coldark LS](./assets/coldark-dark-ls.jpg)       |
 | ![Coldark Symlinks](./assets/coldark-light-symlinks.jpg) | ![Coldark Symlinks](./assets/coldark-dark-symlinks.jpg) |
-| ![Coldark exa](./assets/coldark-light-exa.jpg) | ![Coldark exa](./assets/coldark-dark-exa.jpg) |
-| ![Coldark tree](./assets/coldark-light-tree.jpg) | ![Coldark tree](./assets/coldark-dark-tree.jpg) |
+|      ![Coldark exa](./assets/coldark-light-exa.jpg)      |      ![Coldark exa](./assets/coldark-dark-exa.jpg)      |
+|     ![Coldark tree](./assets/coldark-light-tree.jpg)     |     ![Coldark tree](./assets/coldark-dark-tree.jpg)     |
 
 ## Install
 

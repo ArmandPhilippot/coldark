@@ -22,54 +22,54 @@ The colors differ slightly from VS Code since the scopes are not the same. In ad
 
 ### Light Theme
 
-| Hex Code | Preview | Description | Denomination |
-| :-: | :-: | --- | :-: |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** | `coldark00` |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Line Highlight & Gutter background** | `coldark01` |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Selection background** | `coldark02` |
-| `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder, Unfocused selection foreground. | `coldark03` |
-| `#213043` | ![#213043][#213043] | **Not used** | `coldark04` |
-| `#111b27` | ![#111b27][#111b27] | **Default foreground** | `coldark05` |
-| `#0b121b` | ![#0b121b][#0b121b] | **Not used** | `coldark06` |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Background pattern** | `coldark07` |
-| `#006d6d` | ![#006d6d][#006d6d] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`) | `coldark08` |
-| `#755f00` | ![#755f00][#755f00] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL | `coldark09` |
-| `#005a8e` | ![#005a8e][#005a8e] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10` |
-| `#116b00` | ![#116b00][#116b00] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text | `coldark11` |
-| `#af00af` | ![#af00af][#af00af] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values | `coldark12` |
-| `#7c00aa` | ![#7c00aa][#7c00aa] | **Purple** - Unverified, Functions, CSS Classes & IDs | `coldark13` |
-| `#a04900` | ![#a04900][#a04900] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements | `coldark14` |
-| `#c22f2e` | ![#c22f2e][#c22f2e] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
+| Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
+| :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
+| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background**                                                                                                                                                                                      | `coldark00`  |
+| `#d0dae7` | ![#d0dae7][#d0dae7] | **Line Highlight & Gutter background**                                                                                                                                                                      | `coldark01`  |
+| `#8da1b9` | ![#8da1b9][#8da1b9] | **Selection background**                                                                                                                                                                                    | `coldark02`  |
+| `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder, Unfocused selection foreground.                                                                                                                             | `coldark03`  |
+| `#213043` | ![#213043][#213043] | **Not used**                                                                                                                                                                                                | `coldark04`  |
+| `#111b27` | ![#111b27][#111b27] | **Default foreground**                                                                                                                                                                                      | `coldark05`  |
+| `#0b121b` | ![#0b121b][#0b121b] | **Not used**                                                                                                                                                                                                | `coldark06`  |
+| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Background pattern**                                                                                                                                                                                      | `coldark07`  |
+| `#006d6d` | ![#006d6d][#006d6d] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`)                                                     | `coldark08`  |
+| `#755f00` | ![#755f00][#755f00] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL                                                                                  | `coldark09`  |
+| `#005a8e` | ![#005a8e][#005a8e] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10`  |
+| `#116b00` | ![#116b00][#116b00] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text                                                                                                                           | `coldark11`  |
+| `#af00af` | ![#af00af][#af00af] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values            | `coldark12`  |
+| `#7c00aa` | ![#7c00aa][#7c00aa] | **Purple** - Unverified, Functions, CSS Classes & IDs                                                                                                                                                       | `coldark13`  |
+| `#a04900` | ![#a04900][#a04900] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
+| `#c22f2e` | ![#c22f2e][#c22f2e] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
 
 ### Dark Theme
 
-| Hex Code | Preview | Description | Denomination |
-| :-: | :-: | --- | :-: |
-| `#111b27` | ![#111b27][#111b27] | **Default background** | `coldark00` |
-| `#213043` | ![#213043][#213043] | **Line Highlight background** | `coldark01` |
-| `#3c526d` | ![#3c526d][#3c526d] | **Selection background** | `coldark02` |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder, Unfocused selection foreground. | `coldark03` |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Not used** | `coldark04` |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** | `coldark05` |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Not used** | `coldark06` |
-| `#0b121b` | ![#0b121b][#0b121b] | **Gutter & Background Pattern** | `coldark07` |
-| `#66cccc` | ![#66cccc][#66cccc] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`) | `coldark08` |
-| `#e6d37a` | ![#e6d37a][#e6d37a] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL | `coldark09` |
-| `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10` |
-| `#91d076` | ![#91d076][#91d076] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text | `coldark11` |
-| `#f4adf4` | ![#f4adf4][#f4adf4] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values | `coldark12` |
-| `#c699e3` | ![#c699e3][#c699e3] | **Purple** - Unverified, Functions, CSS Classes & IDs | `coldark13` |
-| `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements | `coldark14` |
-| `#cd6660` | ![#cd6660][#cd6660] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
+| Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
+| :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
+| `#111b27` | ![#111b27][#111b27] | **Default background**                                                                                                                                                                                      | `coldark00`  |
+| `#213043` | ![#213043][#213043] | **Line Highlight background**                                                                                                                                                                               | `coldark01`  |
+| `#3c526d` | ![#3c526d][#3c526d] | **Selection background**                                                                                                                                                                                    | `coldark02`  |
+| `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder, Unfocused selection foreground.                                                                                                                             | `coldark03`  |
+| `#d0dae7` | ![#d0dae7][#d0dae7] | **Not used**                                                                                                                                                                                                | `coldark04`  |
+| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground**                                                                                                                                                                                      | `coldark05`  |
+| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Not used**                                                                                                                                                                                                | `coldark06`  |
+| `#0b121b` | ![#0b121b][#0b121b] | **Gutter & Background Pattern**                                                                                                                                                                             | `coldark07`  |
+| `#66cccc` | ![#66cccc][#66cccc] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`)                                                     | `coldark08`  |
+| `#e6d37a` | ![#e6d37a][#e6d37a] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL                                                                                  | `coldark09`  |
+| `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10`  |
+| `#91d076` | ![#91d076][#91d076] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text                                                                                                                           | `coldark11`  |
+| `#f4adf4` | ![#f4adf4][#f4adf4] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values            | `coldark12`  |
+| `#c699e3` | ![#c699e3][#c699e3] | **Purple** - Unverified, Functions, CSS Classes & IDs                                                                                                                                                       | `coldark13`  |
+| `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
+| `#cd6660` | ![#cd6660][#cd6660] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
 
 ## Screenshots
 
 Screenshots of an XML file with Mousepad first then Gedit.
 
-| Light Theme | Dark Theme |
-| :-: | :-: |
+|                           Light Theme                            |                            Dark Theme                            |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 | ![Coldark Cold Mousepad](./assets/coldark-cold-mousepad-xml.jpg) | ![Coldark Dark Mousepad](./assets/coldark-dark-mousepad-xml.jpg) |
-| ![Coldark Cold Gedit](./assets/coldark-cold-gedit-xml.jpg) | ![Coldark Dark Gedit](./assets/coldark-dark-gedit-xml.jpg) |
+|    ![Coldark Cold Gedit](./assets/coldark-cold-gedit-xml.jpg)    |    ![Coldark Dark Gedit](./assets/coldark-dark-gedit-xml.jpg)    |
 
 ## Install & Activation
 

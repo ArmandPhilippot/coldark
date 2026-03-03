@@ -1,36 +1,43 @@
 {
   "name": "coldark",
   "description": "A blue-grey theme with light & dark versions.",
-  "version": "1.2.0",
-  "author": {
-    "name": "ArmandPhilippot",
-    "url": "https://www.armandphilippot.com"
-  },
+  "version": "0.0.1",
   "license": "MIT",
+  "author": {
+    "name": "Armand Philippot",
+    "email": "git@armand.philippot.eu",
+    "url": "https://armand.philippot.eu/"
+  },
   "icon": "assets/logo.png",
-  "keywords": [
-    "Coldark",
-    "theme"
-  ],
   "homepage": "https://github.com/ArmandPhilippot/coldark#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmandPhilippot/coldark"
+    "url": "git+ssh://git@github.com:ArmandPhilippot/coldark.git"
   },
   "bugs": {
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017",
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "ci:release": "changeset publish",
+    "ci:version": "changeset version && pnpm install --no-frozen-lockfile",
+    "fix": "pnpm run \"/^fix:.*/\"",
+    "fix:formatting": "prettier . --write",
+    "lint": "pnpm run \"/^lint:.*/\"",
+    "lint:formatting": "prettier . --check",
+    "lint:spelling": "cspell \"**\" --no-progress",
+    "prepare": "husky install"
   },
-  "auto-changelog": {
-    "template": "keepachangelog",
-    "remote": "github",
-    "commitLimit": false,
-    "releaseSummary": true,
-    "startingVersion": "v1.1.0"
-  },
-  "dependencies": {
-    "auto-changelog": "^2.2.1"
+  "devDependencies": {
+    "@arphi/commitlint-config": "^1.0.7",
+    "@arphi/prettier-config": "^1.0.4",
+    "@changesets/cli": "^2.29.8",
+    "@commitlint/cli": "^17.8.1",
+    "cspell": "^9.7.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^16.3.0",
+    "prettier": "^3.8.1"
   }
 }
