@@ -5,16 +5,18 @@
   "version": "1.2.11",
   "publisher": "armandphilippot",
   "author": {
-    "name": "ArmandPhilippot",
-    "url": "https://www.armandphilippot.com/"
+    "name": "Armand Philippot",
+    "email": "git@armand.philippot.eu",
+    "url": "https://armand.philippot.eu/"
   },
-  "homepage": "https://github.com/ArmandPhilippot/coldark-vscode#readme",
+  "homepage": "https://github.com/ArmandPhilippot/coldark/packages/coldark-vscode#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmandPhilippot/coldark-vscode"
+    "url": "git+https://github.com/ArmandPhilippot/coldark.git",
+    "directory": "packages/coldark-vscode"
   },
   "bugs": {
-    "url": "https://github.com/ArmandPhilippot/coldark-vscode/issues"
+    "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
   "license": "MIT",
   "icon": "../../assets/logo.png",
@@ -63,18 +65,13 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@commitlint/config-conventional": "^16.2.4",
     "cross-var": "^1.1.0",
     "dotenv-cli": "^5.1.0",
-    "husky": "^8.0.1",
     "ovsx": "^0.3.0",
-    "standard-version": "^9.3.2",
     "vsce": "^2.7.0"
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "dotenv -- cross-var \"vsce publish && ovsx publish -p %OVSX_TOKEN%\"",
-    "release": "standard-version -s"
+    "publish": "dotenv -- cross-var \"vsce publish && ovsx publish -p %OVSX_TOKEN%\""
   }
 }

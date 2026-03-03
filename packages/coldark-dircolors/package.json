@@ -3,8 +3,9 @@
   "description": "A blue-grey theme with light & dark versions.",
   "version": "1.0.9",
   "author": {
-    "name": "ArmandPhilippot",
-    "url": "https://www.armandphilippot.com"
+    "name": "Armand Philippot",
+    "email": "git@armand.philippot.eu",
+    "url": "https://armand.philippot.eu/"
   },
   "license": "MIT",
   "icon": "../../assets/logo.png",
@@ -14,18 +15,13 @@
     "dircolors",
     "lscolors"
   ],
-  "homepage": "https://github.com/ArmandPhilippot/coldark-dircolors#readme",
+  "homepage": "https://github.com/ArmandPhilippot/coldark/packages/coldark-dircolors#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmandPhilippot/coldark-dircolors"
+    "url": "git+https://github.com/ArmandPhilippot/coldark.git",
+    "directory": "packages/coldark-dircolors"
   },
   "bugs": {
-    "url": "https://github.com/ArmandPhilippot/coldark-dircolors/issues"
-  },
-  "scripts": {
-    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md"
-  },
-  "dependencies": {
-    "auto-changelog": "^2.2.1"
+    "url": "https://github.com/ArmandPhilippot/coldark/issues"
   }
 }

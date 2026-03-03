@@ -14,7 +14,7 @@
 # off.
 COLOR tty
 
-# Below, there should be one TERM entry for each termtype that is colorizable
+# Below, there should be one TERM entry for each term type that is colorable
 TERM Eterm
 TERM ansi
 TERM color-xterm

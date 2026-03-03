@@ -1,6 +1,0 @@
-# Files to ignore
-package-lock.json
-keepachangelog.hbs
-
-# Packages folders
-node_modules

@@ -5,16 +5,18 @@
   "version": "1.0.3",
   "publisher": "armandphilippot",
   "author": {
-    "name": "ArmandPhilippot",
-    "url": "https://www.armandphilippot.com/"
+    "name": "Armand Philippot",
+    "email": "git@armand.philippot.eu",
+    "url": "https://armand.philippot.eu/"
   },
-  "homepage": "https://github.com/ArmandPhilippot/coldark-firefox#readme",
+  "homepage": "https://github.com/ArmandPhilippot/coldark/packages/coldark-firefox#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmandPhilippot/coldark-firefox"
+    "url": "git+https://github.com/ArmandPhilippot/coldark.git",
+    "directory": "packages/coldark-firefox"
   },
   "bugs": {
-    "url": "https://github.com/ArmandPhilippot/coldark-firefox/issues"
+    "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -25,29 +27,17 @@
     "theme"
   ],
   "devDependencies": {
-    "auto-changelog": "^2.3.0",
     "web-ext": "^6.4.0"
   },
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md",
     "run": "web-ext run",
     "lint": "web-ext lint",
     "build": "web-ext build",
     "sign": "dotenv -- cross-var web-ext sign",
     "signTest": "dotenv -- cross-var web-ext sign --channel=unlisted"
   },
-  "auto-changelog": {
-    "template": "keepachangelog",
-    "remote": "github",
-    "commitLimit": false,
-    "releaseSummary": true
-  },
   "webExt": {
-    "ignoreFiles": [
-      "package-lock.json",
-      "yarn.lock",
-      "keepachangelog.hbs"
-    ]
+    "ignoreFiles": []
   },
   "dependencies": {
     "cross-var": "^1.1.0",
