@@ -7,7 +7,7 @@
     "url": "https://www.armandphilippot.com"
   },
   "license": "lgpl-2.1",
-  "icon": "assets/logo.png",
+  "icon": "../../assets/logo.png",
   "keywords": [
     "Coldark",
     "theme"

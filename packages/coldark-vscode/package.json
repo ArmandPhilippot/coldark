@@ -17,7 +17,7 @@
     "url": "https://github.com/ArmandPhilippot/coldark-vscode/issues"
   },
   "license": "MIT",
-  "icon": "assets/logo.png",
+  "icon": "../../assets/logo.png",
   "markdown": "github",
   "categories": [
     "Themes"
