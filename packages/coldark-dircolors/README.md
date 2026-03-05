@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../../assets/coldark-banner.png" alt="Coldark Banner" width="400" />
+    <img src="https://github.com/ArmandPhilippot/coldark/blob/main/assets/coldark-banner.png" alt="Coldark Banner" width="400" />
 </p>
 
 # Coldark - Dircolors
@@ -91,4 +91,4 @@ Thanks to [rarylson](https://github.com/ohmyzsh/ohmyzsh/issues/6060#issuecomment
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-dircolors/blob/master/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).

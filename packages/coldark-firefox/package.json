@@ -2,7 +2,16 @@
   "name": "coldark",
   "displayName": "Coldark",
   "description": "A blue-grey theme with light & dark versions.",
+  "keywords": [
+    "firefox",
+    "grey",
+    "blue",
+    "light",
+    "dark",
+    "theme"
+  ],
   "version": "1.0.3",
+  "license": "MIT",
   "publisher": "armandphilippot",
   "author": {
     "name": "Armand Philippot",
@@ -18,14 +27,6 @@
   "bugs": {
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
-  "license": "MIT",
-  "keywords": [
-    "grey",
-    "blue",
-    "light",
-    "dark",
-    "theme"
-  ],
   "devDependencies": {
     "web-ext": "^6.4.0"
   },

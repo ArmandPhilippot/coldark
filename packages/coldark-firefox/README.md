@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../../assets/img/coldark-banner.png" alt="Coldark Banner" width="400" />
+    <img src="https://github.com/ArmandPhilippot/coldark/blob/main/assets/img/coldark-banner.png" alt="Coldark Banner" width="400" />
 </p>
 
 # Coldark Firefox
@@ -70,7 +70,7 @@ If the shortcut doesn't work, make sure it is not used by another extension. If 
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-firefox/blob/master/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
 
 <!-- REFERENCES -->
 

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../../assets/coldark-banner.png" alt="Coldark Banner" width="400" />
+    <img src="https://github.com/ArmandPhilippot/coldark/blob/main/assets/coldark-banner.png" alt="Coldark Banner" width="400" />
 </p>
 
 # Coldark GTK Source View
@@ -120,7 +120,7 @@ I have also tried adding support for the following languages:
 
 ## License
 
-This project is open source and available under the [LGPLv2.1 License](https://github.com/ArmandPhilippot/coldark-gtksourceview/blob/master/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
 
 <!-- REFERENCES -->
 

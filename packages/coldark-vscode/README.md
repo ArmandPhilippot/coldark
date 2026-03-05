@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../../assets/coldark-banner.png" alt="Coldark Banner" width="400" />
+    <img src="https://github.com/ArmandPhilippot/coldark/blob/main/assets/coldark-banner.png" alt="Coldark Banner" width="400" />
 </p>
 
 # Coldark - VS Code
@@ -110,7 +110,7 @@ Tested with:
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark-vscode/blob/master/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
 
 <!-- REFERENCES -->
 

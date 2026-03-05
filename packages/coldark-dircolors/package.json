@@ -1,20 +1,20 @@
 {
   "name": "coldark-dircolors",
   "description": "A blue-grey theme with light & dark versions.",
-  "version": "1.0.9",
-  "author": {
-    "name": "Armand Philippot",
-    "email": "git@armand.philippot.eu",
-    "url": "https://armand.philippot.eu/"
-  },
-  "license": "MIT",
-  "icon": "../../assets/logo.png",
   "keywords": [
     "Coldark",
     "theme",
     "dircolors",
     "lscolors"
   ],
+  "version": "1.0.9",
+  "license": "MIT",
+  "author": {
+    "name": "Armand Philippot",
+    "email": "git@armand.philippot.eu",
+    "url": "https://armand.philippot.eu/"
+  },
+  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/assets/logo.png",
   "homepage": "https://github.com/ArmandPhilippot/coldark/packages/coldark-dircolors#readme",
   "repository": {
     "type": "git",

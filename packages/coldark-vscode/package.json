@@ -2,7 +2,19 @@
   "name": "coldark",
   "displayName": "Coldark",
   "description": "A blue-grey theme with light & dark versions.",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "theme",
+    "grey",
+    "blue",
+    "light",
+    "dark"
+  ],
   "version": "1.2.11",
+  "license": "MIT",
   "publisher": "armandphilippot",
   "author": {
     "name": "Armand Philippot",
@@ -18,18 +30,8 @@
   "bugs": {
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
-  "license": "MIT",
-  "icon": "../../assets/logo.png",
+  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/assets/logo.png",
   "markdown": "github",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "grey",
-    "blue",
-    "light",
-    "dark"
-  ],
   "badges": [
     {
       "url": "https://img.shields.io/visual-studio-marketplace/v/ArmandPhilippot.coldark?colorA=213043&color=d0dae7&logo=visual-studio-code&logoColor=e3eaf2&style=flat-square",

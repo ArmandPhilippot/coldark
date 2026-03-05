@@ -1,11 +1,14 @@
 coldark
+colorschemes
 cpio
 dircolors
 dtterm
 dvtm
 Eterm
 flac
+gedit
 gtksourceview
+invisibles
 jfbterm
 konsole
 kterm
@@ -14,9 +17,11 @@ lzma
 mlterm
 MULTIHARDLINK
 objc
+pacman
 rmvb
 rxvt
 svgz
 tzst
 WCAG
 xspf
+zstyle
