@@ -1,0 +1,27 @@
+{
+  "name": "coldark-prism",
+  "description": "A blue-grey theme with light & dark versions.",
+  "keywords": [
+    "Coldark",
+    "theme",
+    "prism",
+    "prismjs"
+  ],
+  "version": "1.0.5",
+  "license": "MIT",
+  "author": {
+    "name": "Armand Philippot",
+    "email": "git@armand.philippot.eu",
+    "url": "https://armand.philippot.eu/"
+  },
+  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/logo.png",
+  "homepage": "https://github.com/ArmandPhilippot/coldark/packages/coldark-prism#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandPhilippot/coldark.git",
+    "directory": "packages/coldark-prism"
+  },
+  "bugs": {
+    "url": "https://github.com/ArmandPhilippot/coldark/issues"
+  }
+}

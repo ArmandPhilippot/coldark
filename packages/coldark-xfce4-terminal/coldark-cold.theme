@@ -1,0 +1,13 @@
+[Scheme]
+Name=Coldark - Cold
+ColorForeground=#111b27
+ColorBackground=#e3eaf2
+TabActivityColor=#005a8e
+ColorCursor=x
+ColorSelectionBackground=#8da1b9
+ColorSelectionUseDefault=FALSE
+ColorBold=#111b27
+ColorBoldIsBright=TRUE
+ColorBoldUseDefault=FALSE
+ColorPalette=#e3eaf2;#c22f2e;#116b00;#755f00;#005a8e;#af00af;#006d6d;#111b27;#3c526d;#c22f2e;#116b00;#755f00;#005a8e;#af00af;#006d6d;#0b121b
+

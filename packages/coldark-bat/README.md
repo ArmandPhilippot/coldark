@@ -1,50 +1,38 @@
 <p align="center">
   <img
     alt="Coldark Banner"
-    src="./packages/coldark-assets/coldark-banner.png"
+    src="https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/coldark-banner.png"
     width="400"
   />
 </p>
 
-# Coldark
+# Coldark - Bat
 
-![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-bat?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-bat?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
 An optimized theme for web development that comes with two versions: light & dark.
 
 ## Presentation
 
-Coldark is a gray-blue theme. The colors used respect the Web Content Accessibility Guidelines (WCAG) in order to provide sufficient reading comfort. However, with opacity, it is possible that some contrasts are diminished and that they are above level AA.
+[Coldark](https://github.com/ArmandPhilippot/coldark) is a gray-blue theme. The colors used respect the Web Content Accessibility Guidelines (WCAG) in order to provide sufficient reading comfort. However, with opacity, it is possible that some contrasts are diminished and that they are above level AA.
 
-## Platforms
-
-Coldark is available for:
-
-- [Bat](./packages/coldark-bat/)
-- [Dircolors](./packages/coldark-dircolors/)
-- [Firefox](./packages/coldark-firefox/)
-- [GTKSourceView](./packages/coldark-gtksourceview/)
-- [Prism.js](./packages/coldark-prism/)
-- [Visual Studio Code](./packages/coldark-vscode/)
-- [XFCE4 Terminal](./packages/coldark-xfce4-terminal/)
+This Coldark version is designed for [bat](https://github.com/sharkdp/bat) command.
 
 ## Color pallets
 
 Coldark consists of three color pallets. The first is common to both versions. The other two each apply to a version.
 
-![Coldark Palette Colors](./packages/coldark-assets/coldark-colors-palette.png)
+The `bat` version uses almost the same colors as [VS code version](https://github.com/ArmandPhilippot/coldark-vscode). The scopes seems a little different and a little less complete, hence the difference.
 
 ## Colors in detail
-
-I tried to keep the same descriptions for both versions. However, for complex themes like VS Code, it doesn't work. So I separated the descriptions into 2 sections.
 
 ### Light Theme
 
 | Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
 | :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
 | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** – Also used as foreground for Button & Badges.                                                                                                                                       | `coldark00`  |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Darker background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar.                                                                            | `coldark01`  |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Selection background** - Code block, Secondary buttons, Some highlighting. Also used for Borders.                                                                                                         | `coldark02`  |
+| `#d0dae7` | ![#d0dae7][#d0dae7] | **Selection background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar.                                                                         | `coldark01`  |
+| `#8da1b9` | ![#8da1b9][#8da1b9] | **Darker background** - Code block, Secondary buttons, Some highlighting. Also used for Borders.                                                                                                            | `coldark02`  |
 | `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder.                                                                                                                                                             | `coldark03`  |
 | `#213043` | ![#213043][#213043] | **Lighter foreground** – Inputs, Status bar (no folder), Embedded modals & Widgets.                                                                                                                         | `coldark04`  |
 | `#111b27` | ![#111b27][#111b27] | **Default foreground** - Also used as Shadow and for most of Punctuation.                                                                                                                                   | `coldark05`  |
@@ -64,8 +52,8 @@ I tried to keep the same descriptions for both versions. However, for complex th
 | Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
 | :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
 | `#111b27` | ![#111b27][#111b27] | **Default background** – Also used as foreground for Button & Badges.                                                                                                                                       | `coldark00`  |
-| `#213043` | ![#213043][#213043] | **Light background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active.                                                                                                                 | `coldark01`  |
-| `#3c526d` | ![#3c526d][#3c526d] | **Selection background** - Code block, Secondary buttons, Some highlighting.                                                                                                                                | `coldark02`  |
+| `#213043` | ![#213043][#213043] | **Selection background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active.                                                                                                             | `coldark01`  |
+| `#3c526d` | ![#3c526d][#3c526d] | **Light background** - Code block, Secondary buttons, Some highlighting.                                                                                                                                    | `coldark02`  |
 | `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder.                                                                                                                                                             | `coldark03`  |
 | `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark foreground** – Activity bar, Inputs, Status bar (no folder), Embedded modals & Widgets.                                                                                                              | `coldark04`  |
 | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** - Also used for most of Punctuation.                                                                                                                                                 | `coldark05`  |
@@ -80,45 +68,73 @@ I tried to keep the same descriptions for both versions. However, for complex th
 | `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
 | `#cd6660` | ![#cd6660][#cd6660] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
 
-## Acknowledgements
+## Install
 
-Coldark is inspired by [base16](https://github.com/chriskempson/base16) and [Nord](https://github.com/arcticicestudio/nord) for color harmonization.
+1. Install `bat` (on Manjaro: `pacman -S bat`)
+2. Create themes folder: `mkdir -p "$(bat --config-dir)/themes"`
+3. Go inside this new folder: `cd "$(bat --config-dir)/themes"`
+4. Clone this repo: `git clone https://github.com/ArmandPhilippot/coldark-bat`
+5. Update the binary cache: `bat cache --build`
+
+Then, if you use `bat --list-themes`, you should see the themes.
+
+Coldark Bat is now present in [bat repo](https://github.com/sharkdp/bat). It may be present in the list of themes in a future version without having to install it manually.
+
+## Activation
+
+To select one of the Coldark themes, call `bat` with the `--theme=Coldark-Cold` (or `--theme=Coldark-Dark`) option or set the `BAT_THEME` environment variable to `Coldark-Cold` (or `Coldark-Dark`). Use `export BAT_THEME="Coldark-Cold"` (or `export BAT_THEME="Coldark-Dark"`) in your shell's startup file to make the change permanent.
+
+## Screenshots
+
+Here are 2 rendering examples for each version.
+
+### Cold
+
+| PHP                                                                                         | Markdown                                                                                                   |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [![Coldark Cold PHP](./assets/coldark-cold-bat-php.jpg)](./assets/coldark-cold-bat-php.jpg) | [![Coldark Cold Markdown](./assets/coldark-cold-bat-markdown.jpg)](./assets/coldark-cold-bat-markdown.jpg) |
+
+### Dark
+
+| PHP                                                                                         | Markdown                                                                                                   |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [![Coldark Dark PHP](./assets/coldark-dark-bat-php.jpg)](./assets/coldark-dark-bat-php.jpg) | [![Coldark Dark Markdown](./assets/coldark-dark-bat-markdown.jpg)](./assets/coldark-dark-bat-markdown.jpg) |
 
 ## License
 
-This project is open source and available under the [MIT License](./LICENSE).
+This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
 
 <!-- REFERENCES -->
 
 <!-- UI Colors -->
 
-[#f0f4f8]: ./packages/coldark-assets/colors/common-shades/f0f4f8.svg
-[#e3eaf2]: ./packages/coldark-assets/colors/common-shades/e3eaf2.svg
-[#d0dae7]: ./packages/coldark-assets/colors/common-shades/d0dae7.svg
-[#8da1b9]: ./packages/coldark-assets/colors/common-shades/8da1b9.svg
-[#3c526d]: ./packages/coldark-assets/colors/common-shades/3c526d.svg
-[#213043]: ./packages/coldark-assets/colors/common-shades/213043.svg
-[#111b27]: ./packages/coldark-assets/colors/common-shades/111b27.svg
-[#0b121b]: ./packages/coldark-assets/colors/common-shades/0b121b.svg
+[#f0f4f8]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/f0f4f8.svg
+[#e3eaf2]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/e3eaf2.svg
+[#d0dae7]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/d0dae7.svg
+[#8da1b9]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/8da1b9.svg
+[#3c526d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/3c526d.svg
+[#213043]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/213043.svg
+[#111b27]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/111b27.svg
+[#0b121b]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/0b121b.svg
 
 <!-- Syntax - Light Theme Colors -->
 
-[#c22f2e]: ./packages/coldark-assets/colors/light-accents/c22f2e.svg
-[#116b00]: ./packages/coldark-assets/colors/light-accents/116b00.svg
-[#755f00]: ./packages/coldark-assets/colors/light-accents/755f00.svg
-[#005a8e]: ./packages/coldark-assets/colors/light-accents/005a8e.svg
-[#af00af]: ./packages/coldark-assets/colors/light-accents/af00af.svg
-[#006d6d]: ./packages/coldark-assets/colors/light-accents/006d6d.svg
-[#7c00aa]: ./packages/coldark-assets/colors/light-accents/7c00aa.svg
-[#a04900]: ./packages/coldark-assets/colors/light-accents/a04900.svg
+[#c22f2e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/c22f2e.svg
+[#116b00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/116b00.svg
+[#755f00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/755f00.svg
+[#005a8e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/005a8e.svg
+[#af00af]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/af00af.svg
+[#006d6d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/006d6d.svg
+[#7c00aa]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/7c00aa.svg
+[#a04900]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/a04900.svg
 
 <!-- Syntax - Dark Theme Colors -->
 
-[#cd6660]: ./packages/coldark-assets/colors/dark-accents/cd6660.svg
-[#91d076]: ./packages/coldark-assets/colors/dark-accents/91d076.svg
-[#e6d37a]: ./packages/coldark-assets/colors/dark-accents/e6d37a.svg
-[#6cb8e6]: ./packages/coldark-assets/colors/dark-accents/6cb8e6.svg
-[#f4adf4]: ./packages/coldark-assets/colors/dark-accents/f4adf4.svg
-[#66cccc]: ./packages/coldark-assets/colors/dark-accents/66cccc.svg
-[#c699e3]: ./packages/coldark-assets/colors/dark-accents/c699e3.svg
-[#e9ae7e]: ./packages/coldark-assets/colors/dark-accents/e9ae7e.svg
+[#cd6660]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/cd6660.svg
+[#91d076]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/91d076.svg
+[#e6d37a]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e6d37a.svg
+[#6cb8e6]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/6cb8e6.svg
+[#f4adf4]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/f4adf4.svg
+[#66cccc]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/66cccc.svg
+[#c699e3]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/c699e3.svg
+[#e9ae7e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e9ae7e.svg

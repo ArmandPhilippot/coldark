@@ -1,0 +1,6 @@
+{
+  "json.schemaDownload.trustedDomains": {
+    "https://docs.renovatebot.com/renovate-schema.json": true,
+    "https://unpkg.com/@changesets/config@3.0.5/schema.json": true
+  }
+}
