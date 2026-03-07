@@ -26,18 +26,18 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 Coldark dircolors reuses the colors of the terminal: black, white, red, magenta, green, blue, yellow & cyan. If you are using Coldark for XFCE4 terminal, it will only use 8 colors since the normal and bright versions of the colors are the same.
 
-|                | Light Theme |                                                          | Dark Theme |                                                          |
-| -------------- | ----------- | :------------------------------------------------------: | :--------: | :------------------------------------------------------: |
-| **Usage code** | **Hex**     |                       **Preview**                        |  **Hex**   |                       **Preview**                        |
-| `coldark00`    | `#E3E9F2`   | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) | `#111B27`  | ![#111B27](https://placehold.it/20/111B27/000000?text=+) |
-| `coldark03`    | `#3c526d`   | ![#3c526d](https://placehold.it/20/3c526d/000000?text=+) | `#8da1b9`  | ![#8da1b9](https://placehold.it/20/8da1b9/000000?text=+) |
-| `coldark05`    | `#111B27`   | ![#111B27](https://placehold.it/20/111B27/000000?text=+) | `#E3E9F2`  | ![#E3E9F2](https://placehold.it/20/E3E9F2/000000?text=+) |
-| `coldark08`    | `#007474`   | ![#007474](https://placehold.it/20/007474/000000?text=+) | `#5dc2c2`  | ![#5dc2c2](https://placehold.it/20/5dc2c2/000000?text=+) |
-| `coldark09`    | `#7d6600`   | ![#7d6600](https://placehold.it/20/7d6600/000000?text=+) | `#cdb74a`  | ![#cdb74a](https://placehold.it/20/cdb74a/000000?text=+) |
-| `coldark10`    | `#005c99`   | ![#005c99](https://placehold.it/20/005c99/000000?text=+) | `#6ab3e4`  | ![#6ab3e4](https://placehold.it/20/6ab3e4/000000?text=+) |
-| `coldark11`    | `#237800`   | ![#237800](https://placehold.it/20/237800/000000?text=+) | `#82c366`  | ![#82c366](https://placehold.it/20/82c366/000000?text=+) |
-| `coldark12`    | `#b800b8`   | ![#b800b8](https://placehold.it/20/b800b8/000000?text=+) | `#ea89ea`  | ![#ea89ea](https://placehold.it/20/ea89ea/000000?text=+) |
-| `coldark15`    | `#c22f2e`   | ![#c22f2e](https://placehold.it/20/c22f2e/000000?text=+) | `#cd6660`  | ![#cd6660](https://placehold.it/20/cd6660/000000?text=+) |
+|                | Light Theme |                     | Dark Theme |                     |
+| -------------- | ----------- | :-----------------: | :--------: | :-----------------: |
+| **Usage code** | **Hex**     |     **Preview**     |  **Hex**   |     **Preview**     |
+| `coldark00`    | `#E3E9F2`   | ![#e3eaf2][#e3eaf2] | `#111B27`  | ![#111b27][#111b27] |
+| `coldark03`    | `#3c526d`   | ![#3c526d][#3c526d] | `#8da1b9`  | ![#8da1b9][#8da1b9] |
+| `coldark05`    | `#111B27`   | ![#111b27][#111b27] | `#E3E9F2`  | ![#e3eaf2][#e3eaf2] |
+| `coldark08`    | `#006d6d`   | ![#006d6d][#006d6d] | `#66cccc`  | ![#66cccc][#66cccc] |
+| `coldark09`    | `#755f00`   | ![#755f00][#755f00] | `#e6d37a`  | ![#e6d37a][#e6d37a] |
+| `coldark10`    | `#005a8e`   | ![#005a8e][#005a8e] | `#6cb8e6`  | ![#6cb8e6][#6cb8e6] |
+| `coldark11`    | `#116b00`   | ![#116b00][#116b00] | `#91d076`  | ![#91d076][#91d076] |
+| `coldark12`    | `#af00af`   | ![#af00af][#af00af] | `#f4adf4`  | ![#f4adf4][#f4adf4] |
+| `coldark15`    | `#c22f2e`   | ![#c22f2e][#c22f2e] | `#cd6660`  | ![#cd6660][#cd6660] |
 
 - **`coldark00`: Black**  
   Used as foreground for sticky other writable directories.
@@ -96,3 +96,38 @@ Thanks to [rarylson](https://github.com/ohmyzsh/ohmyzsh/issues/6060#issuecomment
 ## License
 
 This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
+
+<!-- REFERENCES -->
+
+<!-- UI Colors -->
+
+[#f0f4f8]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/f0f4f8.svg
+[#e3eaf2]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/e3eaf2.svg
+[#d0dae7]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/d0dae7.svg
+[#8da1b9]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/8da1b9.svg
+[#3c526d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/3c526d.svg
+[#213043]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/213043.svg
+[#111b27]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/111b27.svg
+[#0b121b]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/0b121b.svg
+
+<!-- Syntax - Light Theme Colors -->
+
+[#c22f2e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/c22f2e.svg
+[#116b00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/116b00.svg
+[#755f00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/755f00.svg
+[#005a8e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/005a8e.svg
+[#af00af]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/af00af.svg
+[#006d6d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/006d6d.svg
+[#7c00aa]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/7c00aa.svg
+[#a04900]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/a04900.svg
+
+<!-- Syntax - Dark Theme Colors -->
+
+[#cd6660]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/cd6660.svg
+[#91d076]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/91d076.svg
+[#e6d37a]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e6d37a.svg
+[#6cb8e6]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/6cb8e6.svg
+[#f4adf4]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/f4adf4.svg
+[#66cccc]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/66cccc.svg
+[#c699e3]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/c699e3.svg
+[#e9ae7e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e9ae7e.svg
