@@ -1,5 +1,9 @@
 <p align="center">
-    <img src="assets/coldark-banner.png" alt="Coldark Banner" width="400" />
+  <img
+    alt="Coldark Banner"
+    src="https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/coldark-banner.png"
+    width="400"
+  />
 </p>
 
 # Coldark
@@ -28,7 +32,7 @@ Coldark is available for:
 
 Coldark consists of three color pallets. The first is common to both versions. The other two each apply to a version.
 
-![Coldark Palette Colors](./assets/coldark-colors-palette.png)
+![Coldark Palette Colors](./packages/coldark-assets/coldark-colors-palette.png)
 
 ## Colors in detail
 

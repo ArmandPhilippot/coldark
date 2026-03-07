@@ -16,6 +16,7 @@ lscolors
 lzma
 mlterm
 MULTIHARDLINK
+Nord
 objc
 pacman
 rmvb

@@ -14,7 +14,7 @@
     "email": "git@armand.philippot.eu",
     "url": "https://armand.philippot.eu/"
   },
-  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/assets/logo.png",
+  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/logo.png",
   "homepage": "https://github.com/ArmandPhilippot/coldark/packages/coldark-xfce4-terminal#readme",
   "repository": {
     "type": "git",

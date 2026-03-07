@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
-  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/assets/logo.png",
+  "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/logo.png",
   "markdown": "github",
   "badges": [
     {

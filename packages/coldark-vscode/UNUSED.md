@@ -1,5 +1,9 @@
 <p align="center">
-    <img src="../../assets/coldark-banner.png" alt="Coldark Banner" width="400" />
+  <img
+    alt="Coldark Banner"
+    src="https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/coldark-banner.png"
+    width="400"
+  />
 </p>
 
 # Unused settings
