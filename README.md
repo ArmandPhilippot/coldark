@@ -1,10 +1,10 @@
-<h1 align="center">
+<p align="center">
   <img
     alt="Coldark"
     src="./packages/coldark-assets/banner.png"
     width="600"
   />
-</h1>
+</p>
 
 <p align="center">A blue-grey theme with light & dark versions.</p>
 
