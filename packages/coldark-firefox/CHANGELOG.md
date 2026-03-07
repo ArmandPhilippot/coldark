@@ -1,5 +1,17 @@
 # coldark-firefox
 
+## 2.0.0
+
+### Major Changes
+
+- 4f79a4a: Moves and renames the package from `coldark` to `coldark-firefox`
+
+  No major changes regarding the theme but the package itself has been renamed and its repository has moved. All Coldark packages are now available at https://github.com/ArmandPhilippot/coldark
+
+### Patch Changes
+
+- d23afa6: Fixes broken images in the README.
+
 ## [1.0.3](https://github.com/ArmandPhilippot/coldark/compare/coldark-firefox@1.0.2...coldark-firefox@1.0.3)
 
 ### Commits
