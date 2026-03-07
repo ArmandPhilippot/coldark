@@ -3,11 +3,11 @@
   "version": "1.0.3",
   "name": "Coldark",
   "description": "Coldark themes for Firefox: Cold (light version) and Dark (dark version).",
-  "homepage_url": "https://github.com/ArmandPhilippot/coldark-firefox",
+  "homepage_url": "https://github.com/ArmandPhilippot/coldark/packages/coldark-firefox",
   "author": "Armand Philippot",
   "icons": {
-    "48": "../../assets/logo-48.svg",
-    "96": "../../assets/logo-48.svg"
+    "48": "https://github.com/ArmandPhilippot/coldark/packages/coldark-assets/logo-48.svg",
+    "96": "https://github.com/ArmandPhilippot/coldark/packages/coldark-assets/logo-48.svg"
   },
   "browser_specific_settings": {
     "gecko": {
@@ -19,8 +19,8 @@
   "browser_action": {
     "default_title": "Coldark theme switcher",
     "default_icon": {
-      "48": "../../assets/logo-48.svg",
-      "96": ".../../assets/logo-48.svg"
+      "48": "https://github.com/ArmandPhilippot/coldark/packages/coldark-assets/logo-48.svg",
+      "96": ".https://github.com/ArmandPhilippot/coldark/packages/coldark-assets/logo-48.svg"
     }
   },
   "background": {
