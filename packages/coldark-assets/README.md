@@ -16,4 +16,4 @@ This package gathers assets for the [Coldark](https://github.com/ArmandPhilippot
 
 ## License
 
-This project is licensed under the [MIT license](../../LICENSE).
+This project is licensed under the [MIT license](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
