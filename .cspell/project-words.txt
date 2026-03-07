@@ -1,3 +1,4 @@
+atrule
 coldark
 colorschemes
 cpio
@@ -22,8 +23,11 @@ pacman
 prereq
 rmvb
 rxvt
+Stackframe
 svgz
 tzst
+unpulled
 WCAG
+worktreeView
 xspf
 zstyle
