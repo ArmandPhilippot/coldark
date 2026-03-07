@@ -1,7 +1,7 @@
 <p align="center">
   <img
     alt="Coldark Banner"
-    src="./packages/coldark-assets/coldark-banner.png"
+    src="./packages/coldark-assets/banner.png"
     width="400"
   />
 </p>
