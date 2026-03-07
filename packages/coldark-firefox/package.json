@@ -29,7 +29,7 @@
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
   "devDependencies": {
-    "web-ext": "^6.4.0"
+    "web-ext": "^9.3.0"
   },
   "scripts": {
     "run": "web-ext run",
@@ -43,6 +43,6 @@
   },
   "dependencies": {
     "cross-var": "^1.1.0",
-    "dotenv-cli": "^4.0.0"
+    "dotenv-cli": "^11.0.0"
   }
 }

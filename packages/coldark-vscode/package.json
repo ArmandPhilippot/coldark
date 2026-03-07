@@ -67,10 +67,10 @@
     ]
   },
   "devDependencies": {
+    "@vscode/vsce": "^3.7.1",
     "cross-var": "^1.1.0",
-    "dotenv-cli": "^5.1.0",
-    "ovsx": "^0.3.0",
-    "vsce": "^2.7.0"
+    "dotenv-cli": "^11.0.0",
+    "ovsx": "^0.10.9"
   },
   "scripts": {
     "package": "vsce package",
