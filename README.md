@@ -28,11 +28,15 @@ Coldark is available for:
 - [Visual Studio Code](./packages/coldark-vscode/)
 - [XFCE4 Terminal](./packages/coldark-xfce4-terminal/)
 
-## Color pallets
+## Color pallettes
 
-Coldark consists of three color pallets. The first is common to both versions. The other two each apply to a version.
+Coldark consists of three color pallettes. The first is common to both versions. The other two each apply to a version.
 
-![Coldark Palette Colors](./packages/coldark-assets/coldark-colors-palette.png)
+![Coldark common shades palette](./packages/coldark-assets/common-shades-palette.svg)
+
+![Coldark dark accents palette](./packages/coldark-assets/dark-accents-palette.svg)
+
+![Coldark light accents palette](./packages/coldark-assets/light-accents-palette.svg)
 
 ## Colors in detail
 
