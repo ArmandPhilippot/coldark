@@ -8,7 +8,7 @@
 
 # Coldark - Assets
 
-![MIT License](https://img.shields.io/github/license/ArmandPhilippot/coldark-assets?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Current Version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-assets?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
+![MIT License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-assets%2Fpackage.json&colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
 ## Introduction
 

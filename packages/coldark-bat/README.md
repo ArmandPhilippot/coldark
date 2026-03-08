@@ -8,7 +8,7 @@
 
 # Coldark - Bat
 
-![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-bat?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-bat?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
+![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-bat%2Fpackage.json&colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
 A theme in shades of blue-grey for bat.
 

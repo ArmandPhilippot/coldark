@@ -8,7 +8,7 @@
 
 # Coldark Firefox
 
-![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-firefox?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-firefox?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
+![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-firefox%2Fpackage.json&colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
 An optimized theme for web development that comes with two versions: light & dark.
 
