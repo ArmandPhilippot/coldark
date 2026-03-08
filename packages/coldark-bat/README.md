@@ -1,8 +1,8 @@
 <p align="center">
   <img
-    alt="Coldark Banner"
+    alt=""
     src="https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/banner.png"
-    width="400"
+    width="500"
   />
 </p>
 
@@ -10,83 +10,80 @@
 
 ![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-bat?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-bat?colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
-An optimized theme for web development that comes with two versions: light & dark.
+A theme in shades of blue-grey for bat.
 
-## Presentation
+## Introduction
 
-[Coldark](https://github.com/ArmandPhilippot/coldark) is a gray-blue theme. The colors used respect the Web Content Accessibility Guidelines (WCAG) in order to provide sufficient reading comfort. However, with opacity, it is possible that some contrasts are diminished and that they are above level AA.
+[Coldark](https://github.com/ArmandPhilippot/coldark) is a theme in shades of blue-grey, available in dark and light versions. The colors were carefully chosen to respect the Web Content Accessibility Guidelines (WCAG) and to provide sufficient reading comfort.
 
-This Coldark version is designed for [bat](https://github.com/sharkdp/bat) command.
-
-## Color pallets
-
-Coldark consists of three color pallets. The first is common to both versions. The other two each apply to a version.
-
-The `bat` version uses almost the same colors as [VS code version](https://github.com/ArmandPhilippot/coldark-vscode). The scopes seems a little different and a little less complete, hence the difference.
-
-## Colors in detail
-
-### Light Theme
-
-| Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
-| :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** – Also used as foreground for Button & Badges.                                                                                                                                       | `coldark00`  |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Selection background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar.                                                                         | `coldark01`  |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Darker background** - Code block, Secondary buttons, Some highlighting. Also used for Borders.                                                                                                            | `coldark02`  |
-| `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder.                                                                                                                                                             | `coldark03`  |
-| `#213043` | ![#213043][#213043] | **Lighter foreground** – Inputs, Status bar (no folder), Embedded modals & Widgets.                                                                                                                         | `coldark04`  |
-| `#111b27` | ![#111b27][#111b27] | **Default foreground** - Also used as Shadow and for most of Punctuation.                                                                                                                                   | `coldark05`  |
-| `#0b121b` | ![#0b121b][#0b121b] | **Darker foreground** – Also used as background for Activity bar.                                                                                                                                           | `coldark06`  |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter background** – Tab active, Embedded modals, Widgets.                                                                                                                                              | `coldark07`  |
-| `#006d6d` | ![#006d6d][#006d6d] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`)                                                     | `coldark08`  |
-| `#755f00` | ![#755f00][#755f00] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL                                                                                  | `coldark09`  |
-| `#005a8e` | ![#005a8e][#005a8e] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10`  |
-| `#116b00` | ![#116b00][#116b00] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text                                                                                                                           | `coldark11`  |
-| `#af00af` | ![#af00af][#af00af] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values            | `coldark12`  |
-| `#7c00aa` | ![#7c00aa][#7c00aa] | **Purple** - Unverified, Functions, CSS Classes & IDs                                                                                                                                                       | `coldark13`  |
-| `#a04900` | ![#a04900][#a04900] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
-| `#c22f2e` | ![#c22f2e][#c22f2e] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
-
-### Dark Theme
-
-| Hex Code  |       Preview       | Description                                                                                                                                                                                                 | Denomination |
-| :-------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
-| `#111b27` | ![#111b27][#111b27] | **Default background** – Also used as foreground for Button & Badges.                                                                                                                                       | `coldark00`  |
-| `#213043` | ![#213043][#213043] | **Selection background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active.                                                                                                             | `coldark01`  |
-| `#3c526d` | ![#3c526d][#3c526d] | **Light background** - Code block, Secondary buttons, Some highlighting.                                                                                                                                    | `coldark02`  |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder.                                                                                                                                                             | `coldark03`  |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark foreground** – Activity bar, Inputs, Status bar (no folder), Embedded modals & Widgets.                                                                                                              | `coldark04`  |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** - Also used for most of Punctuation.                                                                                                                                                 | `coldark05`  |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter foreground** – Menu, Tab hover.                                                                                                                                                                   | `coldark06`  |
-| `#0b121b` | ![#0b121b][#0b121b] | **Dark background** - Activity bar, Inputs, Status bar (no folder). Also used for Borders.                                                                                                                  | `coldark07`  |
-| `#66cccc` | ![#66cccc][#66cccc] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`)                                                     | `coldark08`  |
-| `#e6d37a` | ![#e6d37a][#e6d37a] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL                                                                                  | `coldark09`  |
-| `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10`  |
-| `#91d076` | ![#91d076][#91d076] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text                                                                                                                           | `coldark11`  |
-| `#f4adf4` | ![#f4adf4][#f4adf4] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values            | `coldark12`  |
-| `#c699e3` | ![#c699e3][#c699e3] | **Purple** - Unverified, Functions, CSS Classes & IDs                                                                                                                                                       | `coldark13`  |
-| `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements                                                                                                                       | `coldark14`  |
-| `#cd6660` | ![#cd6660][#cd6660] | **Red** - Errors, Deleted, Invalids, Deprecated                                                                                                                                                             | `coldark15`  |
+This Coldark version is designed for the [bat](https://github.com/sharkdp/bat) command.
 
 ## Install
 
-1. Install `bat` (on Manjaro: `pacman -S bat`)
-2. Create themes folder: `mkdir -p "$(bat --config-dir)/themes"`
-3. Go inside this new folder: `cd "$(bat --config-dir)/themes"`
-4. Clone this repo: `git clone https://github.com/ArmandPhilippot/coldark-bat`
-5. Update the binary cache: `bat cache --build`
+1. Install `bat` (e.g., on Manjaro: `pacman -S bat`)
+2. Create a new `themes` folder:
+   ```sh
+   mkdir -p "$(bat --config-dir)/themes"
+   ```
+3. Go inside this new folder:
+   ```sh
+   cd "$(bat --config-dir)/themes"
+   ```
+4. Clone the package:
+   ```sh
+   git clone -n --depth=1 --filter=tree:0 https://github.com/ArmandPhilippot/coldark
+   cd coldark
+   git sparse-checkout set --no-cone /packages/coldark-bat
+   git checkout
+   ```
+5. Update the binary cache:
+   ```sh
+   bat cache --build
+   ```
+6. Check if the themes are correctly installed:
+   ```sh
+   bat --list-themes
+   ```
 
-Then, if you use `bat --list-themes`, you should see the themes.
-
-Coldark Bat is now present in [bat repo](https://github.com/sharkdp/bat). It may be present in the list of themes in a future version without having to install it manually.
+Learn more about [adding themes in bat docs](https://github.com/sharkdp/bat#adding-new-themes).
 
 ## Activation
 
-To select one of the Coldark themes, call `bat` with the `--theme=Coldark-Cold` (or `--theme=Coldark-Dark`) option or set the `BAT_THEME` environment variable to `Coldark-Cold` (or `Coldark-Dark`). Use `export BAT_THEME="Coldark-Cold"` (or `export BAT_THEME="Coldark-Dark"`) in your shell's startup file to make the change permanent.
+### One time
+
+To select one of the Coldark themes, call `bat` with `--theme=Coldark-Cold` or `--theme=Coldark-Dark`:
+
+```sh
+bat --theme=Coldark-Cold
+```
+
+### Permanent
+
+You can set the `BAT_THEME` environment variable to `Coldark-Cold` or `Coldark-Dark`. Then, export it in your shell's startup file to make the change permanent.
+
+```bash
+# .bashrc
+export BAT_THEME="Coldark-Cold"
+```
+
+Alternatively, you can use [bat's configuration file](https://github.com/sharkdp/bat#configuration-file).
+
+```
+bat --generate-config-file
+nano $(bat --config-file)
+```
+
+Then, update the theme by uncommenting the line and replacing the value:
+```diff
+# Specify desired highlighting theme (e.g. "TwoDark"). Run `bat --list-themes`
+# for a list of all available themes
+-#--theme="TwoDark"
++--theme="Coldark-Dark"
+```
 
 ## Screenshots
 
-Here are 2 rendering examples for each version.
+Here are two rendering examples for each version.
 
 ### Cold
 
@@ -102,7 +99,7 @@ Here are 2 rendering examples for each version.
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
+This project is licensed under the [MIT license](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
 
 <!-- REFERENCES -->
 
