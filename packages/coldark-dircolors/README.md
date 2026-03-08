@@ -1,22 +1,24 @@
 <p align="center">
   <img
-    alt="Coldark Banner"
+    alt=""
     src="https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/banner.png"
-    width="400"
+    width="500"
   />
 </p>
 
 # Coldark - Dircolors
 
-![GitHub License](https://img.shields.io/github/license/ArmandPhilippot/coldark-dircolors?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark-dircolors?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
+![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-dircolors%2Fpackage.json&colorA=111b27&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
-An optimized theme for web development that comes with two versions: light & dark.
+A theme in shades of blue-grey for dircolors.
 
-## Presentation
+## Introduction
 
-[Coldark](https://github.com/ArmandPhilippot/coldark/) is a gray-blue theme. The colors used respect the Web Content Accessibility Guidelines (WCAG) in order to provide sufficient reading comfort.
+[Coldark](https://github.com/ArmandPhilippot/coldark) is a theme in shades of blue-grey, available in dark and light versions. The colors were carefully chosen to respect the Web Content Accessibility Guidelines (WCAG) and to provide sufficient reading comfort.
 
-Coldark dircolors can be installed for all application that respect the `LS_COLORS` environment variable. You can thus use it with commands like `ls`, `tree` ...
+This Coldark version is designed for dircolors.
+
+Coldark dircolors can be installed for all application that respect the `LS_COLORS` environment variable. You can thus use it with commands like `ls`, `tree`, etc.
 
 It is recommended to use it with [Coldark for XFCE4 terminal](https://github.com/ArmandPhilippot/coldark-xfce4-terminal) so that the colors match those of Coldark.
 
