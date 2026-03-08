@@ -89,49 +89,14 @@ Here are two rendering examples for each version.
 
 | PHP                                                                                         | Markdown                                                                                                   |
 | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [![Coldark Cold PHP](./assets/coldark-cold-bat-php.jpg)](./assets/coldark-cold-bat-php.jpg) | [![Coldark Cold Markdown](./assets/coldark-cold-bat-markdown.jpg)](./assets/coldark-cold-bat-markdown.jpg) |
+| [![A PHP file viewed using bat and Coldark Cold](./assets/coldark-cold-bat-php.jpg)](./assets/coldark-cold-bat-php.jpg) | [![A Markdown file viewed using bat and Coldark Cold](./assets/coldark-cold-bat-markdown.jpg)](./assets/coldark-cold-bat-markdown.jpg) |
 
 ### Dark
 
 | PHP                                                                                         | Markdown                                                                                                   |
 | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [![Coldark Dark PHP](./assets/coldark-dark-bat-php.jpg)](./assets/coldark-dark-bat-php.jpg) | [![Coldark Dark Markdown](./assets/coldark-dark-bat-markdown.jpg)](./assets/coldark-dark-bat-markdown.jpg) |
+| [![A PHP file viewed using bat and Coldark Dark](./assets/coldark-dark-bat-php.jpg)](./assets/coldark-dark-bat-php.jpg) | [![A Markdown file viewed using bat and Coldark Dark](./assets/coldark-dark-bat-markdown.jpg)](./assets/coldark-dark-bat-markdown.jpg) |
 
 ## License
 
 This project is licensed under the [MIT license](https://github.com/ArmandPhilippot/coldark/blob/main/LICENSE).
-
-<!-- REFERENCES -->
-
-<!-- UI Colors -->
-
-[#f0f4f8]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/f0f4f8.svg
-[#e3eaf2]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/e3eaf2.svg
-[#d0dae7]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/d0dae7.svg
-[#8da1b9]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/8da1b9.svg
-[#3c526d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/3c526d.svg
-[#213043]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/213043.svg
-[#111b27]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/111b27.svg
-[#0b121b]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/0b121b.svg
-
-<!-- Syntax - Light Theme Colors -->
-
-[#c22f2e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/c22f2e.svg
-[#116b00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/116b00.svg
-[#755f00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/755f00.svg
-[#005a8e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/005a8e.svg
-[#af00af]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/af00af.svg
-[#006d6d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/006d6d.svg
-[#7c00aa]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/7c00aa.svg
-[#a04900]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/a04900.svg
-
-<!-- Syntax - Dark Theme Colors -->
-
-[#cd6660]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/cd6660.svg
-[#91d076]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/91d076.svg
-[#e6d37a]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e6d37a.svg
-[#6cb8e6]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/6cb8e6.svg
-[#f4adf4]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/f4adf4.svg
-[#66cccc]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/66cccc.svg
-[#c699e3]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/c699e3.svg
-[#e9ae7e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e9ae7e.svg
