@@ -10,11 +10,11 @@
 
 ![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-xfce4-terminal%2Fpackage.json&colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
-A blue-grey theme with light and dark versions, adapted for the XFCE terminal.
+A theme in shades of blue-grey adapted for the XFCE terminal.
 
 ## Introduction
 
-[Coldark](https://github.com/ArmandPhilippot/coldark/) is a blue-grey theme available in light and dark versions. Its colors have been chosen to offer sufficient reading comfort in most situations.
+[Coldark](https://github.com/ArmandPhilippot/coldark/) is a theme in shades of blue-grey, available in dark and light versions. Its colors have been carefully chosen to offer sufficient reading comfort in most situations.
 
 This variant is designed for the [XFCE terminal](https://gitlab.xfce.org/apps/xfce4-terminal). Although, Coldark uses 16 colors, the the XFCE terminal version only uses 11.
 
@@ -40,7 +40,7 @@ This variant is designed for the [XFCE terminal](https://gitlab.xfce.org/apps/xf
 3. In this new window, select the <kbd><samp>Colors</samp></kbd> tab.
 4. Click on the <kbd><samp>Load Presets</samp></kbd> drop-down menu and, in the list, select either <kbd><samp>Coldark - Cold</samp></kbd> or <kbd><samp>Coldark - Dark</samp></kbd>.
 
-![Coldark XFCE4 Terminal](./assets/coldark-xfce4-terminal.jpg)
+![Screenshot of the XFCE4 Terminal Preferences window](./assets/coldark-xfce4-terminal.jpg)
 
 ## License
 

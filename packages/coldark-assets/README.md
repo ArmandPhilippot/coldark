@@ -2,7 +2,7 @@
   <img
     alt=""
     src="https://github.com/ArmandPhilippot/coldark/raw/main/packages/coldark-assets/banner.png"
-    width="500"
+    width="400"
   />
 </p>
 

@@ -2,7 +2,7 @@
   <img
     alt=""
     src="https://github.com/ArmandPhilippot/coldark/raw/main/packages/coldark-assets/banner.png"
-    width="500"
+    width="400"
   />
 </p>
 
@@ -10,15 +10,15 @@
 
 ![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-bat%2Fpackage.json&colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
-A theme in shades of blue-grey for bat.
+A theme in shades of blue-grey adapted for bat.
 
 ## Introduction
 
-[Coldark](https://github.com/ArmandPhilippot/coldark) is a theme in shades of blue-grey, available in dark and light versions. The colors were carefully chosen to respect the Web Content Accessibility Guidelines (WCAG) and to provide sufficient reading comfort.
+[Coldark](https://github.com/ArmandPhilippot/coldark/) is a theme in shades of blue-grey, available in dark and light versions. Its colors have been carefully chosen to offer sufficient reading comfort in most situations.
 
-This Coldark version is designed for the [bat](https://github.com/sharkdp/bat) command.
+This variant is designed for the [bat](https://github.com/sharkdp/bat) command.
 
-## Install
+## How to install
 
 1. Install `bat` (e.g., on Manjaro: `pacman -S bat`)
 2. Create a new `themes` folder:

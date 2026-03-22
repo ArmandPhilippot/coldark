@@ -10,11 +10,11 @@
 
 ![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-prism%2Fpackage.json&colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
-A blue-grey theme with light and dark versions, adapted for Prism.
+A theme in shades of blue-grey adapted for Prism.
 
 ## Introduction
 
-[Coldark](https://github.com/ArmandPhilippot/coldark/) is a blue-grey theme available in light and dark versions. Its colors have been chosen to offer sufficient reading comfort in most situations.
+[Coldark](https://github.com/ArmandPhilippot/coldark/) is a theme in shades of blue-grey, available in dark and light versions. Its colors have been carefully chosen to offer sufficient reading comfort in most situations.
 
 This variant is designed for [Prism](https://prismjs.com/). The colors have been chosen to comply with Web Content Accessibility Guidelines (WCAG), but in some contexts (e.g., opacity), certain contrasts may be reduced and fall below AA level. This variant should nevertheless offer sufficient reading comfort in most situations.
 
