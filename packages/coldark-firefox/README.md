@@ -1,28 +1,32 @@
 <p align="center">
   <img
-    alt="Coldark Banner"
+    alt=""
     src="https://github.com/ArmandPhilippot/coldark/raw/main/packages/coldark-assets/banner.png"
     width="400"
   />
 </p>
 
-# Coldark Firefox
+# Coldark - Firefox
 
 ![License](https://img.shields.io/github/license/ArmandPhilippot/coldark?colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge) ![Package version](https://img.shields.io/github/package-json/v/ArmandPhilippot/coldark?filename=packages%2Fcoldark-firefox%2Fpackage.json&colorA=213043&color=d0dae7&logo=Github&logoColor=e3eaf2&style=for-the-badge)
 
-An optimized theme for web development that comes with two versions: light & dark.
+A theme in shades of blue-grey adapted for Firefox.
 
-## Presentation
+## Introduction
 
-Coldark is a gray-blue theme. The colors used respect the Web Content Accessibility Guidelines (WCAG) in order to provide sufficient reading comfort. However, with opacity, it is possible that some contrasts are diminished and that they are above level AA.
+[Coldark](https://github.com/ArmandPhilippot/coldark/) is a theme in shades of blue-grey, available in dark and light versions. Its colors have been carefully chosen to offer sufficient reading comfort in most situations.
 
-This version is designed for [Firefox](https://www.mozilla.org/fr/firefox/).
+This variant is designed for [Firefox](https://www.mozilla.org/fr/firefox/). Although, Coldark uses 16 colors, the Firefox version only uses 7. Some elements do not seem customizable like the tab hover or the search box on the new tab page.
+
+## Features
+
+- Detects if the user prefers the dark theme and automatically applies the dark version.
+- Allows you to switch between versions using an icon in the navigation bar.
+- Allows you to switch between versions using a shortcut (defaults to <kbd>Alt+T</kbd>).
+
+If the shortcut doesn't work, check that it's not being used by another extension. If necessary, replace the shortcut either for Coldark or for the other extension.
 
 ## Colors
-
-Coldark consists of three color palettes. The first is common to both versions. The other two each apply to a version.
-
-In Coldark for Firefox, each versions only use 7 colors. Some elements do not seem customizable like the tab hover or the search box on the new tab page.
 
 ### Light Theme
 
@@ -48,29 +52,20 @@ In Coldark for Firefox, each versions only use 7 colors. Some elements do not se
 | `#0b121b` | ![#0b121b][#0b121b] | **Dark background** - Inactive frame, highlight, borders                                                  | `coldark07`  |
 | `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight | `coldark10`  |
 
-## Features
-
-- Detect if user prefer dark scheme and apply dark version.
-- Icon in navbar for switch between versions.
-- Shortcut (default: `Alt+T`) for switch between versions.
-
-If the shortcut doesn't work, make sure it is not used by another extension. If so, change it to either Coldark or the other extension.
-
 ## Screenshots
 
-|                          Cold                          |                          Dark                          |
-| :----------------------------------------------------: | :----------------------------------------------------: |
-| ![Coldark Cold](./assets/img/coldark-cold-firefox.jpg) | ![Coldark Dark](./assets/img/coldark-dark-firefox.jpg) |
+| Light theme | Dark theme |
+| :---------: | :--------: |
+| ![Screenshot of Firefox homepage using Coldark Cold](./assets/img/coldark-cold-firefox.jpg) | ![Screenshot of Firefox homepage using Coldark Dark](./assets/img/coldark-dark-firefox.jpg) |
 
-## Install
+## How to install
 
-1. Download Coldark for Firefox. The `xpi` file is in the folder `web-ext-artifacts`.
-2. Open Addons menu (e.g. `about:addons`)
-3. Select "_Extensions_"
-4. Click on the gear icon ; you should see "_Install Add-on from file..._"
-5. Select the `xpi` file
-
-![Install Coldark Firefox](./assets/img/install-coldark-firefox.jpg)
+1. Download the latest version of Coldark for Firefox from the `web-ext-artifacts` directory.
+2. Open the Addons menu (e.g. `about:addons`)
+3. Click on the gear icon next to <kbd><samp>Manage Your Extensions
+</samp></kbd>, then select <kbd><samp>Install Add-on From File...
+</samp></kbd>.
+4. Find and select the `.xpi` file downloaded at step 1 (e.g. `coldark-1.0.3-an+fx.xpi`).
 
 ## License
 
@@ -80,33 +75,19 @@ This project is open source and available under the [MIT License](https://github
 
 <!-- UI Colors -->
 
-[#f0f4f8]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/f0f4f8.svg
-[#e3eaf2]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/e3eaf2.svg
-[#d0dae7]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/d0dae7.svg
-[#8da1b9]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/8da1b9.svg
-[#3c526d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/3c526d.svg
-[#213043]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/213043.svg
-[#111b27]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/111b27.svg
-[#0b121b]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/common-shades/0b121b.svg
+[#f0f4f8]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/f0f4f8.svg
+[#e3eaf2]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/e3eaf2.svg
+[#d0dae7]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/d0dae7.svg
+[#8da1b9]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/8da1b9.svg
+[#3c526d]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/3c526d.svg
+[#213043]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/213043.svg
+[#111b27]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/111b27.svg
+[#0b121b]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/common-shades/0b121b.svg
 
 <!-- Syntax - Light Theme Colors -->
 
-[#c22f2e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/c22f2e.svg
-[#116b00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/116b00.svg
-[#755f00]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/755f00.svg
-[#005a8e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/005a8e.svg
-[#af00af]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/af00af.svg
-[#006d6d]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/006d6d.svg
-[#7c00aa]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/7c00aa.svg
-[#a04900]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/light-accents/a04900.svg
+[#005a8e]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/light-accents/005a8e.svg
 
 <!-- Syntax - Dark Theme Colors -->
 
-[#cd6660]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/cd6660.svg
-[#91d076]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/91d076.svg
-[#e6d37a]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e6d37a.svg
-[#6cb8e6]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/6cb8e6.svg
-[#f4adf4]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/f4adf4.svg
-[#66cccc]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/66cccc.svg
-[#c699e3]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/c699e3.svg
-[#e9ae7e]: https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/colors/dark-accents/e9ae7e.svg
+[#6cb8e6]: https://raw.githubusercontent.com/ArmandPhilippot/coldark/refs/heads/main/packages/coldark-assets/colors/dark-accents/6cb8e6.svg

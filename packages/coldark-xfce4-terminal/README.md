@@ -16,7 +16,7 @@ A theme in shades of blue-grey adapted for the XFCE terminal.
 
 [Coldark](https://github.com/ArmandPhilippot/coldark/) is a theme in shades of blue-grey, available in dark and light versions. Its colors have been carefully chosen to offer sufficient reading comfort in most situations.
 
-This variant is designed for the [XFCE terminal](https://gitlab.xfce.org/apps/xfce4-terminal). Although, Coldark uses 16 colors, the the XFCE terminal version only uses 11.
+This variant is designed for the [XFCE terminal](https://gitlab.xfce.org/apps/xfce4-terminal). Although, Coldark uses 16 colors, the XFCE terminal version only uses 11.
 
 ## Screenshots
 
