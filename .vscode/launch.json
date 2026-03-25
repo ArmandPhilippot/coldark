@@ -6,11 +6,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Extension",
+      "name": "Debug Coldark VSCode Theme",
       "type": "extensionHost",
       "request": "launch",
-      "runtimeExecutable": "${execPath}",
-      "args": ["--extensionDevelopmentPath=${workspaceFolder}"]
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}/packages/coldark-vscode"
+      ]
     }
   ]
 }

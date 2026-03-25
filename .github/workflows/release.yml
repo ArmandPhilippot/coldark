@@ -22,7 +22,7 @@ jobs:
     if: ${{ github.repository_owner == 'ArmandPhilippot' }}
     permissions:
       contents: write # to create release (changesets/action)
-      issues: write # to post issue comments (changesets/action)
+      id-token: write
       pull-requests: write # to create pull request (changesets/action)
     timeout-minutes: 20
     runs-on: ubuntu-latest
@@ -55,3 +55,25 @@ jobs:
         env:
           # Needs access to push to main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check if coldark-vscode was published
+        id: vscode-published
+        if: steps.changesets.outputs.published == 'true'
+        run: |
+          if echo '${{ steps.changesets.outputs.publishedPackages }}' | jq -e '.[] | select(.name == "coldark-vscode")' > /dev/null; then
+            echo "published=true" >> $GITHUB_OUTPUT
+          else
+            echo "published=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Publish to VSCode Marketplace
+        if: steps.vscode-published.outputs.published == 'true'
+        working-directory: ./packages/coldark-vscode
+        run: |
+          pnpm dlx @vscode/vsce publish --no-dependencies -p ${{ secrets.VSCE_TOKEN }}
+
+      - name: Publish to OpenVSX Registry
+        if: steps.vscode-published.outputs.published == 'true'
+        working-directory: ./packages/coldark-vscode
+        run: |
+          pnpm dlx ovsx publish --no-dependencies -p ${{ secrets.OVSX_TOKEN }}

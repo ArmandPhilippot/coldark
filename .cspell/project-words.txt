@@ -19,6 +19,7 @@ mlterm
 MULTIHARDLINK
 Nord
 objc
+ovsx
 pacman
 prereq
 rmvb
