@@ -29,7 +29,7 @@
     "vscode": "^1.45.0"
   },
   "scripts": {
-    "package": "pnpm dlx @vscode/vsce package"
+    "package": "pnpm dlx @vscode/vsce package --no-dependencies"
   },
   "displayName": "Coldark",
   "publisher": "armandphilippot",
