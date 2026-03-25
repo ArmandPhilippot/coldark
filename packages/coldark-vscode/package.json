@@ -1,7 +1,7 @@
 {
   "name": "coldark-vscode",
   "displayName": "Coldark",
-  "description": "A blue-grey theme with light & dark versions.",
+  "description": "A theme in shades of blue-grey adapted for Visual Studio Code, available in two versions (dark and light).",
   "categories": [
     "Themes"
   ],
@@ -66,14 +66,8 @@
       }
     ]
   },
-  "devDependencies": {
-    "@vscode/vsce": "^3.7.1",
-    "cross-var": "^1.1.0",
-    "dotenv-cli": "^11.0.0",
-    "ovsx": "^0.10.9"
-  },
+  "devDependencies": {},
   "scripts": {
-    "package": "vsce package",
-    "publish": "dotenv -- cross-var \"vsce publish && ovsx publish -p %OVSX_TOKEN%\""
+    "package": "pnpm dlx @vscode/vsce package"
   }
 }
