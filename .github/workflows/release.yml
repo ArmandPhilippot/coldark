@@ -70,10 +70,10 @@ jobs:
         if: steps.vscode-published.outputs.published == 'true'
         working-directory: ./packages/coldark-vscode
         run: |
-          pnpm dlx @vscode/vsce publish -p ${{ secrets.VSCE_TOKEN }}
+          pnpm dlx @vscode/vsce publish --no-dependencies -p ${{ secrets.VSCE_TOKEN }}
 
       - name: Publish to OpenVSX Registry
         if: steps.vscode-published.outputs.published == 'true'
         working-directory: ./packages/coldark-vscode
         run: |
-          pnpm dlx ovsx publish -p ${{ secrets.OVSX_TOKEN }}
+          pnpm dlx ovsx publish --no-dependencies -p ${{ secrets.OVSX_TOKEN }}
