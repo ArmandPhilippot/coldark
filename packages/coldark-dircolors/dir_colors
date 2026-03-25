@@ -2,7 +2,6 @@
 # LS_COLORS environment variable used by GNU ls with the --color option.
 
 # Copyright (C) 2020-present Armand Philippot.
-# Version:    1.0.0
 # Repository: https://github.com/ArmandPhilippot/coldark/packages/coldark-dircolors
 # License:    MIT
 

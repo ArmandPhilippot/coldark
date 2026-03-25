@@ -3,13 +3,13 @@
  A theme for GTKSourceView-based applications.
 
  Copyright (C) 2020-present Armand Philippot.
- Author: Armand Philippot <git@armand.philippot.eu>
+ Author: Armand Philippot <https://armand.philippot.eu/>
  Repository: https://github.com/ArmandPhilippot/coldark/packages/coldark-gtksourceview
- License:    MIT
+ License: MIT
 -->
 <style-scheme id="coldark-cold" name="Coldark - Cold" version="1.0">
   <author>Armand Philippot</author>
-  <_description>Coldark color scheme - A grey-blue theme for web development.</_description>
+  <_description>Light version of Coldark - A theme in shades of blue-grey adapted for GTK.</_description>
 
   <!-- Coldark colors -->
   <color name="coldark00" value="#e3eaf2"/>
