@@ -1,10 +1,6 @@
 {
   "name": "coldark-vscode",
-  "displayName": "Coldark",
   "description": "A theme in shades of blue-grey adapted for Visual Studio Code, available in two versions (dark and light).",
-  "categories": [
-    "Themes"
-  ],
   "keywords": [
     "vscode",
     "theme",
@@ -15,7 +11,6 @@
   ],
   "version": "1.2.11",
   "license": "MIT",
-  "publisher": "armandphilippot",
   "author": {
     "name": "Armand Philippot",
     "email": "git@armand.philippot.eu",
@@ -30,6 +25,17 @@
   "bugs": {
     "url": "https://github.com/ArmandPhilippot/coldark/issues"
   },
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "scripts": {
+    "package": "pnpm dlx @vscode/vsce package"
+  },
+  "displayName": "Coldark",
+  "publisher": "armandphilippot",
+  "categories": [
+    "Themes"
+  ],
   "icon": "https://github.com/ArmandPhilippot/coldark/blob/main/packages/coldark-assets/logo.png",
   "markdown": "github",
   "badges": [
@@ -49,9 +55,6 @@
       "description": "Extension Rating"
     }
   ],
-  "engines": {
-    "vscode": "^1.45.0"
-  },
   "contributes": {
     "themes": [
       {
@@ -65,9 +68,5 @@
         "path": "./themes/coldark-dark-color-theme.json"
       }
     ]
-  },
-  "devDependencies": {},
-  "scripts": {
-    "package": "pnpm dlx @vscode/vsce package"
   }
 }
