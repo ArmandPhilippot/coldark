@@ -6,7 +6,7 @@ With some ports, errors in the terminal were unreadable. Changing red color fix 
 
 ### Commits
 
-- fix: change red color for both versions [`8b51efc`](https://github.com/ArmandPhilippot/coldark-prism/commit/8b51efcb7223c139fa1bf053e9b87e8b30108c2e)
+- fix: change red color for both versions
 
 ## [1.0.4](https://github.com/ArmandPhilippot/coldark/compare/coldark-prism@1.0.3...coldark-prism@1.0.4) - 2020-10-28
 

@@ -1,6 +1,6 @@
 {
   "name": "coldark-gtksourceview",
-  "description": "A blue-grey theme with light & dark versions for GTKSourceView-based text editors.",
+  "description": "A theme in shades of blue-grey adapted for GTK applications, available in two versions (dark and light).",
   "keywords": [
     "Coldark",
     "theme",

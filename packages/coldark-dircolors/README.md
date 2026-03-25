@@ -52,7 +52,7 @@ Coldark dircolors is compatible with all applications that respect the `LS_COLOR
 
 ## How to install
 
-Download the [`dir_colors`](https://github.com/ArmandPhilippot/coldark-dircolors/blob/master/dir_colors) file and place it in your home directory (ie. `~/.dir_colors`).
+Download the `dir_colors` file and place it in your home directory (ie. `~/.dir_colors`).
 
 ## Activation
 
