@@ -1,4 +1,7 @@
-CHANGELOG.md
+dist
 node_modules
 pnpm-lock.yaml
-README.md
+
+# Prettier adds unwanted line breaks when using html tags in a paragraph... and I don't like tables formatting.
+*.md
+*.mdx

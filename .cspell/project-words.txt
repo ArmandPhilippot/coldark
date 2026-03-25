@@ -5,6 +5,7 @@ cpio
 dircolors
 dtterm
 dvtm
+eslintcache
 Eterm
 flac
 gedit
