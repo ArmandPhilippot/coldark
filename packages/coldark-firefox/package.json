@@ -32,11 +32,11 @@
     "web-ext": "^9.3.0"
   },
   "scripts": {
-    "run": "web-ext run",
-    "lint": "web-ext lint",
     "build": "web-ext build --filename '{name}-firefox-{version}.zip'",
+    "lint": "web-ext lint",
     "sign": "web-ext sign --channel listed",
-    "signTest": "web-ext sign --channel=unlisted"
+    "signTest": "web-ext sign --channel=unlisted",
+    "test": "web-ext run"
   },
   "webExt": {
     "ignoreFiles": []
