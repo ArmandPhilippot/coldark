@@ -28,6 +28,7 @@
     "lint:formatting": "prettier . --check",
     "lint:spelling": "cspell \"**\" --no-progress",
     "prepare": "husky",
+    "website:build": "pnpm --filter coldark-website build",
     "website:dev": "pnpm --filter coldark-website dev"
   },
   "devDependencies": {

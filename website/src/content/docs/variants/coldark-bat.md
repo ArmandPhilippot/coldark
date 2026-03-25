@@ -13,7 +13,7 @@ Coldark for bat brings the project to the terminal with two syntax themes that m
 
 ## Colors
 
-The bat variant reuses the shared Coldark syntax palette rather than defining package-specific UI colors. It keeps the core foreground and accent colors used for code tokens and leaves out most of the editor-specific surface colors documented on the main [Colors](/colors/) page.
+The bat variant reuses the shared Coldark syntax palette rather than defining package-specific UI colors. It keeps the core foreground and accent colors used for code tokens and leaves out most of the editor-specific surface colors documented on the main [Colors](../../colors/) page.
 
 ### Coldark Cold
 

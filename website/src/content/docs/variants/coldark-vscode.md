@@ -18,7 +18,7 @@ Coldark for VS Code is the reference implementation of the theme. It defines the
 
 ## Colors
 
-This package is the reference implementation for Coldark. The main [Colors](/colors/) page documents the shared palette, and the tables below keep the package-specific wording from the VS Code variant.
+This package is the reference implementation for Coldark. The main [Colors](../../colors/) page documents the shared palette, and the tables below keep the package-specific wording from the VS Code variant.
 
 ### Coldark Cold
 
