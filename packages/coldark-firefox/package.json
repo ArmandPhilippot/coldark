@@ -1,7 +1,7 @@
 {
   "name": "coldark-firefox",
   "displayName": "Coldark",
-  "description": "A blue-grey theme with light & dark versions.",
+  "description": "A theme in shades of blue-grey adapted for Firefox, available in two versions (dark and light).",
   "keywords": [
     "firefox",
     "grey",
@@ -34,15 +34,11 @@
   "scripts": {
     "run": "web-ext run",
     "lint": "web-ext lint",
-    "build": "web-ext build",
-    "sign": "dotenv -- cross-var web-ext sign",
-    "signTest": "dotenv -- cross-var web-ext sign --channel=unlisted"
+    "build": "web-ext build --filename '{name}-firefox-{version}.zip'",
+    "sign": "web-ext sign --channel listed",
+    "signTest": "web-ext sign --channel=unlisted"
   },
   "webExt": {
     "ignoreFiles": []
-  },
-  "dependencies": {
-    "cross-var": "^1.1.0",
-    "dotenv-cli": "^11.0.0"
   }
 }
