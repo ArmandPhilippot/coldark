@@ -3,97 +3,171 @@
 @layer theme {
   :root,
   ::backdrop {
-    --sl-color-white: #f0f4f8;
-    --sl-color-gray-1: #e3eaf2;
-    --sl-color-gray-2: #d0dae7;
-    --sl-color-gray-3: #8da1b9;
-    --sl-color-gray-4: #3c526d;
-    --sl-color-gray-5: #213043;
-    --sl-color-gray-6: #111b27;
-    --sl-color-black: #0b121b;
+    --coldark00: #f0f4f8;
+    --coldark01: #e3eaf2;
+    --coldark02: #d0dae7;
+    --coldark03: #8da1b9;
+    --coldark04: #3c526d;
+    --coldark05: #213043;
+    --coldark06: #111b27;
+    --coldark07: #0b121b;
+    --coldark08: #66cccc;
+    --coldark09: #e6d37a;
+    --coldark10: #6cb8e6;
+    --coldark11: #91d076;
+    --coldark12: #f4adf4;
+    --coldark13: #c699e3;
+    --coldark14: #e9ae7e;
+    --coldark15: #cd6660;
 
-    --sl-color-accent-low: #213043;
-    --sl-color-accent: #6cb8e6;
-    --sl-color-accent-high: #d0dae7;
+    --sl-color-white: var(--coldark00);
+    --sl-color-gray-1: var(--coldark01);
+    --sl-color-gray-2: var(--coldark02);
+    --sl-color-gray-3: var(--coldark03);
+    --sl-color-gray-4: var(--coldark04);
+    --sl-color-gray-5: var(--coldark05);
+    --sl-color-gray-6: var(--coldark06);
+    --sl-color-black: var(--coldark07);
 
-    --sl-color-blue-low: #213043;
-    --sl-color-blue: #6cb8e6;
-    --sl-color-blue-high: #d0dae7;
-    --sl-color-green-low: #213043;
-    --sl-color-green: #91d076;
-    --sl-color-green-high: #d0dae7;
-    --sl-color-orange-low: #213043;
-    --sl-color-orange: #e9ae7e;
-    --sl-color-orange-high: #f0f4f8;
-    --sl-color-purple-low: #213043;
-    --sl-color-purple: #c699e3;
-    --sl-color-purple-high: #f0f4f8;
-    --sl-color-red-low: #213043;
-    --sl-color-red: #cd6660;
-    --sl-color-red-high: #f0f4f8;
+    --sl-color-accent-low: var(--coldark05);
+    --sl-color-accent: var(--coldark10);
+    --sl-color-accent-high: var(--coldark02);
 
-    --sl-color-text: #d0dae7;
-    --sl-color-text-accent: #e3eaf2;
-    --sl-color-text-invert: #111b27;
-    --sl-color-bg: #111b27;
-    --sl-color-bg-nav: #0b121b;
-    --sl-color-bg-sidebar: #0b121b;
-    --sl-color-bg-inline-code: rgb(33 48 67 / 70%);
-    --sl-color-bg-accent: #6cb8e6;
-    --sl-color-hairline-light: rgb(141 161 185 / 30%);
-    --sl-color-hairline: rgb(11 18 27 / 90%);
-    --sl-color-hairline-shade: #0b121b;
-    --sl-color-backdrop-overlay: rgb(11 18 27 / 70%);
-    --sl-shadow-md: 0 18px 40px rgb(0 0 0 / 28%);
-    --sl-shadow-lg: 0 24px 64px rgb(0 0 0 / 40%);
+    --sl-color-blue-low: var(--coldark05);
+    --sl-color-blue: var(--coldark10);
+    --sl-color-blue-high: var(--coldark02);
+    --sl-color-green-low: var(--coldark05);
+    --sl-color-green: var(--coldark11);
+    --sl-color-green-high: var(--coldark02);
+    --sl-color-orange-low: var(--coldark05);
+    --sl-color-orange: var(--coldark14);
+    --sl-color-orange-high: var(--coldark00);
+    --sl-color-purple-low: var(--coldark05);
+    --sl-color-purple: var(--coldark13);
+    --sl-color-purple-high: var(--coldark00);
+    --sl-color-red-low: var(--coldark05);
+    --sl-color-red: var(--coldark15);
+    --sl-color-red-high: var(--coldark00);
+
+    --sl-color-text: var(--coldark02);
+    --sl-color-text-accent: var(--coldark01);
+    --sl-color-text-invert: var(--coldark06);
+    --sl-color-bg: var(--coldark06);
+    --sl-color-bg-nav: var(--coldark07);
+    --sl-color-bg-sidebar: var(--coldark07);
+    --sl-color-bg-inline-code: color-mix(
+      in srgb,
+      var(--coldark05) 70%,
+      transparent
+    );
+    --sl-color-bg-accent: var(--coldark10);
+    --sl-color-hairline-light: color-mix(
+      in srgb,
+      var(--coldark03) 30%,
+      transparent
+    );
+    --sl-color-hairline: color-mix(in srgb, var(--coldark07) 90%, transparent);
+    --sl-color-hairline-shade: var(--coldark07);
+    --sl-color-backdrop-overlay: color-mix(
+      in srgb,
+      var(--coldark07) 70%,
+      transparent
+    );
+    --sl-shadow-md: 0 18px 40px
+      color-mix(in srgb, var(--coldark07) 28%, transparent);
+    --sl-shadow-lg: 0 24px 64px
+      color-mix(in srgb, var(--coldark07) 40%, transparent);
   }
 
   :root[data-theme="light"],
   [data-theme="light"] ::backdrop {
-    --sl-color-white: #111b27;
-    --sl-color-gray-1: #213043;
-    --sl-color-gray-2: #3c526d;
-    --sl-color-gray-3: #8da1b9;
-    --sl-color-gray-4: #d0dae7;
-    --sl-color-gray-5: #e3eaf2;
-    --sl-color-gray-6: #f0f4f8;
-    --sl-color-gray-7: #f8fbfe;
-    --sl-color-black: #ffffff;
+    --coldark08: #006d6d;
+    --coldark09: #755f00;
+    --coldark10: #005a8e;
+    --coldark11: #116b00;
+    --coldark12: #af00af;
+    --coldark13: #7c00aa;
+    --coldark14: #a04900;
+    --coldark15: #c22f2e;
 
-    --sl-color-accent-high: #005a8e;
-    --sl-color-accent: #005a8e;
-    --sl-color-accent-low: #d0dae7;
+    --sl-color-white: var(--coldark06);
+    --sl-color-gray-1: var(--coldark05);
+    --sl-color-gray-2: var(--coldark04);
+    --sl-color-gray-3: var(--coldark03);
+    --sl-color-gray-4: var(--coldark02);
+    --sl-color-gray-5: var(--coldark01);
+    --sl-color-gray-6: var(--coldark00);
+    --sl-color-gray-7: var(--coldark00);
+    --sl-color-black: var(--coldark00);
 
-    --sl-color-blue-high: #005a8e;
-    --sl-color-blue: #005a8e;
-    --sl-color-blue-low: #d0dae7;
-    --sl-color-green-high: #116b00;
-    --sl-color-green: #116b00;
-    --sl-color-green-low: #dbe8d8;
-    --sl-color-orange-high: #a04900;
-    --sl-color-orange: #a04900;
-    --sl-color-orange-low: #f3e2d3;
-    --sl-color-purple-high: #7c00aa;
-    --sl-color-purple: #7c00aa;
-    --sl-color-purple-low: #eddcf5;
-    --sl-color-red-high: #c22f2e;
-    --sl-color-red: #c22f2e;
-    --sl-color-red-low: #f6dddd;
+    --sl-color-accent-high: var(--coldark10);
+    --sl-color-accent: var(--coldark10);
+    --sl-color-accent-low: var(--coldark02);
 
-    --sl-color-text: #213043;
-    --sl-color-text-accent: #005a8e;
-    --sl-color-text-invert: #e3eaf2;
-    --sl-color-bg: #e3eaf2;
-    --sl-color-bg-nav: #f0f4f8;
-    --sl-color-bg-sidebar: #e3eaf2;
-    --sl-color-bg-inline-code: rgb(208 218 231 / 80%);
-    --sl-color-bg-accent: #005a8e;
-    --sl-color-hairline-light: rgb(141 161 185 / 50%);
-    --sl-color-hairline: rgb(141 161 185 / 70%);
-    --sl-color-hairline-shade: rgb(141 161 185 / 40%);
-    --sl-color-backdrop-overlay: rgb(60 82 109 / 42%);
-    --sl-shadow-md: 0 18px 40px rgb(17 27 39 / 10%);
-    --sl-shadow-lg: 0 24px 64px rgb(17 27 39 / 14%);
+    --sl-color-blue-high: var(--coldark10);
+    --sl-color-blue: var(--coldark10);
+    --sl-color-blue-low: var(--coldark02);
+    --sl-color-green-high: var(--coldark11);
+    --sl-color-green: var(--coldark11);
+    --sl-color-green-low: color-mix(
+      in srgb,
+      var(--coldark11) 18%,
+      var(--coldark00)
+    );
+    --sl-color-orange-high: var(--coldark14);
+    --sl-color-orange: var(--coldark14);
+    --sl-color-orange-low: color-mix(
+      in srgb,
+      var(--coldark14) 18%,
+      var(--coldark00)
+    );
+    --sl-color-purple-high: var(--coldark13);
+    --sl-color-purple: var(--coldark13);
+    --sl-color-purple-low: color-mix(
+      in srgb,
+      var(--coldark13) 18%,
+      var(--coldark00)
+    );
+    --sl-color-red-high: var(--coldark15);
+    --sl-color-red: var(--coldark15);
+    --sl-color-red-low: color-mix(
+      in srgb,
+      var(--coldark15) 18%,
+      var(--coldark00)
+    );
+
+    --sl-color-text: var(--coldark05);
+    --sl-color-text-accent: var(--coldark10);
+    --sl-color-text-invert: var(--coldark01);
+    --sl-color-bg: var(--coldark01);
+    --sl-color-bg-nav: var(--coldark00);
+    --sl-color-bg-sidebar: var(--coldark01);
+    --sl-color-bg-inline-code: color-mix(
+      in srgb,
+      var(--coldark02) 80%,
+      transparent
+    );
+    --sl-color-bg-accent: var(--coldark10);
+    --sl-color-hairline-light: color-mix(
+      in srgb,
+      var(--coldark03) 50%,
+      transparent
+    );
+    --sl-color-hairline: color-mix(in srgb, var(--coldark03) 70%, transparent);
+    --sl-color-hairline-shade: color-mix(
+      in srgb,
+      var(--coldark03) 40%,
+      transparent
+    );
+    --sl-color-backdrop-overlay: color-mix(
+      in srgb,
+      var(--coldark04) 42%,
+      transparent
+    );
+    --sl-shadow-md: 0 18px 40px
+      color-mix(in srgb, var(--coldark06) 10%, transparent);
+    --sl-shadow-lg: 0 24px 64px
+      color-mix(in srgb, var(--coldark06) 14%, transparent);
   }
 
   .hero-banner {
@@ -105,7 +179,9 @@
     width: min(100%, 44rem);
     display: block;
     margin: 0 auto;
-    filter: drop-shadow(0 16px 32px rgb(0 0 0 / 18%));
+    filter: drop-shadow(
+      0 16px 32px color-mix(in srgb, var(--coldark07) 18%, transparent)
+    );
   }
 
   .palette-grid {
@@ -120,7 +196,11 @@
     border: 1px solid var(--sl-color-hairline-light);
     border-radius: 1rem;
     background:
-      linear-gradient(180deg, rgb(108 184 230 / 8%), transparent 45%),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--coldark10) 8%, transparent),
+        transparent 45%
+      ),
       var(--sl-color-bg-nav);
     box-shadow: var(--sl-shadow-md);
   }
@@ -144,12 +224,13 @@
   }
 
   .swatch {
-    --swatch: #6cb8e6;
+    --swatch: var(--coldark10);
     width: 1.1rem;
     height: 1.1rem;
     border-radius: 999px;
     background: var(--swatch);
-    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 18%);
+    box-shadow: inset 0 0 0 1px
+      color-mix(in srgb, var(--coldark07) 18%, transparent);
     flex: none;
   }
 
@@ -161,10 +242,14 @@
     background:
       radial-gradient(
         circle at top right,
-        rgb(108 184 230 / 10%),
+        color-mix(in srgb, var(--coldark10) 10%, transparent),
         transparent 35%
       ),
-      linear-gradient(180deg, rgb(240 244 248 / 2%), transparent),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--coldark00) 2%, transparent),
+        transparent
+      ),
       var(--sl-color-bg-nav);
     border-radius: 1rem;
   }
@@ -174,10 +259,14 @@
     background:
       radial-gradient(
         circle at top right,
-        rgb(0 90 142 / 10%),
+        color-mix(in srgb, var(--coldark10) 10%, transparent),
         transparent 35%
       ),
-      linear-gradient(180deg, rgb(255 255 255 / 65%), transparent),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--coldark00) 65%, transparent),
+        transparent
+      ),
       var(--sl-color-bg-nav);
   }
 
