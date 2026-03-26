@@ -17,41 +17,41 @@ Coldark uses three palettes:
   <div className="palette-card">
     <h3>Common shades</h3>
     <p>
-      Shared neutrals that define the layout, surfaces, borders, and most of the
-      typography.
+      Shared neutrals, ordered from the lightest shade to the darkest. Their
+      denominations stay fixed in both variants.
     </p>
     <ul className="swatch-list">
       <li>
         <span className="swatch" style={{ "--swatch": "#f0f4f8" }}></span>
-        <code>#f0f4f8</code> coldark07
+        <code>#f0f4f8</code> coldark00
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#e3eaf2" }}></span>
-        <code>#e3eaf2</code> coldark00 / coldark05
+        <code>#e3eaf2</code> coldark01
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#d0dae7" }}></span>
-        <code>#d0dae7</code> coldark01 / coldark04
+        <code>#d0dae7</code> coldark02
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#8da1b9" }}></span>
-        <code>#8da1b9</code> coldark02 / coldark03
+        <code>#8da1b9</code> coldark03
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#3c526d" }}></span>
-        <code>#3c526d</code> coldark03 / coldark02
+        <code>#3c526d</code> coldark04
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#213043" }}></span>
-        <code>#213043</code> coldark04 / coldark01
+        <code>#213043</code> coldark05
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#111b27" }}></span>
-        <code>#111b27</code> coldark05 / coldark00
+        <code>#111b27</code> coldark06
       </li>
       <li>
         <span className="swatch" style={{ "--swatch": "#0b121b" }}></span>
-        <code>#0b121b</code> coldark06 / coldark07
+        <code>#0b121b</code> coldark07
       </li>
     </ul>
   </div>
@@ -131,47 +131,31 @@ Coldark uses three palettes:
   </div>
 </div>
 
-## Coldark Cold
-
-| Token       | Hex       | Role                                                                                   |
-| ----------- | --------- | -------------------------------------------------------------------------------------- |
-| `coldark00` | `#e3eaf2` | Default background. Also used as foreground for buttons and badges.                    |
-| `coldark01` | `#d0dae7` | Darker background for editor gutter, inputs, line highlight, and neutral status areas. |
-| `coldark02` | `#8da1b9` | Selection background, secondary buttons, and some borders.                             |
-| `coldark03` | `#3c526d` | Comments, placeholders, and subdued text.                                              |
-| `coldark04` | `#213043` | Light foreground for widgets, inputs, and embedded UI.                                 |
-| `coldark05` | `#111b27` | Default foreground and core punctuation color.                                         |
-| `coldark06` | `#0b121b` | Dark foreground and activity bar background.                                           |
-| `coldark07` | `#f0f4f8` | Light background for active tabs, widgets, and embedded panels.                        |
-| `coldark08` | `#006d6d` | Cyan for parameters, tags, CSS variables, and embedded punctuation.                    |
-| `coldark09` | `#755f00` | Yellow for modified states, hints, booleans, and attribute names.                      |
-| `coldark10` | `#005a8e` | Blue for buttons, badges, info, classes, variables, and headings.                      |
-| `coldark11` | `#116b00` | Green for additions, strings, CSS colors, and link text.                               |
-| `coldark12` | `#af00af` | Magenta for untracked states, regex, escapes, and CSS values.                          |
-| `coldark13` | `#7c00aa` | Purple for functions and CSS classes or IDs.                                           |
-| `coldark14` | `#a04900` | Orange for warnings, keywords, storage, and pseudo-elements.                           |
-| `coldark15` | `#c22f2e` | Red for errors, deletions, invalid states, and deprecated items.                       |
-
-## Coldark Dark
+## Common shades
 
 | Token       | Hex       | Role                                                                   |
 | ----------- | --------- | ---------------------------------------------------------------------- |
-| `coldark00` | `#111b27` | Default background. Also used as foreground for buttons and badges.    |
-| `coldark01` | `#213043` | Light background for widgets, highlights, and embedded panels.         |
-| `coldark02` | `#3c526d` | Selection background, secondary buttons, and soft highlights.          |
-| `coldark03` | `#8da1b9` | Comments, placeholders, and subdued text.                              |
-| `coldark04` | `#d0dae7` | Dark foreground for activity bar, inputs, and embedded UI.             |
-| `coldark05` | `#e3eaf2` | Default foreground and core punctuation color.                         |
-| `coldark06` | `#f0f4f8` | Light foreground for menus and hover states.                           |
-| `coldark07` | `#0b121b` | Deep background for activity bars, gutters, borders, and status areas. |
-| `coldark08` | `#66cccc` | Cyan for parameters, tags, CSS variables, and embedded punctuation.    |
-| `coldark09` | `#e6d37a` | Yellow for modified states, hints, booleans, and attribute names.      |
-| `coldark10` | `#6cb8e6` | Blue for buttons, badges, info, classes, variables, and headings.      |
-| `coldark11` | `#91d076` | Green for additions, strings, CSS colors, and link text.               |
-| `coldark12` | `#f4adf4` | Magenta for untracked states, regex, escapes, and CSS values.          |
-| `coldark13` | `#c699e3` | Purple for functions and CSS classes or IDs.                           |
-| `coldark14` | `#e9ae7e` | Orange for warnings, keywords, storage, and pseudo-elements.           |
-| `coldark15` | `#cd6660` | Red for errors, deletions, invalid states, and deprecated items.       |
+| `coldark00` | `#f0f4f8` | Lightest background for elevated panels, widgets, and active surfaces. |
+| `coldark01` | `#e3eaf2` | Soft bright surface and bright foreground support.                     |
+| `coldark02` | `#d0dae7` | Secondary surface and light foreground support.                        |
+| `coldark03` | `#8da1b9` | Selections, borders, and muted emphasis.                               |
+| `coldark04` | `#3c526d` | Comments, placeholders, and subdued text.                              |
+| `coldark05` | `#213043` | Strong surface for widgets, highlights, and embedded panels.           |
+| `coldark06` | `#111b27` | Main dark foreground or background, depending on the variant.          |
+| `coldark07` | `#0b121b` | Deepest structural background for heavy UI chrome.                     |
+
+## Accent slots
+
+| Token       | Coldark Cold | Coldark Dark | Role                                                                |
+| ----------- | ------------ | ------------ | ------------------------------------------------------------------- |
+| `coldark08` | `#006d6d`    | `#66cccc`    | Cyan for parameters, tags, CSS variables, and embedded punctuation. |
+| `coldark09` | `#755f00`    | `#e6d37a`    | Yellow for modified states, hints, booleans, and attribute names.   |
+| `coldark10` | `#005a8e`    | `#6cb8e6`    | Blue for buttons, badges, info, classes, variables, and headings.   |
+| `coldark11` | `#116b00`    | `#91d076`    | Green for additions, strings, CSS colors, and link text.            |
+| `coldark12` | `#af00af`    | `#f4adf4`    | Magenta for untracked states, regex, escapes, and CSS values.       |
+| `coldark13` | `#7c00aa`    | `#c699e3`    | Purple for functions and CSS classes or IDs.                        |
+| `coldark14` | `#a04900`    | `#e9ae7e`    | Orange for warnings, keywords, storage, and pseudo-elements.        |
+| `coldark15` | `#c22f2e`    | `#cd6660`    | Red for errors, deletions, invalid states, and deprecated items.    |
 
 ## Source of truth
 

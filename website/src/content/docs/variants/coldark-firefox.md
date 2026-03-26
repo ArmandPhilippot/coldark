@@ -17,29 +17,17 @@ Firefox only exposes a smaller theming surface than editors like VS Code, so thi
 
 ## Colors
 
-### Coldark Cold
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| `coldark00` | `#e3eaf2` | Default background for frame, new tab page, and fields |
-| `coldark01` | `#d0dae7` | Dark background for selected tab, toolbar, and sidebar |
-| `coldark02` | `#8da1b9` | Darker background for inactive frame, highlight, and borders |
-| `coldark04` | `#213043` | Lighter foreground for icons, new tab page, popup, highlight, fields, and inactive tab |
-| `coldark05` | `#111b27` | Default foreground for selected tab and toolbar |
-| `coldark07` | `#f0f4f8` | Lighter background for popup, focused fields, and button states |
-| `coldark10` | `#005a8e` | Blue accent for special icons, focus border, selected tab border, tab loading, and field highlight |
-
-### Coldark Dark
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| `coldark00` | `#111b27` | Default background for frame, new tab page, and fields |
-| `coldark01` | `#213043` | Light background for selected tab, toolbar, and sidebar |
-| `coldark02` | `#3c526d` | Lighter background for popup, focused fields, and button states |
-| `coldark04` | `#d0dae7` | Dark foreground for icons, new tab page, popup, highlight, fields, and inactive tab |
-| `coldark05` | `#e3eaf2` | Default foreground for selected tab and toolbar |
-| `coldark07` | `#0b121b` | Dark background for inactive frame, highlight, and borders |
-| `coldark10` | `#6cb8e6` | Blue accent for special icons, focus border, selected tab border, tab loading, and field highlight |
+| Token | Coldark Cold | Coldark Dark | Role |
+| --- | --- | --- | --- |
+| `coldark00` | `#f0f4f8` | `#f0f4f8` | Popup, focused field, and elevated button background in the light variant |
+| `coldark01` | `#e3eaf2` | `#e3eaf2` | Bright frame/background support in Coldark Cold and default selected-tab foreground in Coldark Dark |
+| `coldark02` | `#d0dae7` | `#d0dae7` | Supporting foreground in Coldark Dark |
+| `coldark03` | `#8da1b9` | `#8da1b9` | Unused by the current Firefox package |
+| `coldark04` | `#3c526d` | `#3c526d` | Popup, focused field, and button-state background in Coldark Dark |
+| `coldark05` | `#213043` | `#213043` | Selected tab, toolbar, and sidebar background in Coldark Dark |
+| `coldark06` | `#111b27` | `#111b27` | Main foreground in Coldark Cold and main frame background in Coldark Dark |
+| `coldark07` | `#0b121b` | `#0b121b` | Inactive frame, highlight, and border background in Coldark Dark |
+| `coldark10` | `#005a8e` | `#6cb8e6` | Blue accent for special icons, focus border, selected tab border, tab loading, and field highlight |
 
 ## Installation
 

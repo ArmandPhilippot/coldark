@@ -20,55 +20,39 @@ Coldark for VS Code is the reference implementation of the theme. It defines the
 
 This package is the reference implementation for Coldark. The main [Colors](../../colors/) page documents the shared palette, and the tables below keep the package-specific wording from the VS Code variant.
 
-### Coldark Cold
+### Common shades
 
 | Token | Hex | Role |
 | --- | --- | --- |
-| `coldark00` | `#e3eaf2` | Default background. Also used as foreground for button and badges |
-| `coldark01` | `#d0dae7` | Dark background for editor gutter, inputs, line highlight, status bar without folder, and no-tabs layout. Also used as activity bar foreground |
-| `coldark02` | `#8da1b9` | Selection background, code blocks, secondary buttons, and borders |
-| `coldark03` | `#3c526d` | Comments, invisible text, ignored items, and placeholders |
-| `coldark04` | `#213043` | Light foreground for inputs, status bar without folder, embedded modals, and widgets |
-| `coldark05` | `#111b27` | Default foreground, shadow, and most punctuation |
-| `coldark06` | `#0b121b` | Dark foreground and activity bar background |
-| `coldark07` | `#f0f4f8` | Light background for active tabs, embedded modals, and widgets |
-| `coldark08` | `#006d6d` | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
-| `coldark09` | `#755f00` | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
-| `coldark10` | `#005a8e` | Blue for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
-| `coldark11` | `#116b00` | Green for additions, strings, CSS colors, CSS font names, and link text |
-| `coldark12` | `#af00af` | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
-| `coldark13` | `#7c00aa` | Purple for unverified states, functions, and CSS classes or IDs |
-| `coldark14` | `#a04900` | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
-| `coldark15` | `#c22f2e` | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark00` | `#f0f4f8` | Lightest surface for active tabs, widgets, and elevated panels |
+| `coldark01` | `#e3eaf2` | Bright surface in Coldark Cold and default foreground in Coldark Dark |
+| `coldark02` | `#d0dae7` | Secondary surface and supporting foreground |
+| `coldark03` | `#8da1b9` | Selection background, borders, comments, and muted emphasis |
+| `coldark04` | `#3c526d` | Subdued text and softer highlights |
+| `coldark05` | `#213043` | Strong surface for widgets, line highlight, and embedded panels |
+| `coldark06` | `#111b27` | Main dark foreground in Coldark Cold and main editor background in Coldark Dark |
+| `coldark07` | `#0b121b` | Deep background for activity bar, gutters, borders, and heavy chrome |
 
-### Coldark Dark
+### Accent slots
 
-| Token | Hex | Role |
-| --- | --- | --- |
-| `coldark00` | `#111b27` | Default background. Also used as foreground for button and badges |
-| `coldark01` | `#213043` | Light background for embedded modals, widgets, line highlight, and active tabs |
-| `coldark02` | `#3c526d` | Selection background, code blocks, secondary buttons, and some highlighting |
-| `coldark03` | `#8da1b9` | Comments, invisible text, ignored items, and placeholders |
-| `coldark04` | `#d0dae7` | Dark foreground for activity bar, inputs, status bar without folder, embedded modals, and widgets |
-| `coldark05` | `#e3eaf2` | Default foreground and most punctuation |
-| `coldark06` | `#f0f4f8` | Light foreground for menus and tab hover states |
-| `coldark07` | `#0b121b` | Dark background for activity bar, inputs, status bar without folder, editor gutter, no-tabs layout, and borders |
-| `coldark08` | `#66cccc` | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
-| `coldark09` | `#e6d37a` | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
-| `coldark10` | `#6cb8e6` | Primary interactive accent in both variants. Reused for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
-| `coldark11` | `#91d076` | Green for additions, strings, CSS colors, CSS font names, and link text |
-| `coldark12` | `#f4adf4` | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
-| `coldark13` | `#c699e3` | Purple for unverified states, functions, and CSS classes or IDs |
-| `coldark14` | `#e9ae7e` | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
-| `coldark15` | `#cd6660` | Red for errors, deletions, invalid states, and deprecated items |
+| Token | Coldark Cold | Coldark Dark | Role |
+| --- | --- | --- | --- |
+| `coldark08` | `#006d6d` | `#66cccc` | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
+| `coldark09` | `#755f00` | `#e6d37a` | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
+| `coldark10` | `#005a8e` | `#6cb8e6` | Blue for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
+| `coldark11` | `#116b00` | `#91d076` | Green for additions, strings, CSS colors, CSS font names, and link text |
+| `coldark12` | `#af00af` | `#f4adf4` | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
+| `coldark13` | `#7c00aa` | `#c699e3` | Purple for unverified states, functions, and CSS classes or IDs |
+| `coldark14` | `#a04900` | `#e9ae7e` | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
+| `coldark15` | `#c22f2e` | `#cd6660` | Red for errors, deletions, invalid states, and deprecated items |
 
 ## Implementation notes
 
 The current VS Code theme files confirm a few useful maintenance patterns:
 
-- `coldark02` and `coldark03` intentionally swap emphasis between the two variants: in the cold theme, `coldark02` is the stronger selection surface and `coldark03` is the subdued comment color; in the dark theme, that relationship stays the same semantically, but the values move upward in brightness.
-- `coldark07` is one of the most structurally important differences between the variants. In Coldark Cold it is a lighter surface color for active tabs and widgets, while in Coldark Dark it becomes the deepest structural background used for borders, gutters, and other heavy UI chrome.
-- `coldark06` is not symmetrical either. In Coldark Cold it behaves like a darker foreground and activity-bar background, while in Coldark Dark it is a lighter foreground mainly used for menus and hover states.
+- `coldark00` to `coldark07` form a shared neutral ramp from lightest to darkest, even though each variant assigns those shades to different UI roles.
+- `coldark06` and `coldark07` carry much of the structural contrast in the dark variant, while `coldark00` and `coldark01` do the same for elevated surfaces in the light variant.
+- `coldark08` to `coldark15` stay stable by hue across both variants, which makes ports easier because contributors can reason about accent intent separately from light/dark adaptation.
 
 ## Syntax highlighting patterns
 

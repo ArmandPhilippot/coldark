@@ -12,14 +12,14 @@
   <_description>Light version of Coldark - A theme in shades of blue-grey adapted for GTK.</_description>
 
   <!-- Coldark colors -->
-  <color name="coldark00" value="#e3eaf2"/>
-  <color name="coldark01" value="#d0dae7"/>
-  <color name="coldark02" value="#8da1b9"/>
-  <color name="coldark03" value="#3c526d"/>
-  <color name="coldark04" value="#213043"/>
-  <color name="coldark05" value="#111b27"/>
-  <color name="coldark06" value="#0b121b"/>
-  <color name="coldark07" value="#f0f4f8"/>
+  <color name="coldark00" value="#f0f4f8"/>
+  <color name="coldark01" value="#e3eaf2"/>
+  <color name="coldark02" value="#d0dae7"/>
+  <color name="coldark03" value="#8da1b9"/>
+  <color name="coldark04" value="#3c526d"/>
+  <color name="coldark05" value="#213043"/>
+  <color name="coldark06" value="#111b27"/>
+  <color name="coldark07" value="#0b121b"/>
   <color name="coldark08" value="#006d6d"/>
   <color name="coldark09" value="#755f00"/>
   <color name="coldark10" value="#005a8e"/>
@@ -30,22 +30,22 @@
   <color name="coldark15" value="#c22f2e"/>
 
   <!-- Global Settings -->
-  <style name="text" foreground="coldark05" background="coldark00"/>
-  <style name="selection" foreground="coldark05" background="coldark02" />
-  <style name="selection-unfocused" foreground="coldark03" background="coldark02" />
-  <style name="cursor" foreground="coldark05" />
-  <style name="secondary-cursor" foreground="coldark05" />
-  <style name="current-line" background="coldark01" />
-  <style name="line-numbers" foreground="coldark03" background="coldark01" />
-  <style name="current-line-number" background="coldark01" />
-  <style name="bracket-match" foreground="coldark10" background="coldark02" />
-  <style name="bracket-mismatch" foreground="coldark15" background="coldark02" />
-  <style name="right-margin" foreground="coldark05" background="coldark00" />
-  <style name="draw-spaces" foreground="coldark02" />
-  <style name="background-pattern" background="coldark07" />
+  <style name="text" foreground="coldark06" background="coldark01"/>
+  <style name="selection" foreground="coldark06" background="coldark03" />
+  <style name="selection-unfocused" foreground="coldark04" background="coldark03" />
+  <style name="cursor" foreground="coldark06" />
+  <style name="secondary-cursor" foreground="coldark06" />
+  <style name="current-line" background="coldark02" />
+  <style name="line-numbers" foreground="coldark04" background="coldark02" />
+  <style name="current-line-number" background="coldark02" />
+  <style name="bracket-match" foreground="coldark10" background="coldark03" />
+  <style name="bracket-mismatch" foreground="coldark15" background="coldark03" />
+  <style name="right-margin" foreground="coldark06" background="coldark01" />
+  <style name="draw-spaces" foreground="coldark03" />
+  <style name="background-pattern" background="coldark00" />
 
   <!-- Comments -->
-  <style name="def:comment" foreground="coldark03" />
+  <style name="def:comment" foreground="coldark04" />
   <style name="def:shebang" foreground="coldark08" />
   <style name="def:doc-comment" foreground="coldark11" />
   <style name="def:doc-comment-element" foreground="coldark14" />
@@ -93,7 +93,7 @@
   <style name="css:vendor-specific" foreground="coldark14" />
   <style name="css:keyword" foreground="coldark12" />
   <style name="css:symbol" foreground="coldark08" />
-  <style name="css:delimiter" foreground="coldark05" />
+  <style name="css:delimiter" foreground="coldark06" />
   <style name="css:color" foreground="coldark11" />
   <style name="css:function" foreground="coldark12" />
   <style name="css:property-name" foreground="coldark10" />
@@ -103,7 +103,7 @@
   <style name="css:class-selector" foreground="coldark13" />
   <style name="css:type-selector" foreground="coldark08" />
   <style name="css:universal-selector" foreground="coldark08" />
-  <style name="css:attribute-selector" foreground="coldark05" />
+  <style name="css:attribute-selector" foreground="coldark06" />
   <style name="css:attribute-selector-name" foreground="coldark09" />
   <style name="css:pseudo-element" foreground="coldark14" />
   <style name="css:pseudo-class" foreground="coldark14" />
@@ -134,9 +134,9 @@
   <style name="markdown:link-text" foreground="coldark11" />
   <style name="markdown:label" foreground="coldark10" />
   <style name="markdown:attribute-value" foreground="coldark11" />
-  <style name="markdown:image-marker" foreground="coldark05" />
-  <style name="markdown:emphasis" foreground="coldark05" italic="true" />
-  <style name="markdown:strong-emphasis" foreground="coldark05" bold="true" />
+  <style name="markdown:image-marker" foreground="coldark06" />
+  <style name="markdown:emphasis" foreground="coldark06" italic="true" />
+  <style name="markdown:strong-emphasis" foreground="coldark06" bold="true" />
 
   <!-- PHP -->
   <style name="php:variable" foreground="coldark10" />

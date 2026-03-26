@@ -15,10 +15,11 @@ Coldark dircolors applies the palette to file listings and works especially well
 
 Dircolors maps a smaller set of semantic Coldark colors to file kinds and shell states.
 
-| Token | Meaning in this package |
+| Color slot | Meaning in this package |
 | --- | --- |
-| `coldark00` | Foreground for sticky other writable directories and ignored files such as `.log` or `.bak` |
-| `coldark05` | Foreground for missing files, setuid or setgid files, files with capability, and sticky not other writable directories |
+| Terminal black | Foreground for sticky other writable directories |
+| Terminal bright black | Foreground for ignored files such as `.log` or `.bak` |
+| Terminal white | Foreground for missing files, setuid or setgid files, files with capability, and sticky not other writable directories |
 | `coldark08` | Foreground for symbolic links, multi-link regular files, pipes, and audio files |
 | `coldark09` | Foreground for sockets, block devices, character devices, and video files |
 | `coldark10` | Foreground for directories and background for sticky not other writable directories |
