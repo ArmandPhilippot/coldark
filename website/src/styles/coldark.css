@@ -11,14 +11,14 @@
     --coldark05: #213043;
     --coldark06: #111b27;
     --coldark07: #0b121b;
-    --coldark08: #66cccc;
-    --coldark09: #e6d37a;
-    --coldark10: #6cb8e6;
+    --coldark08: #cd6660;
+    --coldark09: #e9ae7e;
+    --coldark10: #e6d37a;
     --coldark11: #91d076;
-    --coldark12: #f4adf4;
-    --coldark13: #c699e3;
-    --coldark14: #e9ae7e;
-    --coldark15: #cd6660;
+    --coldark12: #66cccc;
+    --coldark13: #6cb8e6;
+    --coldark14: #c699e3;
+    --coldark15: #f4adf4;
 
     --sl-color-white: var(--coldark00);
     --sl-color-gray-1: var(--coldark01);
@@ -30,23 +30,23 @@
     --sl-color-black: var(--coldark07);
 
     --sl-color-accent-low: var(--coldark05);
-    --sl-color-accent: var(--coldark10);
+    --sl-color-accent: var(--coldark13);
     --sl-color-accent-high: var(--coldark02);
 
     --sl-color-blue-low: var(--coldark05);
-    --sl-color-blue: var(--coldark10);
+    --sl-color-blue: var(--coldark13);
     --sl-color-blue-high: var(--coldark02);
     --sl-color-green-low: var(--coldark05);
     --sl-color-green: var(--coldark11);
     --sl-color-green-high: var(--coldark02);
     --sl-color-orange-low: var(--coldark05);
-    --sl-color-orange: var(--coldark14);
+    --sl-color-orange: var(--coldark09);
     --sl-color-orange-high: var(--coldark00);
     --sl-color-purple-low: var(--coldark05);
-    --sl-color-purple: var(--coldark13);
+    --sl-color-purple: var(--coldark14);
     --sl-color-purple-high: var(--coldark00);
     --sl-color-red-low: var(--coldark05);
-    --sl-color-red: var(--coldark15);
+    --sl-color-red: var(--coldark08);
     --sl-color-red-high: var(--coldark00);
 
     --sl-color-text: var(--coldark02);
@@ -60,7 +60,7 @@
       var(--coldark05) 70%,
       transparent
     );
-    --sl-color-bg-accent: var(--coldark10);
+    --sl-color-bg-accent: var(--coldark13);
     --sl-color-hairline-light: color-mix(
       in srgb,
       var(--coldark03) 30%,
@@ -81,14 +81,14 @@
 
   :root[data-theme="light"],
   [data-theme="light"] ::backdrop {
-    --coldark08: #006d6d;
-    --coldark09: #755f00;
-    --coldark10: #005a8e;
+    --coldark08: #c22f2e;
+    --coldark09: #a04900;
+    --coldark10: #755f00;
     --coldark11: #116b00;
-    --coldark12: #af00af;
-    --coldark13: #7c00aa;
-    --coldark14: #a04900;
-    --coldark15: #c22f2e;
+    --coldark12: #006d6d;
+    --coldark13: #005a8e;
+    --coldark14: #7c00aa;
+    --coldark15: #af00af;
 
     --sl-color-white: var(--coldark06);
     --sl-color-gray-1: var(--coldark05);
@@ -100,12 +100,12 @@
     --sl-color-gray-7: var(--coldark00);
     --sl-color-black: var(--coldark00);
 
-    --sl-color-accent-high: var(--coldark10);
-    --sl-color-accent: var(--coldark10);
+    --sl-color-accent-high: var(--coldark13);
+    --sl-color-accent: var(--coldark13);
     --sl-color-accent-low: var(--coldark02);
 
-    --sl-color-blue-high: var(--coldark10);
-    --sl-color-blue: var(--coldark10);
+    --sl-color-blue-high: var(--coldark13);
+    --sl-color-blue: var(--coldark13);
     --sl-color-blue-low: var(--coldark02);
     --sl-color-green-high: var(--coldark11);
     --sl-color-green: var(--coldark11);
@@ -114,30 +114,30 @@
       var(--coldark11) 18%,
       var(--coldark00)
     );
-    --sl-color-orange-high: var(--coldark14);
-    --sl-color-orange: var(--coldark14);
+    --sl-color-orange-high: var(--coldark09);
+    --sl-color-orange: var(--coldark09);
     --sl-color-orange-low: color-mix(
+      in srgb,
+      var(--coldark09) 18%,
+      var(--coldark00)
+    );
+    --sl-color-purple-high: var(--coldark14);
+    --sl-color-purple: var(--coldark14);
+    --sl-color-purple-low: color-mix(
       in srgb,
       var(--coldark14) 18%,
       var(--coldark00)
     );
-    --sl-color-purple-high: var(--coldark13);
-    --sl-color-purple: var(--coldark13);
-    --sl-color-purple-low: color-mix(
-      in srgb,
-      var(--coldark13) 18%,
-      var(--coldark00)
-    );
-    --sl-color-red-high: var(--coldark15);
-    --sl-color-red: var(--coldark15);
+    --sl-color-red-high: var(--coldark08);
+    --sl-color-red: var(--coldark08);
     --sl-color-red-low: color-mix(
       in srgb,
-      var(--coldark15) 18%,
+      var(--coldark08) 18%,
       var(--coldark00)
     );
 
     --sl-color-text: var(--coldark05);
-    --sl-color-text-accent: var(--coldark10);
+    --sl-color-text-accent: var(--coldark13);
     --sl-color-text-invert: var(--coldark01);
     --sl-color-bg: var(--coldark01);
     --sl-color-bg-nav: var(--coldark00);
@@ -147,7 +147,7 @@
       var(--coldark02) 80%,
       transparent
     );
-    --sl-color-bg-accent: var(--coldark10);
+    --sl-color-bg-accent: var(--coldark13);
     --sl-color-hairline-light: color-mix(
       in srgb,
       var(--coldark03) 50%,
@@ -198,7 +198,7 @@
     background:
       linear-gradient(
         180deg,
-        color-mix(in srgb, var(--coldark10) 8%, transparent),
+        color-mix(in srgb, var(--coldark13) 8%, transparent),
         transparent 45%
       ),
       var(--sl-color-bg-nav);
@@ -224,7 +224,7 @@
   }
 
   .swatch {
-    --swatch: var(--coldark10);
+    --swatch: var(--coldark13);
     width: 1.1rem;
     height: 1.1rem;
     border-radius: 999px;
@@ -242,7 +242,7 @@
     background:
       radial-gradient(
         circle at top right,
-        color-mix(in srgb, var(--coldark10) 10%, transparent),
+        color-mix(in srgb, var(--coldark13) 10%, transparent),
         transparent 35%
       ),
       linear-gradient(
@@ -259,7 +259,7 @@
     background:
       radial-gradient(
         circle at top right,
-        color-mix(in srgb, var(--coldark10) 10%, transparent),
+        color-mix(in srgb, var(--coldark13) 10%, transparent),
         transparent 35%
       ),
       linear-gradient(

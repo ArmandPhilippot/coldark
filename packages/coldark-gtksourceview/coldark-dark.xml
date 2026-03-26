@@ -20,14 +20,14 @@
   <color name="coldark05" value="#213043"/>
   <color name="coldark06" value="#111b27"/>
   <color name="coldark07" value="#0b121b"/>
-  <color name="coldark08" value="#66cccc"/>
-  <color name="coldark09" value="#e6d37a"/>
-  <color name="coldark10" value="#6cb8e6"/>
+  <color name="coldark08" value="#cd6660"/>
+  <color name="coldark09" value="#e9ae7e"/>
+  <color name="coldark10" value="#e6d37a"/>
   <color name="coldark11" value="#91d076"/>
-  <color name="coldark12" value="#f4adf4"/>
-  <color name="coldark13" value="#c699e3"/>
-  <color name="coldark14" value="#e9ae7e"/>
-  <color name="coldark15" value="#cd6660"/>
+  <color name="coldark12" value="#66cccc"/>
+  <color name="coldark13" value="#6cb8e6"/>
+  <color name="coldark14" value="#c699e3"/>
+  <color name="coldark15" value="#f4adf4"/>
 
   <!-- Global Settings -->
   <style name="text" foreground="coldark01" background="coldark06"/>
@@ -38,138 +38,138 @@
   <style name="current-line" background="coldark05" />
   <style name="line-numbers" foreground="coldark03" background="coldark07" />
   <style name="current-line-number" background="coldark05" />
-  <style name="bracket-match" foreground="coldark10" background="coldark04" />
-  <style name="bracket-mismatch" foreground="coldark15" background="coldark04" />
+  <style name="bracket-match" foreground="coldark13" background="coldark04" />
+  <style name="bracket-mismatch" foreground="coldark08" background="coldark04" />
   <style name="right-margin" foreground="coldark01" background="coldark06" />
   <style name="draw-spaces" foreground="coldark04" />
   <style name="background-pattern" background="coldark07" />
 
   <!-- Comments -->
   <style name="def:comment" foreground="coldark03" />
-  <style name="def:shebang" foreground="coldark08" />
+  <style name="def:shebang" foreground="coldark12" />
   <style name="def:doc-comment" foreground="coldark11" />
-  <style name="def:doc-comment-element" foreground="coldark14" />
+  <style name="def:doc-comment-element" foreground="coldark09" />
 
   <!-- Constants -->
-  <style name="def:constant" foreground="coldark10" />
-  <style name="def:character" foreground="coldark12" />
+  <style name="def:constant" foreground="coldark13" />
+  <style name="def:character" foreground="coldark15" />
   <style name="def:string" foreground="coldark11" />
-  <style name="def:special-char" foreground="coldark12" />
-  <style name="def:number" foreground="coldark09" />
-  <style name="def:floating-point" foreground="coldark09" />
-  <style name="def:decimal" foreground="coldark09" />
-  <style name="def:base-n-integer" foreground="coldark09" />
-  <style name="def:complex" foreground="coldark09" />
-  <style name="def:special-constant" foreground="coldark09" />
-  <style name="def:boolean" foreground="coldark09" />
+  <style name="def:special-char" foreground="coldark15" />
+  <style name="def:number" foreground="coldark10" />
+  <style name="def:floating-point" foreground="coldark10" />
+  <style name="def:decimal" foreground="coldark10" />
+  <style name="def:base-n-integer" foreground="coldark10" />
+  <style name="def:complex" foreground="coldark10" />
+  <style name="def:special-constant" foreground="coldark10" />
+  <style name="def:boolean" foreground="coldark10" />
 
   <!-- Variables -->
-  <style name="def:identifier" foreground="coldark10" />
+  <style name="def:identifier" foreground="coldark13" />
 
   <!-- Functions -->
-  <style name="def:function" foreground="coldark13" />
+  <style name="def:function" foreground="coldark14" />
 
   <!-- Builtin -->
-  <style name="def:builtin" foreground="coldark12" />
+  <style name="def:builtin" foreground="coldark15" />
 
   <!-- Statements -->
-  <style name="def:statement" foreground="coldark12" />
-  <style name="def:operator" foreground="coldark14" />
-  <style name="def:keyword" foreground="coldark14" />
+  <style name="def:statement" foreground="coldark15" />
+  <style name="def:operator" foreground="coldark09" />
+  <style name="def:keyword" foreground="coldark09" />
 
   <!-- Types -->
-  <style name="def:type" foreground="coldark14" />
+  <style name="def:type" foreground="coldark09" />
 
   <!-- Others -->
-  <style name="def:preprocessor" foreground="coldark14" />
-  <style name="def:error" foreground="coldark15" />
-  <style name="def:warning" foreground="coldark14" />
+  <style name="def:preprocessor" foreground="coldark09" />
+  <style name="def:error" foreground="coldark08" />
+  <style name="def:warning" foreground="coldark09" />
   <style name="def:reserved" foreground="#FF0000" /> <!--Reserved keywords: like "const" and "goto" in Java -->
-  <style name="def:note" foreground="coldark14" bold="true" />
+  <style name="def:note" foreground="coldark09" bold="true" />
   <style name="def:underlined" underline="single" />
 
   <!-- LANGUAGES -->
   <!-- CSS -->
-  <style name="css:vendor-specific" foreground="coldark14" />
-  <style name="css:keyword" foreground="coldark12" />
-  <style name="css:symbol" foreground="coldark08" />
+  <style name="css:vendor-specific" foreground="coldark09" />
+  <style name="css:keyword" foreground="coldark15" />
+  <style name="css:symbol" foreground="coldark12" />
   <style name="css:delimiter" foreground="coldark01" />
   <style name="css:color" foreground="coldark11" />
-  <style name="css:function" foreground="coldark12" />
-  <style name="css:property-name" foreground="coldark10" />
-  <style name="css:modifier" foreground="coldark14" />
-  <style name="css:selector-symbol" foreground="coldark14" />
-  <style name="css:id-selector" foreground="coldark13" />
-  <style name="css:class-selector" foreground="coldark13" />
-  <style name="css:type-selector" foreground="coldark08" />
-  <style name="css:universal-selector" foreground="coldark08" />
+  <style name="css:function" foreground="coldark15" />
+  <style name="css:property-name" foreground="coldark13" />
+  <style name="css:modifier" foreground="coldark09" />
+  <style name="css:selector-symbol" foreground="coldark09" />
+  <style name="css:id-selector" foreground="coldark14" />
+  <style name="css:class-selector" foreground="coldark14" />
+  <style name="css:type-selector" foreground="coldark12" />
+  <style name="css:universal-selector" foreground="coldark12" />
   <style name="css:attribute-selector" foreground="coldark01" />
-  <style name="css:attribute-selector-name" foreground="coldark09" />
-  <style name="css:pseudo-element" foreground="coldark14" />
-  <style name="css:pseudo-class" foreground="coldark14" />
+  <style name="css:attribute-selector-name" foreground="coldark10" />
+  <style name="css:pseudo-element" foreground="coldark09" />
+  <style name="css:pseudo-class" foreground="coldark09" />
 
   <!-- Diff -->
   <style name="diff:added-line" foreground="coldark11" />
-  <style name="diff:removed-line" foreground="coldark15" />
-  <style name="diff:changed-line" foreground="coldark09" />
-  <style name="diff:location" foreground="coldark13" />
-  <style name="diff:diff-file" foreground="coldark10" />
+  <style name="diff:removed-line" foreground="coldark08" />
+  <style name="diff:changed-line" foreground="coldark10" />
+  <style name="diff:location" foreground="coldark14" />
+  <style name="diff:diff-file" foreground="coldark13" />
 
   <!-- Javascript -->
-  <style name="javascript:function" foreground="coldark13" />
-  <style name="javascript:regex" foreground="coldark12" />
+  <style name="javascript:function" foreground="coldark14" />
+  <style name="javascript:regex" foreground="coldark15" />
 
   <!-- Makefile -->
   <style name="makefile:assignment-rhs" foreground="coldark11" />
-  <style name="makefile:assignment-lhs" foreground="coldark10" />
-  <style name="makefile:prereq" foreground="coldark14" />
-  <style name="makefile:command" foreground="coldark08" />
+  <style name="makefile:assignment-lhs" foreground="coldark13" />
+  <style name="makefile:prereq" foreground="coldark09" />
+  <style name="makefile:command" foreground="coldark12" />
 
   <!-- Markdown -->
-  <style name="markdown:header" foreground="coldark10" bold="true" />
-  <style name="markdown:horizontal-rule" foreground="coldark10" />
-  <style name="markdown:code" foreground="coldark14" />
-  <style name="markdown:blockquote-marker" foreground="coldark12" />
-  <style name="markdown:url" foreground="coldark09" />
+  <style name="markdown:header" foreground="coldark13" bold="true" />
+  <style name="markdown:horizontal-rule" foreground="coldark13" />
+  <style name="markdown:code" foreground="coldark09" />
+  <style name="markdown:blockquote-marker" foreground="coldark15" />
+  <style name="markdown:url" foreground="coldark10" />
   <style name="markdown:link-text" foreground="coldark11" />
-  <style name="markdown:label" foreground="coldark10" />
+  <style name="markdown:label" foreground="coldark13" />
   <style name="markdown:attribute-value" foreground="coldark11" />
   <style name="markdown:image-marker" foreground="coldark01" />
   <style name="markdown:emphasis" foreground="coldark01" italic="true" />
   <style name="markdown:strong-emphasis" foreground="coldark01" bold="true" />
 
   <!-- PHP -->
-  <style name="php:variable" foreground="coldark10" />
-  <style name="php:identifier" foreground="coldark12" />
-  <style name="php:type" foreground="coldark12" />
+  <style name="php:variable" foreground="coldark13" />
+  <style name="php:identifier" foreground="coldark15" />
+  <style name="php:type" foreground="coldark15" />
 
   <!-- Python -->
   <style name="python:string-conversion" foreground="#FF0000" />
-  <style name="python:builtin-object" foreground="coldark12" />
-  <style name="python:class-name" foreground="coldark10" />
-  <style name="python:decorator" foreground="coldark12" />
+  <style name="python:builtin-object" foreground="coldark15" />
+  <style name="python:class-name" foreground="coldark13" />
+  <style name="python:decorator" foreground="coldark15" />
 
   <!-- Rust -->
-  <style name="rust:scope" foreground="coldark12" />
-  <style name="rust:attribute" foreground="coldark08" />
-  <style name="rust:macro" foreground="coldark12" />
+  <style name="rust:scope" foreground="coldark15" />
+  <style name="rust:attribute" foreground="coldark12" />
+  <style name="rust:macro" foreground="coldark15" />
 
   <!-- SH -->
-  <style name="sh:variable" foreground="coldark10" />
-  <style name="sh:common-command" foreground="coldark12" />
+  <style name="sh:variable" foreground="coldark13" />
+  <style name="sh:common-command" foreground="coldark15" />
 
   <!-- TOML -->
-  <style name="toml:variable" foreground="coldark10" />
-  <style name="toml:datetime-value" foreground="coldark12" />
+  <style name="toml:variable" foreground="coldark13" />
+  <style name="toml:datetime-value" foreground="coldark15" />
 
   <!-- XML -->
-  <style name="xml:doctype" foreground="coldark08" />
+  <style name="xml:doctype" foreground="coldark12" />
   <style name="xml:cdata-delim" foreground="#FF0000" />
-  <style name="xml:processing-instruction" foreground="coldark08" />
-  <style name="xml:element-name" foreground="coldark08" />
-  <style name="xml:attribute-name" foreground="coldark09" />
+  <style name="xml:processing-instruction" foreground="coldark12" />
+  <style name="xml:element-name" foreground="coldark12" />
+  <style name="xml:attribute-name" foreground="coldark10" />
   <style name="xml:attribute-value" foreground="coldark11" />
 
   <!-- YAML -->
-  <style name="yaml:map-key" foreground="coldark10" />
+  <style name="yaml:map-key" foreground="coldark13" />
 </style-scheme>

@@ -27,7 +27,7 @@ Firefox only exposes a smaller theming surface than editors like VS Code, so thi
 | `coldark05` | `#213043` | `#213043` | Selected tab, toolbar, and sidebar background in Coldark Dark |
 | `coldark06` | `#111b27` | `#111b27` | Main foreground in Coldark Cold and main frame background in Coldark Dark |
 | `coldark07` | `#0b121b` | `#0b121b` | Inactive frame, highlight, and border background in Coldark Dark |
-| `coldark10` | `#005a8e` | `#6cb8e6` | Blue accent for special icons, focus border, selected tab border, tab loading, and field highlight |
+| `coldark13` | `#005a8e` | `#6cb8e6` | Blue accent for special icons, focus border, selected tab border, tab loading, and field highlight |
 
 ## Installation
 

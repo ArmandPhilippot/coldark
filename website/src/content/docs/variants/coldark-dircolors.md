@@ -20,12 +20,12 @@ Dircolors maps a smaller set of semantic Coldark colors to file kinds and shell 
 | Terminal black | Foreground for sticky other writable directories |
 | Terminal bright black | Foreground for ignored files such as `.log` or `.bak` |
 | Terminal white | Foreground for missing files, setuid or setgid files, files with capability, and sticky not other writable directories |
-| `coldark08` | Foreground for symbolic links, multi-link regular files, pipes, and audio files |
-| `coldark09` | Foreground for sockets, block devices, character devices, and video files |
-| `coldark10` | Foreground for directories and background for sticky not other writable directories |
+| `coldark08` | Foreground for orphaned symbolic links and executables, plus background for missing files |
+| `coldark10` | Foreground for sockets, block devices, character devices, and video files |
 | `coldark11` | Foreground for other writable directories, archives, and many documents, plus background for sticky other writable directories |
-| `coldark12` | Foreground for doors and images |
-| `coldark15` | Foreground for orphaned symbolic links and executables, plus background for missing files |
+| `coldark12` | Foreground for symbolic links, multi-link regular files, pipes, and audio files |
+| `coldark13` | Foreground for directories and background for sticky not other writable directories |
+| `coldark15` | Foreground for doors and images |
 
 ## Installation
 

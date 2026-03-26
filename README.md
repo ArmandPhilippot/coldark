@@ -47,14 +47,14 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 | Denomination | Coldark Cold | Coldark Dark | Preview | General use |
 | :----------: | :----------: | :----------: | :-----: | ----------- |
-| `coldark08` | `#006d6d` | `#66cccc` | ![#006d6d][#006d6d] / ![#66cccc][#66cccc] | Cyan for parameters, tags, CSS variables, and embedded punctuation |
-| `coldark09` | `#755f00` | `#e6d37a` | ![#755f00][#755f00] / ![#e6d37a][#e6d37a] | Yellow for modified states, hints, booleans, and attribute names |
-| `coldark10` | `#005a8e` | `#6cb8e6` | ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | Blue for interactive accents, classes, variables, and headings |
+| `coldark08` | `#c22f2e` | `#cd6660` | ![#c22f2e][#c22f2e] / ![#cd6660][#cd6660] | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark09` | `#a04900` | `#e9ae7e` | ![#a04900][#a04900] / ![#e9ae7e][#e9ae7e] | Orange for warnings, keywords, and storage-like tokens |
+| `coldark10` | `#755f00` | `#e6d37a` | ![#755f00][#755f00] / ![#e6d37a][#e6d37a] | Yellow for modified states, hints, booleans, and attribute names |
 | `coldark11` | `#116b00` | `#91d076` | ![#116b00][#116b00] / ![#91d076][#91d076] | Green for additions, strings, and positive states |
-| `coldark12` | `#af00af` | `#f4adf4` | ![#af00af][#af00af] / ![#f4adf4][#f4adf4] | Magenta for regex, escapes, values, and high-visibility secondary accents |
-| `coldark13` | `#7c00aa` | `#c699e3` | ![#7c00aa][#7c00aa] / ![#c699e3][#c699e3] | Purple for functions and selector-like identifiers |
-| `coldark14` | `#a04900` | `#e9ae7e` | ![#a04900][#a04900] / ![#e9ae7e][#e9ae7e] | Orange for warnings, keywords, and storage-like tokens |
-| `coldark15` | `#c22f2e` | `#cd6660` | ![#c22f2e][#c22f2e] / ![#cd6660][#cd6660] | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark12` | `#006d6d` | `#66cccc` | ![#006d6d][#006d6d] / ![#66cccc][#66cccc] | Cyan for parameters, tags, CSS variables, and embedded punctuation |
+| `coldark13` | `#005a8e` | `#6cb8e6` | ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | Blue for interactive accents, classes, variables, and headings |
+| `coldark14` | `#7c00aa` | `#c699e3` | ![#7c00aa][#7c00aa] / ![#c699e3][#c699e3] | Purple for functions and selector-like identifiers |
+| `coldark15` | `#af00af` | `#f4adf4` | ![#af00af][#af00af] / ![#f4adf4][#f4adf4] | Magenta for regex, escapes, values, and high-visibility secondary accents |
 
 ## Variations
 

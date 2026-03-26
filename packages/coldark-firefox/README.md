@@ -40,7 +40,7 @@ Firefox uses a small subset of the shared Coldark palette. The neutral denominat
 | `coldark05` | `#213043` | `#213043` | ![#213043][#213043] | Selected tab, toolbar, and sidebar background in Coldark Dark |
 | `coldark06` | `#111b27` | `#111b27` | ![#111b27][#111b27] | Default foreground in Coldark Cold and default background in Coldark Dark |
 | `coldark07` | `#0b121b` | `#0b121b` | ![#0b121b][#0b121b] | Inactive frame, highlight, and border background in Coldark Dark |
-| `coldark10` | `#005a8e` | `#6cb8e6` | ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | Special icons, focus border, selected tab border, tab loading, and field highlight |
+| `coldark13` | `#005a8e` | `#6cb8e6` | ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | Special icons, focus border, selected tab border, tab loading, and field highlight |
 
 For Coldark Cold specifically, the browser chrome also uses `coldark01` (`#e3eaf2`) as the main frame and field background, `coldark02` (`#d0dae7`) for selected tab and toolbar surfaces, `coldark03` (`#8da1b9`) for inactive frame and border emphasis, `coldark05` (`#213043`) for icon and popup foreground, and `coldark06` (`#111b27`) for the main foreground text.
 

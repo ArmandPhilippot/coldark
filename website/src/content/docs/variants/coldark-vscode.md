@@ -37,14 +37,14 @@ This package is the reference implementation for Coldark. The main [Colors](../.
 
 | Token | Coldark Cold | Coldark Dark | Role |
 | --- | --- | --- | --- |
-| `coldark08` | `#006d6d` | `#66cccc` | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
-| `coldark09` | `#755f00` | `#e6d37a` | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
-| `coldark10` | `#005a8e` | `#6cb8e6` | Blue for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
+| `coldark08` | `#c22f2e` | `#cd6660` | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark09` | `#a04900` | `#e9ae7e` | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
+| `coldark10` | `#755f00` | `#e6d37a` | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
 | `coldark11` | `#116b00` | `#91d076` | Green for additions, strings, CSS colors, CSS font names, and link text |
-| `coldark12` | `#af00af` | `#f4adf4` | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
-| `coldark13` | `#7c00aa` | `#c699e3` | Purple for unverified states, functions, and CSS classes or IDs |
-| `coldark14` | `#a04900` | `#e9ae7e` | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
-| `coldark15` | `#c22f2e` | `#cd6660` | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark12` | `#006d6d` | `#66cccc` | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
+| `coldark13` | `#005a8e` | `#6cb8e6` | Blue for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
+| `coldark14` | `#7c00aa` | `#c699e3` | Purple for unverified states, functions, and CSS classes or IDs |
+| `coldark15` | `#af00af` | `#f4adf4` | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
 
 ## Implementation notes
 
