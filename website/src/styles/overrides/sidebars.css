@@ -1,0 +1,4 @@
+.sidebar-content,
+.right-sidebar-panel {
+  padding: var(--sl-sidebar-pad-x);
+}

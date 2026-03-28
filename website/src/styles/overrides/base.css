@@ -1,0 +1,10 @@
+:focus-visible {
+  outline-color: var(--sl-color-accent);
+}
+
+body > a:first-child:focus {
+  accent-color: var(--coldark01);
+  background-color: var(--coldark04);
+  border: 1px solid var(--coldark03);
+  font-weight: 600;
+}
