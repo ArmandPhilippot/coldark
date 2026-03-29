@@ -1,3 +1,6 @@
+# build output
+dist/
+
 # cache
 .eslintcache
 .npm
@@ -9,6 +12,9 @@ node_modules/
 # environment variables
 .env
 !.env.example
+
+# generated types
+.astro/
 
 # logs
 *.log

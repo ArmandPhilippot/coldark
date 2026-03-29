@@ -1,0 +1,5 @@
+:where(:root[data-theme="light"], [data-theme="light"] ::backdrop)
+  .pagination-links
+  a {
+  background: var(--coldark00);
+}

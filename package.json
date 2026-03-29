@@ -27,7 +27,9 @@
     "lint": "pnpm run \"/^lint:.*/\"",
     "lint:formatting": "prettier . --check",
     "lint:spelling": "cspell \"**\" --no-progress",
-    "prepare": "husky install"
+    "prepare": "husky",
+    "website:build": "pnpm --filter coldark-website build",
+    "website:dev": "pnpm --filter coldark-website dev"
   },
   "devDependencies": {
     "@arphi/commitlint-config": "^1.0.7",

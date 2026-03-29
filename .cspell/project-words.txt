@@ -5,6 +5,7 @@ cpio
 dircolors
 dtterm
 dvtm
+eslintcache
 Eterm
 flac
 gedit
@@ -23,6 +24,7 @@ pacman
 prereq
 rmvb
 rxvt
+seti
 Stackframe
 svgz
 tzst

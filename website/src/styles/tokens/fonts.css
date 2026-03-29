@@ -1,0 +1,26 @@
+:root,
+::backdrop {
+  --font-size-base: 16;
+  --font-size-ratio: 1.125;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+  --line-height: 1.618;
+  --one-px-in-rem: 0.0625rem;
+
+  --sl-line-height: var(--line-height);
+  --sl-line-height-headings: calc(var(--line-height) * 1.25);
+  --sl-text-base: clamp(
+    calc(var(--one-px-in-rem) * var(--font-size-base)),
+    calc(calc(var(--one-px-in-rem) * var(--font-size-base)) + 0.075dvw),
+    calc(var(--one-px-in-rem) * var(--font-size-base) * 2)
+  );
+  --sl-text-xs: calc(var(--sl-text-base) / pow(var(--font-size-ratio), 2));
+  --sl-text-sm: calc(var(--sl-text-base) / var(--font-size-ratio));
+  --sl-text-lg: calc(var(--sl-text-base) * var(--font-size-ratio));
+  --sl-text-xl: calc(var(--sl-text-base) * pow(var(--font-size-ratio), 2));
+  --sl-text-2xl: calc(var(--sl-text-base) * pow(var(--font-size-ratio), 3));
+  --sl-text-3xl: calc(var(--sl-text-base) * pow(var(--font-size-ratio), 4));
+  --sl-text-4xl: calc(var(--sl-text-base) * pow(var(--font-size-ratio), 5));
+  --sl-text-5xl: calc(var(--sl-text-base) * pow(var(--font-size-ratio), 6));
+  --sl-text-6xl: calc(var(--sl-text-base) * pow(var(--font-size-ratio), 7));
+}
