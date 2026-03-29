@@ -20,23 +20,23 @@ This variant is designed for dircolors in conjunction with the [Coldark variant 
 
 ## Use of colors
 
-- **Terminal black slot**  
+- **Terminal black slot (`coldark01` for Cold / `coldark06` for Dark)**  
   Used as foreground for sticky other writable directories.
-- **Terminal bright black slot**  
+- **Terminal bright black slot (`coldark04` for Cold / `coldark03` for Dark)**  
   Used as foreground for ignored files (e.g., `.log`, `.bak`).
-- **Terminal white slot**  
+- **Terminal white slot (`coldark07` for Cold / `coldark00` for Dark)**  
   Used as foreground for missing files, files with setuid or setgid permissions, files with capability, and sticky not other writable directories.
-- **`coldark08`: Red accent**  
+- **Red accent (`coldark08`)**  
   Used as foreground for orphaned symbolic links and executable. Also used as background for missing files.
-- **`coldark10`: Yellow accent**  
+- **Yellow accent (`coldark10`)**  
   Used as foreground for socket files, block devices drivers and character device drivers and video files.
-- **`coldark11`: Green accent**  
+- **Green accent (`coldark11`)**  
   Used as foreground for other writable directories, archives and various documents. Also used as background for sticky other writable directories.
-- **`coldark12`: Cyan accent**  
+- **Cyan accent (`coldark12`)**  
   Used as foreground for symbolic links, regular files with more than one link, pipes and audio files.
-- **`coldark13`: Blue accent**  
+- **Blue accent (`coldark13`)**  
   Used as foreground for directories and as background for sticky not other writable directories.
-- **`coldark15`: Magenta accent**  
+- **Magenta accent (`coldark15`)**  
   Used as foreground for doors and images.
 
 ## Screenshots

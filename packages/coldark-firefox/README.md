@@ -28,21 +28,19 @@ If the shortcut doesn't work, check that it's not being used by another extensio
 
 ## Colors
 
-Firefox uses a small subset of the shared Coldark palette. The neutral denominations stay fixed across variants, while the blue accent keeps the same denomination and changes value with the variant.
+Firefox uses a small subset of the Coldark palette.
 
-| Denomination | Coldark Cold | Coldark Dark | Preview | Usage in Firefox |
-| :----------: | :----------: | :----------: | :-----: | ---------------- |
-| `coldark00` | `#f0f4f8` | `#f0f4f8` | ![#f0f4f8][#f0f4f8] | Popup, focused fields, and elevated button states in Coldark Cold |
-| `coldark01` | `#e3eaf2` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Default foreground for selected tab and toolbar in Coldark Dark |
-| `coldark02` | `#d0dae7` | `#d0dae7` | ![#d0dae7][#d0dae7] | Icons, popup text, field text, and inactive tab foreground in Coldark Dark |
-| `coldark03` | `#8da1b9` | `#8da1b9` | ![#8da1b9][#8da1b9] | Unused by the current Firefox theme |
-| `coldark04` | `#3c526d` | `#3c526d` | ![#3c526d][#3c526d] | Popup and focused field background in Coldark Dark |
-| `coldark05` | `#213043` | `#213043` | ![#213043][#213043] | Selected tab, toolbar, and sidebar background in Coldark Dark |
-| `coldark06` | `#111b27` | `#111b27` | ![#111b27][#111b27] | Default foreground in Coldark Cold and default background in Coldark Dark |
-| `coldark07` | `#0b121b` | `#0b121b` | ![#0b121b][#0b121b] | Inactive frame, highlight, and border background in Coldark Dark |
-| `coldark13` | `#005a8e` | `#6cb8e6` | ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | Special icons, focus border, selected tab border, tab loading, and field highlight |
-
-For Coldark Cold specifically, the browser chrome also uses `coldark01` (`#e3eaf2`) as the main frame and field background, `coldark02` (`#d0dae7`) for selected tab and toolbar surfaces, `coldark03` (`#8da1b9`) for inactive frame and border emphasis, `coldark05` (`#213043`) for icon and popup foreground, and `coldark06` (`#111b27`) for the main foreground text.
+| Denomination | Preview | Coldark Cold | Coldark Dark |
+| ------------ | :-----: | ------------ | ------------ |
+|`coldark00`| ![#f0f4f8][#f0f4f8] | **Lighter background** – Popup, focused fields, buttons states | Not used. |
+|`coldark01`| ![#e3eaf2][#e3eaf2] | **Default background** - Frame, new tab page, fields | **Default foreground** - Selected tab, toolbar |
+|`coldark02`|  ![#d0dae7][#d0dae7] | **Dark background** - Selected tab, toolbar, sidebar | **Dark foreground** – Icons, new tab page, popup, highlight, fields, inactive tab. |
+|`coldark03`| ![#8da1b9][#8da1b9] | **Darker background** - Inactive frame, highlight, borders | Not used. |
+|`coldark04`| ![#3c526d][#3c526d] | Not used. | **Lighter background** - Popup, focused fields, buttons states |
+|`coldark05`| ![#213043][#213043] | **Lighter foreground** – Icons, new tab page, popup, highlight, fields, inactive tab. | **Light background** - Selected tab, toolbar, sidebar |
+|`coldark06`| ![#111b27][#111b27] | **Default foreground** - Selected tab, toolbar | **Default background** – Frame, new tab page, fields |
+|`coldark07`| ![#0b121b][#0b121b] | Not used. | **Dark background** - Inactive frame, highlight, borders |
+|`coldark13`| ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight|
 
 ## Screenshots
 
