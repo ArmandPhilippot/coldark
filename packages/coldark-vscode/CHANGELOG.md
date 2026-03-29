@@ -1,20 +1,36 @@
 # coldark-vscode
 
-## [1.2.11](https://github.com/ArmandPhilippot/coldark/compare/coldark-vscode@1.2.10...coldark-vscode@1.2.11) (2022-05-14)
+## 2.0.0
 
+### Major Changes
+
+- 555f654: Reorganizes the shared Coldark denominations to ease maintenance and variant porting.
+  - `coldark00` to `coldark07` now form a stable neutral ramp ordered from the lightest common shade to the darkest.
+  - `coldark08` to `coldark15` now form stable accent slots ordered by hue from red to magenta.
+
+  The documentation have been updated to preserve the rendered colors while making the palette easier to understand, maintain, and port to other tools.
+
+- 3aae768: Moves and renames the package from `coldark` to `coldark-vscode`
+
+  No major changes regarding the theme but the package itself has been renamed and its repository has moved. All Coldark packages are now available at https://github.com/ArmandPhilippot/coldark
+
+### Patch Changes
+
+- d23afa6: Fixes broken images in the README.
+
+## [1.2.11](https://github.com/ArmandPhilippot/coldark/compare/coldark-vscode@1.2.10...coldark-vscode@1.2.11) (2022-05-14)
 
 ### Changes
 
-* add bracket highlight colors
-* complete settings & diffEditor colors
-* remove/replace deprecated settings
-* update terminal find match colors
-
+- add bracket highlight colors
+- complete settings & diffEditor colors
+- remove/replace deprecated settings
+- update terminal find match colors
 
 ### Docs
 
-* replace website used for colors preview
-* update unused settings
+- replace website used for colors preview
+- update unused settings
 
 ## [1.2.10](https://github.com/ArmandPhilippot/coldark/compare/coldark-vscode@1.2.9...coldark-vscode@1.2.10) (2021-10-30)
 
