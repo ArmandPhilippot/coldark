@@ -20,24 +20,24 @@ This variant is designed for dircolors in conjunction with the [Coldark variant 
 
 ## Use of colors
 
-- **`coldark00`: Black**  
+- **Terminal black slot (`coldark01` for Cold / `coldark06` for Dark)**  
   Used as foreground for sticky other writable directories.
-- **`coldark00`: Dark gray**  
+- **Terminal bright black slot (`coldark04` for Cold / `coldark03` for Dark)**  
   Used as foreground for ignored files (e.g., `.log`, `.bak`).
-- **`coldark05`: White**  
-  Used as foreground for missing files, files with setuid or setgid permissions, files with capability, sticky not other writable directories.
-- **`coldark08`: Cyan**  
-  Used as foreground for symbolic links, regular files with more than one link, pipes and audio files.
-- **`coldark09`: Yellow**  
-  Used as foreground for socket files, block devices drivers and character device drivers and video files.
-- **`coldark10`: Blue**  
-  Used as foreground for directories and as background for sticky not other writable directories.
-- **`coldark11`: Green**  
-  Used as foreground for other writable directories, archives and various documents. Also used as background for sticky other writable directories.
-- **`coldark12`: Magenta**  
-  Used as foreground for doors and images.
-- **`coldark15`: Red**  
+- **Terminal white slot (`coldark07` for Cold / `coldark00` for Dark)**  
+  Used as foreground for missing files, files with setuid or setgid permissions, files with capability, and sticky not other writable directories.
+- **Red accent (`coldark08`)**  
   Used as foreground for orphaned symbolic links and executable. Also used as background for missing files.
+- **Yellow accent (`coldark10`)**  
+  Used as foreground for socket files, block devices drivers and character device drivers and video files.
+- **Green accent (`coldark11`)**  
+  Used as foreground for other writable directories, archives and various documents. Also used as background for sticky other writable directories.
+- **Cyan accent (`coldark12`)**  
+  Used as foreground for symbolic links, regular files with more than one link, pipes and audio files.
+- **Blue accent (`coldark13`)**  
+  Used as foreground for directories and as background for sticky not other writable directories.
+- **Magenta accent (`coldark15`)**  
+  Used as foreground for doors and images.
 
 ## Screenshots
 

@@ -24,51 +24,37 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 ![Coldark light accents palette](./packages/coldark-assets/light-accents-palette.svg)
 
-## Colors in detail
+## Colors
 
-I tried to keep the same descriptions for both versions. However, for complex themes like VS Code, it doesn't work. So I separated the descriptions into 2 sections.
+### Common shades
 
-### Light Theme
+`coldark00` to `coldark07` are the shared neutral ramp, ordered from the lightest shade to the darkest.
 
-| Hex Code | Preview | Description | Denomination |
-| :------: | :-----: | ----------- | :----------: |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** – Also used as foreground for Button & Badges. | `coldark00` |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Darker background** - Editor Gutter, Inputs, Line Highlight, Status bar (no folder). Also used as foreground for Activity bar. | `coldark01` |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Selection background** - Code block, Secondary buttons, Some highlighting. Also used for Borders. | `coldark02` |
-| `#3c526d` | ![#3c526d][#3c526d] | **Comments** - Invisible, Ignored, Placeholder. | `coldark03` |
-| `#213043` | ![#213043][#213043] | **Lighter foreground** – Inputs, Status bar (no folder), Embedded modals & Widgets. | `coldark04` |
-| `#111b27` | ![#111b27][#111b27] | **Default foreground** - Also used as Shadow and for most of Punctuation. | `coldark05` |
-| `#0b121b` | ![#0b121b][#0b121b] | **Darker foreground** – Also used as background for Activity bar. | `coldark06` |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter background** – Tab active, Embedded modals, Widgets. | `coldark07` |
-| `#006d6d` | ![#006d6d][#006d6d] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`) | `coldark08` |
-| `#755f00` | ![#755f00][#755f00] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL | `coldark09` |
-| `#005a8e` | ![#005a8e][#005a8e] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10` |
-| `#116b00` | ![#116b00][#116b00] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text | `coldark11` |
-| `#af00af` | ![#af00af][#af00af] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values | `coldark12` |
-| `#7c00aa` | ![#7c00aa][#7c00aa] | **Purple** - Unverified, Functions, CSS Classes & IDs | `coldark13` |
-| `#a04900` | ![#a04900][#a04900] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements | `coldark14` |
-| `#c22f2e` | ![#c22f2e][#c22f2e] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
+| Denomination | Hex Code | Preview | General use |
+| :----------: | :------: | :-----: | ----------- |
+| `coldark00` | `#f0f4f8` | ![#f0f4f8][#f0f4f8] | Lightest background and elevated surfaces |
+| `coldark01` | `#e3eaf2` | ![#e3eaf2][#e3eaf2] | Soft backgrounds and bright UI surfaces |
+| `coldark02` | `#d0dae7` | ![#d0dae7][#d0dae7] | Light foregrounds and secondary surfaces |
+| `coldark03` | `#8da1b9` | ![#8da1b9][#8da1b9] | Selections, borders, muted emphasis |
+| `coldark04` | `#3c526d` | ![#3c526d][#3c526d] | Comments, placeholders, subdued text |
+| `coldark05` | `#213043` | ![#213043][#213043] | Strong surfaces and supporting foregrounds |
+| `coldark06` | `#111b27` | ![#111b27][#111b27] | Default dark foreground or background, depending on variant |
+| `coldark07` | `#0b121b` | ![#0b121b][#0b121b] | Deepest structural background |
 
-### Dark Theme
+### Accent colors
 
-| Hex Code | Preview | Description | Denomination |
-| :------: | :-----: | ----------- | :----------: |
-| `#111b27` | ![#111b27][#111b27] | **Default background** – Also used as foreground for Button & Badges. | `coldark00` |
-| `#213043` | ![#213043][#213043] | **Light background** - Editor Gutter, Embedded modals, Widgets, Line Highlight, Tab active. | `coldark01` |
-| `#3c526d` | ![#3c526d][#3c526d] | **Selection background** - Code block, Secondary buttons, Some highlighting. | `coldark02` |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Comments** - Invisible, Ignored, Placeholder. | `coldark03` |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark foreground** – Activity bar, Inputs, Status bar (no folder), Embedded modals & Widgets. | `coldark04` |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** - Also used for most of Punctuation. | `coldark05` |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter foreground** – Menu, Tab hover. | `coldark06` |
-| `#0b121b` | ![#0b121b][#0b121b] | **Dark background** - Activity bar, Inputs, Status bar (no folder). Also used for Borders. | `coldark07` |
-| `#66cccc` | ![#66cccc][#66cccc] | **Cyan** - Merge incoming content, Parameters, Tags, Support constant, CSS Variables, Markup inline raw, Punctuation Section Embedded (e.g. `<?php ?>`) | `coldark08` |
-| `#e6d37a` | ![#e6d37a][#e6d37a] | **Yellow** - Modified, Hints, Integers, Boolean, Constants Language, Attribute Names, Shell Case Patterns, Markup Link URL | `coldark09` |
-| `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Badges, Buttons, Find Match, Info, Merge current content, Selection (outside editor), Status bar (folder open), Namespaces, Classes, Variables, Constants Other, Markup Headings, Property names | `coldark10` |
-| `#91d076` | ![#91d076][#91d076] | **Green** - Added elements, Strings, CSS Colors, CSS Font names, Markup Link Text | `coldark11` |
-| `#f4adf4` | ![#f4adf4][#f4adf4] | **Magenta** - Untracked elements, Token Expression value Support, Regular Expressions, Escape Characters, Constant Characters, Storage Modifiers, Instances, Markup List Punctuation, CSS values | `coldark12` |
-| `#c699e3` | ![#c699e3][#c699e3] | **Purple** - Unverified, Functions, CSS Classes & IDs | `coldark13` |
-| `#e9ae7e` | ![#e9ae7e][#e9ae7e] | **Orange** - Warnings, Status bar (debugging), Keywords, Storage, CSS Pseudo elements | `coldark14` |
-| `#cd6660` | ![#cd6660][#cd6660] | **Red** - Errors, Deleted, Invalids, Deprecated | `coldark15` |
+`coldark08` to `coldark15` are fixed accent slots by hue. Their role stays the same between variants, while their hex value changes to fit the light or dark context.
+
+| Denomination | Coldark Cold | Coldark Dark | Preview | General use |
+| :----------: | :----------: | :----------: | :-----: | ----------- |
+| `coldark08` | `#c22f2e` | `#cd6660` | ![#c22f2e][#c22f2e] / ![#cd6660][#cd6660] | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark09` | `#a04900` | `#e9ae7e` | ![#a04900][#a04900] / ![#e9ae7e][#e9ae7e] | Orange for warnings, keywords, and storage-like tokens |
+| `coldark10` | `#755f00` | `#e6d37a` | ![#755f00][#755f00] / ![#e6d37a][#e6d37a] | Yellow for modified states, hints, booleans, and attribute names |
+| `coldark11` | `#116b00` | `#91d076` | ![#116b00][#116b00] / ![#91d076][#91d076] | Green for additions, strings, and positive states |
+| `coldark12` | `#006d6d` | `#66cccc` | ![#006d6d][#006d6d] / ![#66cccc][#66cccc] | Cyan for parameters, tags, CSS variables, and embedded punctuation |
+| `coldark13` | `#005a8e` | `#6cb8e6` | ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | Blue for interactive accents, classes, variables, and headings |
+| `coldark14` | `#7c00aa` | `#c699e3` | ![#7c00aa][#7c00aa] / ![#c699e3][#c699e3] | Purple for functions and selector-like identifiers |
+| `coldark15` | `#af00af` | `#f4adf4` | ![#af00af][#af00af] / ![#f4adf4][#f4adf4] | Magenta for regex, escapes, values, and high-visibility secondary accents |
 
 ## Variations
 
