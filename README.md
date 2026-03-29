@@ -24,13 +24,11 @@ Coldark consists of three color palettes. The first is common to both versions. 
 
 ![Coldark light accents palette](./packages/coldark-assets/light-accents-palette.svg)
 
-## Colors in detail
-
-`coldark00` to `coldark07` are the shared neutral ramp, ordered from the lightest shade to the darkest.
-
-`coldark08` to `coldark15` are fixed accent slots by hue. Their role stays the same between variants, while their hex value changes to fit the light or dark context.
+## Colors
 
 ### Common shades
+
+`coldark00` to `coldark07` are the shared neutral ramp, ordered from the lightest shade to the darkest.
 
 | Denomination | Hex Code | Preview | General use |
 | :----------: | :------: | :-----: | ----------- |
@@ -44,6 +42,8 @@ Coldark consists of three color palettes. The first is common to both versions. 
 | `coldark07` | `#0b121b` | ![#0b121b][#0b121b] | Deepest structural background |
 
 ### Accent colors
+
+`coldark08` to `coldark15` are fixed accent slots by hue. Their role stays the same between variants, while their hex value changes to fit the light or dark context.
 
 | Denomination | Coldark Cold | Coldark Dark | Preview | General use |
 | :----------: | :----------: | :----------: | :-----: | ----------- |
