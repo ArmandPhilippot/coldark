@@ -1,0 +1,42 @@
+---
+title: GTKSourceView
+description: Coldark themes for GTKSourceView-based editors such as Mousepad and Gedit.
+---
+
+This port adapts Coldark to GTKSourceView and targets editors such as Mousepad and Gedit.
+
+## Highlights
+
+- Ships both `coldark-cold.xml` and `coldark-dark.xml`.
+- Designed to stay visually close to the VS Code theme.
+- Works with GTKSourceView-based editors and should be compatible with multiple GTKSourceView versions.
+
+## Colors
+
+GTKSourceView keeps close to the shared Coldark palette and uses more of the neutral surface colors than terminal-oriented ports do.
+
+### Coldark Cold
+
+This theme uses the common shades `#f0f4f8`, `#e3eaf2`, `#d0dae7`, `#8da1b9`, `#3c526d`, `#213043`, `#111b27`, and `#0b121b`, plus the cold accents `#005a8e`, `#006d6d`, `#116b00`, `#755f00`, `#af00af`, `#7c00aa`, `#a04900`, and `#c22f2e`.
+
+### Coldark Dark
+
+This theme uses the common shades `#f0f4f8`, `#e3eaf2`, `#d0dae7`, `#8da1b9`, `#3c526d`, `#213043`, `#111b27`, and `#0b121b`, plus the dark accents `#6cb8e6`, `#66cccc`, `#91d076`, `#e6d37a`, `#f4adf4`, `#c699e3`, `#e9ae7e`, and `#cd6660`.
+
+## Installation
+
+For Mousepad:
+
+1. Create `~/.local/share/gtksourceview-4/styles/` if needed.
+2. Copy the Coldark XML styles into that directory.
+3. Reopen Mousepad and select the theme from the color scheme menu.
+
+For Gedit:
+
+1. Create `~/.local/share/gedit/styles/` if needed.
+2. Copy the Coldark XML styles into that directory.
+3. Reopen Gedit and select the scheme in **Preferences**.
+
+## Notes
+
+GTKSourceView exposes fewer token categories than VS Code, so some mappings are simplified.
