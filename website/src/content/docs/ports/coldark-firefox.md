@@ -7,19 +7,19 @@ Coldark for Firefox adapts the palette to browser chrome and focuses on the part
 
 ## Highlights
 
-- Detects the user's preferred dark mode and applies the matching version automatically.
+- Detects the user's preferred dark mode and applies the matching variant automatically.
 - Lets users switch between variants from a toolbar icon.
 - Supports a keyboard shortcut to toggle the theme.
 
 ## Palette scope
 
-Firefox only exposes a smaller theming surface than editors like VS Code, so this variant uses a reduced subset of the full Coldark palette. It focuses on frames, toolbars, selected tabs, fields, icons, and highlight states.
+Firefox only exposes a smaller theming surface than editors like VS Code, so this port uses a reduced subset of the full Coldark palette. It focuses on frames, toolbars, selected tabs, fields, icons, and highlight states.
 
 ## Colors
 
 | Token | Coldark Cold | Coldark Dark | Role |
 | --- | --- | --- | --- |
-| `coldark00` | `#f0f4f8` | `#f0f4f8` | Popup, focused field, and elevated button background in the light variant |
+| `coldark00` | `#f0f4f8` | `#f0f4f8` | Popup, focused field, and elevated button background in Coldark Cold |
 | `coldark01` | `#e3eaf2` | `#e3eaf2` | Bright frame/background support in Coldark Cold and default selected-tab foreground in Coldark Dark |
 | `coldark02` | `#d0dae7` | `#d0dae7` | Supporting foreground in Coldark Dark |
 | `coldark03` | `#8da1b9` | `#8da1b9` | Unused by the current Firefox package |

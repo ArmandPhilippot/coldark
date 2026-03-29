@@ -9,7 +9,7 @@ Coldark Prism brings the same blue-grey language to Prism.js with a cold and a d
 
 - Built for [Prism.js](https://prismjs.com/).
 - Offers both `prism-coldark-cold.css` and `prism-coldark-dark.css`.
-- Stays visually close to the VS Code variant while adapting to Prism's token set.
+- Stays visually close to the VS Code port while adapting to Prism's token set.
 
 ## Colors
 

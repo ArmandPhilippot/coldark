@@ -3,7 +3,7 @@ title: GTKSourceView
 description: Coldark themes for GTKSourceView-based editors such as Mousepad and Gedit.
 ---
 
-This variant adapts Coldark to GTKSourceView and targets editors such as Mousepad and Gedit.
+This port adapts Coldark to GTKSourceView and targets editors such as Mousepad and Gedit.
 
 ## Highlights
 
@@ -13,7 +13,7 @@ This variant adapts Coldark to GTKSourceView and targets editors such as Mousepa
 
 ## Colors
 
-GTKSourceView keeps close to the shared Coldark palette and uses more of the neutral surface colors than terminal-oriented variants do.
+GTKSourceView keeps close to the shared Coldark palette and uses more of the neutral surface colors than terminal-oriented ports do.
 
 ### Coldark Cold
 

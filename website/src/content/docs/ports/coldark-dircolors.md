@@ -3,7 +3,7 @@ title: Dircolors
 description: Coldark file-type coloring for shells and tools using LS_COLORS.
 ---
 
-Coldark dircolors applies the palette to file listings and works especially well alongside the XFCE4 Terminal variant.
+Coldark dircolors applies the palette to file listings and works especially well alongside the XFCE4 Terminal port.
 
 ## Highlights
 

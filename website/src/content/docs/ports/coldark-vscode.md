@@ -18,7 +18,7 @@ Coldark for VS Code is the reference implementation of the theme. It defines the
 
 ## Colors
 
-This package is the reference implementation for Coldark. The main [Colors](../../colors/) page documents the shared palette, and the tables below keep the package-specific wording from the VS Code variant.
+This package is the reference implementation for Coldark. The main [Colors](../../colors/) page documents the shared palette, and the tables below keep the package-specific wording from the VS Code port.
 
 ### Common shades
 
@@ -51,7 +51,7 @@ This package is the reference implementation for Coldark. The main [Colors](../.
 The current VS Code theme files confirm a few useful maintenance patterns:
 
 - `coldark00` to `coldark07` form a shared neutral ramp from lightest to darkest, even though each variant assigns those shades to different UI roles.
-- `coldark06` and `coldark07` carry much of the structural contrast in the dark variant, while `coldark00` and `coldark01` do the same for elevated surfaces in the light variant.
+- `coldark06` and `coldark07` carry much of the structural contrast in the Dark variant, while `coldark00` and `coldark01` do the same for elevated surfaces in the Cold variant.
 - `coldark08` to `coldark15` stay stable by hue across both variants, which makes ports easier because contributors can reason about accent intent separately from light/dark adaptation.
 
 ## Syntax highlighting patterns

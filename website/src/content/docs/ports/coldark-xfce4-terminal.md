@@ -13,7 +13,7 @@ Coldark for XFCE4 Terminal brings the palette to terminal surfaces with dedicate
 
 ## Colors
 
-The XFCE4 Terminal variant uses a compact subset of the Coldark palettes. Compared with VS Code, it keeps fewer semantic accents and focuses on the colors that matter most in a terminal palette.
+The XFCE4 Terminal port uses a compact subset of the Coldark palettes. Compared with VS Code, it keeps fewer semantic accents and focuses on the colors that matter most in a terminal palette.
 
 ### Coldark Cold
 

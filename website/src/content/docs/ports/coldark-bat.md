@@ -9,11 +9,11 @@ Coldark for bat brings the project to the terminal with two syntax themes that m
 
 - Designed for [bat](https://github.com/sharkdp/bat).
 - Ships `Coldark-Cold` and `Coldark-Dark`.
-- Great fit for terminals that already use other Coldark variants.
+- Great fit for terminals that already use other Coldark ports.
 
 ## Colors
 
-The bat variant reuses the shared Coldark syntax palette rather than defining package-specific UI colors. It keeps the core foreground and accent colors used for code tokens and leaves out most of the editor-specific surface colors documented on the main [Colors](../../colors/) page.
+The bat port reuses the shared Coldark syntax palette rather than defining package-specific UI colors. It keeps the core foreground and accent colors used for code tokens and leaves out most of the editor-specific surface colors documented on the main [Colors](../../colors/) page.
 
 ### Coldark Cold
 

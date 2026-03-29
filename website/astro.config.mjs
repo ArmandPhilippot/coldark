@@ -10,8 +10,8 @@ export default defineConfig({
     starlight({
       title: "Coldark",
       description:
-        "Documentation for the Coldark theme, its palettes, and its variants.",
-      tagline: "A blue-grey theme with light and dark versions.",
+        "Documentation for the Coldark theme, its palettes, its variants, and its ports.",
+      tagline: "A blue-grey theme with light and dark variants.",
       logo: {
         src: "./src/assets/coldark-logo.svg",
         alt: "Coldark logo",
@@ -43,8 +43,8 @@ export default defineConfig({
         { label: "About", slug: "about" },
         { label: "Colors", slug: "colors" },
         {
-          label: "Variants",
-          autogenerate: { directory: "variants" },
+          label: "Ports",
+          autogenerate: { directory: "ports" },
         },
       ],
     }),
