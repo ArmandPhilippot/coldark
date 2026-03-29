@@ -1,4 +1,5 @@
 packages:
+  - "."
   - "packages/*"
   - "website"
 # Wait until three days after release to install new versions of packages

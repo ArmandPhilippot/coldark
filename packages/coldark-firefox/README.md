@@ -28,29 +28,19 @@ If the shortcut doesn't work, check that it's not being used by another extensio
 
 ## Colors
 
-### Light Theme
+Firefox uses a small subset of the Coldark palette.
 
-| Hex Code  |       Preview       | Description                                                                                               | Denomination |
-| :-------: | :-----------------: | --------------------------------------------------------------------------------------------------------- | :----------: |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default background** - Frame, new tab page, fields                                                      | `coldark00`  |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark background** - Selected tab, toolbar, sidebar                                                      | `coldark01`  |
-| `#8da1b9` | ![#8da1b9][#8da1b9] | **Darker background** - Inactive frame, highlight, borders                                                | `coldark02`  |
-| `#213043` | ![#213043][#213043] | **Lighter foreground** – Icons, new tab page, popup, highlight, fields, inactive tab.                     | `coldark04`  |
-| `#111b27` | ![#111b27][#111b27] | **Default foreground** - Selected tab, toolbar                                                            | `coldark05`  |
-| `#f0f4f8` | ![#f0f4f8][#f0f4f8] | **Lighter background** – Popup, focused fields, buttons states                                            | `coldark07`  |
-| `#005a8e` | ![#005a8e][#005a8e] | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight | `coldark10`  |
-
-### Dark Theme
-
-| Hex Code  |       Preview       | Description                                                                                               | Denomination |
-| :-------: | :-----------------: | --------------------------------------------------------------------------------------------------------- | :----------: |
-| `#111b27` | ![#111b27][#111b27] | **Default background** – Frame, new tab page, fields                                                      | `coldark00`  |
-| `#213043` | ![#213043][#213043] | **Light background** - Selected tab, toolbar, sidebar                                                     | `coldark01`  |
-| `#3c526d` | ![#3c526d][#3c526d] | **Lighter background** - Popup, focused fields, buttons states                                            | `coldark02`  |
-| `#d0dae7` | ![#d0dae7][#d0dae7] | **Dark foreground** – Icons, new tab page, popup, highlight, fields, inactive tab.                        | `coldark04`  |
-| `#e3eaf2` | ![#e3eaf2][#e3eaf2] | **Default foreground** - Selected tab, toolbar                                                            | `coldark05`  |
-| `#0b121b` | ![#0b121b][#0b121b] | **Dark background** - Inactive frame, highlight, borders                                                  | `coldark07`  |
-| `#6cb8e6` | ![#6cb8e6][#6cb8e6] | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight | `coldark10`  |
+| Denomination | Preview | Coldark Cold | Coldark Dark |
+| ------------ | :-----: | ------------ | ------------ |
+|`coldark00`| ![#f0f4f8][#f0f4f8] | **Lighter background** – Popup, focused fields, buttons states | Not used. |
+|`coldark01`| ![#e3eaf2][#e3eaf2] | **Default background** - Frame, new tab page, fields | **Default foreground** - Selected tab, toolbar |
+|`coldark02`|  ![#d0dae7][#d0dae7] | **Dark background** - Selected tab, toolbar, sidebar | **Dark foreground** – Icons, new tab page, popup, highlight, fields, inactive tab. |
+|`coldark03`| ![#8da1b9][#8da1b9] | **Darker background** - Inactive frame, highlight, borders | Not used. |
+|`coldark04`| ![#3c526d][#3c526d] | Not used. | **Lighter background** - Popup, focused fields, buttons states |
+|`coldark05`| ![#213043][#213043] | **Lighter foreground** – Icons, new tab page, popup, highlight, fields, inactive tab. | **Light background** - Selected tab, toolbar, sidebar |
+|`coldark06`| ![#111b27][#111b27] | **Default foreground** - Selected tab, toolbar | **Default background** – Frame, new tab page, fields |
+|`coldark07`| ![#0b121b][#0b121b] | Not used. | **Dark background** - Inactive frame, highlight, borders |
+|`coldark13`| ![#005a8e][#005a8e] / ![#6cb8e6][#6cb8e6] | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight | **Blue** - Special icons (e.g. bookmark), focus border, selected tab border, tab loading, field highlight|
 
 ## Screenshots
 
