@@ -1,4 +1,5 @@
 ---
+"coldark": major
 "coldark-bat": major
 "coldark-dircolors": major
 "coldark-firefox": major
