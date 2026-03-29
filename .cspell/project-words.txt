@@ -21,6 +21,7 @@ MULTIHARDLINK
 Nord
 objc
 pacman
+Poldark
 prereq
 rmvb
 rxvt

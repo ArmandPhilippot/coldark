@@ -40,7 +40,7 @@ export default defineConfig({
       ],
       sidebar: [
         { label: "Getting started", slug: "" },
-        { label: "Why Coldark", slug: "why-coldark" },
+        { label: "About", slug: "about" },
         { label: "Colors", slug: "colors" },
         {
           label: "Variants",
