@@ -29,7 +29,8 @@
     "lint:spelling": "cspell \"**\" --no-progress",
     "prepare": "husky",
     "website:build": "pnpm --filter coldark-website build",
-    "website:dev": "pnpm --filter coldark-website dev"
+    "website:dev": "pnpm --filter coldark-website dev",
+    "website:test": "pnpm --filter coldark-website test"
   },
   "devDependencies": {
     "@arphi/commitlint-config": "^1.0.7",

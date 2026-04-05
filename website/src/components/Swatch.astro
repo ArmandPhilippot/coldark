@@ -1,0 +1,73 @@
+---
+import type { VariantKey } from "../types/tokens";
+import { PALETTE } from "../utils/constants";
+
+type ColdarkToken = keyof typeof PALETTE;
+type SwatchEntry = {
+  token: ColdarkToken;
+  hex: string;
+  variant?: VariantKey;
+};
+
+type Props = {
+  color: ColdarkToken | ColdarkToken[];
+  variant?: VariantKey;
+  decorative?: boolean;
+};
+
+const { color, variant, decorative = false } = Astro.props;
+const tokens = Array.isArray(color) ? color : [color];
+const swatches: SwatchEntry[] = tokens.flatMap((token) => {
+  const entries = PALETTE[token];
+  const filteredEntries =
+    variant === undefined
+      ? entries
+      : entries.filter(
+          (entry) => "variant" in entry && entry.variant === variant
+        );
+
+  return filteredEntries.map((entry) => ({ ...entry, token }));
+});
+
+const describeSwatch = ({ token, hex, variant }: SwatchEntry) =>
+  variant ? `${token} ${variant} ${hex}` : `${token} ${hex}`;
+
+const label =
+  swatches.length === 1
+    ? `Color swatch: ${describeSwatch(swatches[0])}.`
+    : `Color swatches: ${swatches.map(describeSwatch).join("; ")}.`;
+---
+
+<span
+  class="swatch-group"
+  role={decorative ? undefined : "img"}
+  aria-label={decorative ? undefined : label}
+  aria-hidden={decorative ? "true" : undefined}
+>
+  {
+    swatches.map(({ hex }) => (
+      <span class="swatch-dot" style={`--swatch: ${hex};`} aria-hidden="true" />
+    ))
+  }
+</span>
+
+<style>
+  .swatch-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .swatch-dot {
+    width: 1rem;
+    height: 1rem;
+    flex: none;
+    border-radius: 999px;
+    background: var(--swatch);
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--coldark07) 18%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--sl-color-white) 12%, transparent);
+  }
+</style>
