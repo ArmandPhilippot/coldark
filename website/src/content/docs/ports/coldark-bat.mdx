@@ -3,31 +3,34 @@ title: bat
 description: Coldark syntax highlighting themes for bat.
 ---
 
+import { Steps } from "@astrojs/starlight/components";
 import Swatch from "../../../components/Swatch.astro";
 
 Coldark is also available for bat, a modern alternative to `cat` with syntax highlighting.
 
 ## Installation
 
+<Steps>
 1. Create the bat themes directory with the following command:
-    ```sh
-    mkdir -p "$(bat --config-dir)/themes"
-    ```
+   ```sh
+   mkdir -p "$(bat --config-dir)/themes"
+   ```
 2. Copy the package contents into that folder. You can do this using Git:
-    ```sh
-    git clone -n --depth=1 --filter=tree:0 https://github.com/ArmandPhilippot/coldark
-    cd coldark
-    git sparse-checkout set --no-cone /packages/coldark-bat
-    git checkout
-    ```
+   ```sh
+   git clone -n --depth=1 --filter=tree:0 https://github.com/ArmandPhilippot/coldark
+   cd coldark
+   git sparse-checkout set --no-cone /packages/coldark-bat
+   git checkout
+   ```
 3. Rebuild the bat cache:
-    ```sh
-    bat cache --build
-    ```
+   ```sh
+   bat cache --build
+   ```
 4. Verify the themes are available:
-    ```sh
-    bat --list-themes
-    ```
+   ```sh
+   bat --list-themes
+   ```
+</Steps>
 
 ## Activation
 
