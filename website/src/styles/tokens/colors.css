@@ -66,6 +66,7 @@
   --sl-color-bg-nav: var(--coldark07);
   --sl-color-bg-sidebar: var(--sl-color-bg);
   --sl-color-hairline-shade: var(--sl-color-gray-6);
+  --sl-color-text: var(--sl-color-white);
   --sl-color-text-invert: var(--sl-color-black);
 }
 
