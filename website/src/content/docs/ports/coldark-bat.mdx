@@ -4,7 +4,7 @@ description: Coldark syntax highlighting themes for bat.
 ---
 
 import { Steps } from "@astrojs/starlight/components";
-import Swatch from "../../../components/Swatch.astro";
+import ColdarkHex from "../../../components/ColdarkHex.astro";
 
 Coldark is also available for bat, a modern alternative to `cat` with syntax highlighting.
 
@@ -67,16 +67,16 @@ The bat port reuses [Coldark colors](/coldark/colors/) to provide a consistent s
 
 | Coldark Cold | Coldark Dark | Role |
 | :----------: | :----------: | ------------ |
-| <Swatch color="coldark01" decorative /> `#e3eaf2` | <Swatch color="coldark06" decorative /> `#111b27` | Main background |
-| <Swatch color="coldark02" decorative /> `#d0dae7` | <Swatch color="coldark05" decorative /> `#213043` | Line highlight and selection surfaces |
-| <Swatch color="coldark02" decorative /> `#d0dae7` | <Swatch color="coldark07" decorative /> `#0b121b` | Gutter background |
-| <Swatch color="coldark06" decorative /> `#111b27` | <Swatch color="coldark01" decorative /> `#e3eaf2` | Primary foreground, caret, and punctuation |
-| <Swatch color="coldark04" decorative /> `#3c526d` | <Swatch color="coldark03" decorative /> `#8da1b9` | Comments, invisibles, and gutter text |
-| <Swatch color="coldark13" variant="cold" decorative /> `#005a8e` | <Swatch color="coldark13" variant="dark" decorative /> `#6cb8e6` | Types, namespaces, variables, headings, and find highlights |
-| <Swatch color="coldark12" variant="cold" decorative /> `#006d6d` | <Swatch color="coldark12" variant="dark" decorative /> `#66cccc` | Tags, parameters, object keys, raw markup, and shebang punctuation |
-| <Swatch color="coldark11" variant="cold" decorative /> `#116b00` | <Swatch color="coldark11" variant="dark" decorative /> `#91d076` | Strings, inserted text, color literals, and Markdown link labels |
-| <Swatch color="coldark10" variant="cold" decorative /> `#755f00` | <Swatch color="coldark10" variant="dark" decorative /> `#e6d37a` | Numbers, language constants, attribute names, changed text, and links |
-| <Swatch color="coldark15" variant="cold" decorative /> `#af00af` | <Swatch color="coldark15" variant="dark" decorative /> `#f4adf4` | Regex, escapes, modifiers, list markers, and support symbols |
-| <Swatch color="coldark14" variant="cold" decorative /> `#7c00aa` | <Swatch color="coldark14" variant="dark" decorative /> `#c699e3` | Functions, call sites, and CSS class or ID selectors |
-| <Swatch color="coldark09" variant="cold" decorative /> `#a04900` | <Swatch color="coldark09" variant="dark" decorative /> `#e9ae7e` | Keywords, storage types, and pseudo-classes or pseudo-elements |
-| <Swatch color="coldark08" variant="cold" decorative /> `#c22f2e` | <Swatch color="coldark08" variant="dark" decorative /> `#cd6660` | Invalid tokens and deleted markup |
+| <ColdarkHex token="coldark01" /> | <ColdarkHex token="coldark06" /> | Main background |
+| <ColdarkHex token="coldark02" /> | <ColdarkHex token="coldark05" /> | Line highlight and selection surfaces |
+| <ColdarkHex token="coldark02" /> | <ColdarkHex token="coldark07" /> | Gutter background |
+| <ColdarkHex token="coldark06" /> | <ColdarkHex token="coldark01" /> | Primary foreground, caret, and punctuation |
+| <ColdarkHex token="coldark04" /> | <ColdarkHex token="coldark03" /> | Comments, invisibles, and gutter text |
+| <ColdarkHex token="coldark13" variant="cold" /> | <ColdarkHex token="coldark13" variant="dark" /> | Types, namespaces, variables, headings, and find highlights |
+| <ColdarkHex token="coldark12" variant="cold" /> | <ColdarkHex token="coldark12" variant="dark" /> | Tags, parameters, object keys, raw markup, and shebang punctuation |
+| <ColdarkHex token="coldark11" variant="cold" /> | <ColdarkHex token="coldark11" variant="dark" /> | Strings, inserted text, color literals, and Markdown link labels |
+| <ColdarkHex token="coldark10" variant="cold" /> | <ColdarkHex token="coldark10" variant="dark" /> | Numbers, language constants, attribute names, changed text, and links |
+| <ColdarkHex token="coldark15" variant="cold" /> | <ColdarkHex token="coldark15" variant="dark" /> | Regex, escapes, modifiers, list markers, and support symbols |
+| <ColdarkHex token="coldark14" variant="cold" /> | <ColdarkHex token="coldark14" variant="dark" /> | Functions, call sites, and CSS class or ID selectors |
+| <ColdarkHex token="coldark09" variant="cold" /> | <ColdarkHex token="coldark09" variant="dark" /> | Keywords, storage types, and pseudo-classes or pseudo-elements |
+| <ColdarkHex token="coldark08" variant="cold" /> | <ColdarkHex token="coldark08" variant="dark" /> | Invalid tokens and deleted markup |

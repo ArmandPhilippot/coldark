@@ -1,41 +1,20 @@
 ---
-import type { VariantKey } from "../types/tokens";
-import { PALETTE } from "../utils/constants";
-
-type ColdarkToken = keyof typeof PALETTE;
-type SwatchEntry = {
-  token: ColdarkToken;
-  hex: string;
-  variant?: VariantKey;
-};
-
 type Props = {
-  color: ColdarkToken | ColdarkToken[];
-  variant?: VariantKey;
+  hex: string | string[];
   decorative?: boolean;
 };
 
-const { color, variant, decorative = false } = Astro.props;
-const tokens = Array.isArray(color) ? color : [color];
-const swatches: SwatchEntry[] = tokens.flatMap((token) => {
-  const entries = PALETTE[token];
-  const filteredEntries =
-    variant === undefined
-      ? entries
-      : entries.filter(
-          (entry) => "variant" in entry && entry.variant === variant
-        );
+const { hex, decorative = false } = Astro.props;
+const swatches = Array.isArray(hex) ? hex : [hex];
 
-  return filteredEntries.map((entry) => ({ ...entry, token }));
-});
-
-const describeSwatch = ({ token, hex, variant }: SwatchEntry) =>
-  variant ? `${token} ${variant} ${hex}` : `${token} ${hex}`;
+if (swatches.length === 0) {
+  throw new Error("The `Swatch` component could not resolve any colors.");
+}
 
 const label =
   swatches.length === 1
-    ? `Color swatch: ${describeSwatch(swatches[0])}.`
-    : `Color swatches: ${swatches.map(describeSwatch).join("; ")}.`;
+    ? `Color swatch: ${swatches[0]}.`
+    : `Color swatches: ${swatches.join("; ")}.`;
 ---
 
 <span
@@ -45,8 +24,8 @@ const label =
   aria-hidden={decorative ? "true" : undefined}
 >
   {
-    swatches.map(({ hex }) => (
-      <span class="swatch-dot" style={`--swatch: ${hex};`} aria-hidden="true" />
+    swatches.map((value) => (
+      <span class="swatch-dot" style={`--swatch: ${value};`} aria-hidden="true" />
     ))
   }
 </span>
