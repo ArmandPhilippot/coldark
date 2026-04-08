@@ -3,6 +3,8 @@ title: VS Code
 description: The reference Coldark implementation for Visual Studio Code.
 ---
 
+import ColdarkHex from "../../../components/ColdarkHex.astro";
+
 Coldark for VS Code is the reference implementation of the theme. It defines the shared semantic palette used across the rest of the project and ships both **Coldark Cold** and **Coldark Dark**.
 
 ## Highlights
@@ -24,27 +26,27 @@ This package is the reference implementation for Coldark. The main [Colors](../.
 
 | Token | Hex | Role |
 | --- | --- | --- |
-| `coldark00` | `#f0f4f8` | Lightest surface for active tabs, widgets, and elevated panels |
-| `coldark01` | `#e3eaf2` | Bright surface in Coldark Cold and default foreground in Coldark Dark |
-| `coldark02` | `#d0dae7` | Secondary surface and supporting foreground |
-| `coldark03` | `#8da1b9` | Selection background, borders, comments, and muted emphasis |
-| `coldark04` | `#3c526d` | Subdued text and softer highlights |
-| `coldark05` | `#213043` | Strong surface for widgets, line highlight, and embedded panels |
-| `coldark06` | `#111b27` | Main dark foreground in Coldark Cold and main editor background in Coldark Dark |
-| `coldark07` | `#0b121b` | Deep background for activity bar, gutters, borders, and heavy chrome |
+| `coldark00` | <ColdarkHex token="coldark00" /> | Lightest surface for active tabs, widgets, and elevated panels |
+| `coldark01` | <ColdarkHex token="coldark01" /> | Bright surface in Coldark Cold and default foreground in Coldark Dark |
+| `coldark02` | <ColdarkHex token="coldark02" /> | Secondary surface and supporting foreground |
+| `coldark03` | <ColdarkHex token="coldark03" /> | Selection background, borders, comments, and muted emphasis |
+| `coldark04` | <ColdarkHex token="coldark04" /> | Subdued text and softer highlights |
+| `coldark05` | <ColdarkHex token="coldark05" /> | Strong surface for widgets, line highlight, and embedded panels |
+| `coldark06` | <ColdarkHex token="coldark06" /> | Main dark foreground in Coldark Cold and main editor background in Coldark Dark |
+| `coldark07` | <ColdarkHex token="coldark07" /> | Deep background for activity bar, gutters, borders, and heavy chrome |
 
 ### Accent slots
 
 | Token | Coldark Cold | Coldark Dark | Role |
 | --- | --- | --- | --- |
-| `coldark08` | `#c22f2e` | `#cd6660` | Red for errors, deletions, invalid states, and deprecated items |
-| `coldark09` | `#a04900` | `#e9ae7e` | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
-| `coldark10` | `#755f00` | `#e6d37a` | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
-| `coldark11` | `#116b00` | `#91d076` | Green for additions, strings, CSS colors, CSS font names, and link text |
-| `coldark12` | `#006d6d` | `#66cccc` | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
-| `coldark13` | `#005a8e` | `#6cb8e6` | Blue for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
-| `coldark14` | `#7c00aa` | `#c699e3` | Purple for unverified states, functions, and CSS classes or IDs |
-| `coldark15` | `#af00af` | `#f4adf4` | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
+| `coldark08` | <ColdarkHex token="coldark08" variant="cold" /> | <ColdarkHex token="coldark08" variant="dark" /> | Red for errors, deletions, invalid states, and deprecated items |
+| `coldark09` | <ColdarkHex token="coldark09" variant="cold" /> | <ColdarkHex token="coldark09" variant="dark" /> | Orange for warnings, debugging status bar, keywords, storage, and CSS pseudo-elements |
+| `coldark10` | <ColdarkHex token="coldark10" variant="cold" /> | <ColdarkHex token="coldark10" variant="dark" /> | Yellow for modified states, hints, integers, booleans, language constants, attribute names, shell case patterns, and link URLs |
+| `coldark11` | <ColdarkHex token="coldark11" variant="cold" /> | <ColdarkHex token="coldark11" variant="dark" /> | Green for additions, strings, CSS colors, CSS font names, and link text |
+| `coldark12` | <ColdarkHex token="coldark12" variant="cold" /> | <ColdarkHex token="coldark12" variant="dark" /> | Cyan for merge incoming content, parameters, tags, CSS variables, inline raw markup, and embedded section punctuation |
+| `coldark13` | <ColdarkHex token="coldark13" variant="cold" /> | <ColdarkHex token="coldark13" variant="dark" /> | Blue for badges, buttons, find match, info states, merge current content, selection outside editor, open-folder status bar, namespaces, classes, variables, other constants, headings, and property names |
+| `coldark14` | <ColdarkHex token="coldark14" variant="cold" /> | <ColdarkHex token="coldark14" variant="dark" /> | Purple for unverified states, functions, and CSS classes or IDs |
+| `coldark15` | <ColdarkHex token="coldark15" variant="cold" /> | <ColdarkHex token="coldark15" variant="dark" /> | Magenta for untracked states, token expression values, regex, escapes, character constants, storage modifiers, instances, list punctuation, and CSS values |
 
 ## Implementation notes
 
