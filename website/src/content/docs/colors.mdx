@@ -1,0 +1,144 @@
+---
+title: Colors
+description: Reference for the shared Coldark shades and the accent palettes used by the Cold and Dark variants.
+sidebar:
+  order: 3
+---
+
+import ColdarkHex from "../../components/ColdarkHex.astro";
+
+## Palette structure
+
+Coldark uses three palettes:
+
+- a shared set of blue-grey shades used by both variants
+- a light accent palette for **Coldark Cold**
+- a dark accent palette for **Coldark Dark**
+
+<div className="palette-grid">
+  <div className="palette-card">
+    <h3>Common shades</h3>
+    <p>
+      Shared neutrals, ordered from the lightest shade to the darkest. Their
+      denominations stay fixed in both variants.
+    </p>
+    <ul className="swatch-list">
+      <li>
+        <ColdarkHex token="coldark00" /> coldark00
+      </li>
+      <li>
+        <ColdarkHex token="coldark01" /> coldark01
+      </li>
+      <li>
+        <ColdarkHex token="coldark02" /> coldark02
+      </li>
+      <li>
+        <ColdarkHex token="coldark03" /> coldark03
+      </li>
+      <li>
+        <ColdarkHex token="coldark04" /> coldark04
+      </li>
+      <li>
+        <ColdarkHex token="coldark05" /> coldark05
+      </li>
+      <li>
+        <ColdarkHex token="coldark06" /> coldark06
+      </li>
+      <li>
+        <ColdarkHex token="coldark07" /> coldark07
+      </li>
+    </ul>
+  </div>
+  <div className="palette-card">
+    <h3>Coldark Cold accents</h3>
+    <ul className="swatch-list">
+      <li>
+        <ColdarkHex token="coldark08" variant="cold" /> coldark08
+      </li>
+      <li>
+        <ColdarkHex token="coldark09" variant="cold" /> coldark09
+      </li>
+      <li>
+        <ColdarkHex token="coldark10" variant="cold" /> coldark10
+      </li>
+      <li>
+        <ColdarkHex token="coldark11" variant="cold" /> coldark11
+      </li>
+      <li>
+        <ColdarkHex token="coldark12" variant="cold" /> coldark12
+      </li>
+      <li>
+        <ColdarkHex token="coldark13" variant="cold" /> coldark13
+      </li>
+      <li>
+        <ColdarkHex token="coldark14" variant="cold" /> coldark14
+      </li>
+      <li>
+        <ColdarkHex token="coldark15" variant="cold" /> coldark15
+      </li>
+    </ul>
+  </div>
+  <div className="palette-card">
+    <h3>Coldark Dark accents</h3>
+    <ul className="swatch-list">
+      <li>
+        <ColdarkHex token="coldark08" variant="dark" /> coldark08
+      </li>
+      <li>
+        <ColdarkHex token="coldark09" variant="dark" /> coldark09
+      </li>
+      <li>
+        <ColdarkHex token="coldark10" variant="dark" /> coldark10
+      </li>
+      <li>
+        <ColdarkHex token="coldark11" variant="dark" /> coldark11
+      </li>
+      <li>
+        <ColdarkHex token="coldark12" variant="dark" /> coldark12
+      </li>
+      <li>
+        <ColdarkHex token="coldark13" variant="dark" /> coldark13
+      </li>
+      <li>
+        <ColdarkHex token="coldark14" variant="dark" /> coldark14
+      </li>
+      <li>
+        <ColdarkHex token="coldark15" variant="dark" /> coldark15
+      </li>
+    </ul>
+  </div>
+</div>
+
+## Common shades
+
+| Token       | Hex       | Role                                                                   |
+| ----------- | --------- | ---------------------------------------------------------------------- |
+| `coldark00` | <ColdarkHex token="coldark00" /> | Lightest background for elevated panels, widgets, and active surfaces. |
+| `coldark01` | <ColdarkHex token="coldark01" /> | Soft bright surface and bright foreground support.                     |
+| `coldark02` | <ColdarkHex token="coldark02" /> | Secondary surface and light foreground support.                        |
+| `coldark03` | <ColdarkHex token="coldark03" /> | Selections, borders, and muted emphasis.                               |
+| `coldark04` | <ColdarkHex token="coldark04" /> | Comments, placeholders, and subdued text.                              |
+| `coldark05` | <ColdarkHex token="coldark05" /> | Strong surface for widgets, highlights, and embedded panels.           |
+| `coldark06` | <ColdarkHex token="coldark06" /> | Main dark foreground or background, depending on the variant.          |
+| `coldark07` | <ColdarkHex token="coldark07" /> | Deepest structural background for heavy UI chrome.                     |
+
+## Accent slots
+
+| Token       | Coldark Cold | Coldark Dark | Role                                                                |
+| ----------- | ------------ | ------------ | ------------------------------------------------------------------- |
+| `coldark08` | <ColdarkHex token="coldark08" variant="cold" /> | <ColdarkHex token="coldark08" variant="dark" /> | Red for errors, deletions, invalid states, and deprecated items.    |
+| `coldark09` | <ColdarkHex token="coldark09" variant="cold" /> | <ColdarkHex token="coldark09" variant="dark" /> | Orange for warnings, keywords, storage, and pseudo-elements.        |
+| `coldark10` | <ColdarkHex token="coldark10" variant="cold" /> | <ColdarkHex token="coldark10" variant="dark" /> | Yellow for modified states, hints, booleans, and attribute names.   |
+| `coldark11` | <ColdarkHex token="coldark11" variant="cold" /> | <ColdarkHex token="coldark11" variant="dark" /> | Green for additions, strings, CSS colors, and link text.            |
+| `coldark12` | <ColdarkHex token="coldark12" variant="cold" /> | <ColdarkHex token="coldark12" variant="dark" /> | Cyan for parameters, tags, CSS variables, and embedded punctuation. |
+| `coldark13` | <ColdarkHex token="coldark13" variant="cold" /> | <ColdarkHex token="coldark13" variant="dark" /> | Blue for buttons, badges, info, classes, variables, and headings.   |
+| `coldark14` | <ColdarkHex token="coldark14" variant="cold" /> | <ColdarkHex token="coldark14" variant="dark" /> | Purple for functions and CSS classes or IDs.                        |
+| `coldark15` | <ColdarkHex token="coldark15" variant="cold" /> | <ColdarkHex token="coldark15" variant="dark" /> | Magenta for untracked states, regex, escapes, and CSS values.       |
+
+## Source of truth
+
+This page is based on the color definitions from:
+
+- `packages/coldark-vscode/themes/coldark-light-color-theme.json`
+- `packages/coldark-vscode/themes/coldark-dark-color-theme.json`
+- the root `README.md`

@@ -1,0 +1,25 @@
+.card {
+  --card-bg: var(--sl-color-gray-5);
+
+  background:
+    radial-gradient(
+      circle at right,
+      color-mix(in srgb, var(--coldark13) 5%, transparent),
+      transparent 20%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--coldark01) 2%, transparent),
+      transparent
+    ),
+    var(--card-bg);
+  border-color: var(--sl-color-gray-4);
+  border-radius: 0.5rem;
+  box-shadow: var(--sl-shadow-sm);
+}
+
+:where(:root[data-theme="light"], [data-theme="light"] ::backdrop) .card {
+  --card-bg: var(--sl-color-gray-7);
+
+  border-color: var(--sl-color-gray-6);
+}

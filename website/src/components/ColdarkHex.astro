@@ -1,0 +1,29 @@
+---
+import type { VariantKey } from "../types/tokens";
+import type { ColdarkToken } from "../utils/palette";
+import { getPaletteHex } from "../utils/palette";
+import Swatch from "./Swatch.astro";
+
+type Props = {
+  token: ColdarkToken;
+  variant?: VariantKey;
+};
+
+const { token, variant } = Astro.props;
+const hex = getPaletteHex(token, variant);
+---
+
+<span class="palette-hex">
+  <Swatch hex={hex} decorative />
+  <code>{hex}</code>
+</span>
+
+<style>
+  .palette-hex {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+</style>

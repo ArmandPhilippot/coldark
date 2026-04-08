@@ -1,0 +1,5 @@
+:root,
+::backdrop {
+  --spacing-ratio: 1.618;
+  --sl-sidebar-pad-x: calc(var(--spacing-ratio) * 1rem);
+}

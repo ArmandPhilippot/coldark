@@ -1,0 +1,11 @@
+@layer starlight, theme, utilities;
+
+@import url("tokens/colors.css") layer(theme);
+@import url("tokens/fonts.css") layer(theme);
+@import url("tokens/spacings.css") layer(theme);
+@import url("overrides/base.css") layer(theme);
+@import url("overrides/cards.css") layer(theme);
+@import url("overrides/header.css") layer(theme);
+@import url("overrides/pagination.css") layer(theme);
+@import url("overrides/sidebars.css") layer(theme);
+@import url("custom/palettes.css") layer(theme);

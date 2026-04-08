@@ -1,0 +1,82 @@
+---
+title: bat
+description: Coldark syntax highlighting themes for bat.
+---
+
+import { Steps } from "@astrojs/starlight/components";
+import ColdarkHex from "../../../components/ColdarkHex.astro";
+
+Coldark is also available for bat, a modern alternative to `cat` with syntax highlighting.
+
+## Installation
+
+<Steps>
+1. Create the bat themes directory with the following command:
+   ```sh
+   mkdir -p "$(bat --config-dir)/themes"
+   ```
+2. Copy the package contents into that folder. You can do this using Git:
+   ```sh
+   git clone -n --depth=1 --filter=tree:0 https://github.com/ArmandPhilippot/coldark
+   cd coldark
+   git sparse-checkout set --no-cone /packages/coldark-bat
+   git checkout
+   ```
+3. Rebuild the bat cache:
+   ```sh
+   bat cache --build
+   ```
+4. Verify the themes are available:
+   ```sh
+   bat --list-themes
+   ```
+</Steps>
+
+## Activation
+
+Use one of the themes on demand:
+
+```sh
+bat --theme="Coldark-Cold"
+```
+
+Or make it the default in your shell config:
+
+```sh
+export BAT_THEME="Coldark-Dark"
+```
+
+Alternatively, you can use [bat's configuration file](https://github.com/sharkdp/bat#configuration-file).
+
+```sh
+bat --generate-config-file
+nano $(bat --config-file)
+```
+
+Then, update the theme by uncommenting the line and replacing the value:
+```diff del={3} ins={4}
+# Specify desired highlighting theme (e.g. "TwoDark"). Run `bat --list-themes`
+# for a list of all available themes
+#--theme="TwoDark"
+--theme="Coldark-Dark"
+```
+
+## Colors
+
+The bat port reuses [Coldark colors](/coldark/colors/) to provide a consistent syntax highlighting experience across editors despite the different token scopes.
+
+| Coldark Cold | Coldark Dark | Role |
+| :----------: | :----------: | ------------ |
+| <ColdarkHex token="coldark01" /> | <ColdarkHex token="coldark06" /> | Main background |
+| <ColdarkHex token="coldark02" /> | <ColdarkHex token="coldark05" /> | Line highlight and selection surfaces |
+| <ColdarkHex token="coldark02" /> | <ColdarkHex token="coldark07" /> | Gutter background |
+| <ColdarkHex token="coldark06" /> | <ColdarkHex token="coldark01" /> | Primary foreground, caret, and punctuation |
+| <ColdarkHex token="coldark04" /> | <ColdarkHex token="coldark03" /> | Comments, invisibles, and gutter text |
+| <ColdarkHex token="coldark13" variant="cold" /> | <ColdarkHex token="coldark13" variant="dark" /> | Types, namespaces, variables, headings, and find highlights |
+| <ColdarkHex token="coldark12" variant="cold" /> | <ColdarkHex token="coldark12" variant="dark" /> | Tags, parameters, object keys, raw markup, and shebang punctuation |
+| <ColdarkHex token="coldark11" variant="cold" /> | <ColdarkHex token="coldark11" variant="dark" /> | Strings, inserted text, color literals, and Markdown link labels |
+| <ColdarkHex token="coldark10" variant="cold" /> | <ColdarkHex token="coldark10" variant="dark" /> | Numbers, language constants, attribute names, changed text, and links |
+| <ColdarkHex token="coldark15" variant="cold" /> | <ColdarkHex token="coldark15" variant="dark" /> | Regex, escapes, modifiers, list markers, and support symbols |
+| <ColdarkHex token="coldark14" variant="cold" /> | <ColdarkHex token="coldark14" variant="dark" /> | Functions, call sites, and CSS class or ID selectors |
+| <ColdarkHex token="coldark09" variant="cold" /> | <ColdarkHex token="coldark09" variant="dark" /> | Keywords, storage types, and pseudo-classes or pseudo-elements |
+| <ColdarkHex token="coldark08" variant="cold" /> | <ColdarkHex token="coldark08" variant="dark" /> | Invalid tokens and deleted markup |

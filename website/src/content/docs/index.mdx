@@ -1,0 +1,79 @@
+---
+title: Coldark
+description: Discover the Coldark theme, its accessible blue-grey palettes, and every available port.
+template: splash
+prev: false
+next: false
+hero:
+  tagline: A blue-grey theme available in Cold and Dark variants, designed for comfortable reading in editors, terminals, browsers, and other developer tools.
+  image:
+    file: ../../assets/coldark-banner.svg
+  actions:
+    - text: Discover Coldark
+      link: /coldark/about/
+      icon: right-arrow
+    - text: Colors
+      link: /coldark/colors/
+      icon: right-arrow
+    - text: Ports
+      link: /coldark/ports/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Why Coldark?
+
+<CardGrid stagger>
+  <Card title="Balanced palettes" icon="paintbrush">
+    Coldark is built around a shared blue-grey foundation with dedicated accent
+    palettes for cold and dark environments.
+  </Card>
+  <Card title="Readable by design" icon="open-book">
+    The project aims for comfortable contrast and a consistent visual language
+    across every package.
+  </Card>
+  <Card title="Two variants" icon="star">
+    Coldark ships in a lighter “Cold” variant and a darker “Dark” variant, each
+    reusing the same semantic structure.
+  </Card>
+  <Card title="Multiple ports" icon="puzzle">
+    The palette already powers VS Code, bat, Firefox, Prism, GTKSourceView,
+    dircolors, and XFCE4 Terminal ports.
+  </Card>
+</CardGrid>
+
+## Available ports
+
+<CardGrid>
+  <Card title="VS Code" href="/coldark/ports/coldark-vscode/" icon="vscode">
+    The reference implementation of the Coldark palette for Visual Studio Code.
+  </Card>
+  <Card title="Prism" href="/coldark/ports/coldark-prism/" icon="seti:default">
+    A web-friendly syntax highlighting theme for Prism.js.
+  </Card>
+  <Card title="Firefox" href="/coldark/ports/coldark-firefox/" icon="firefox">
+    A browser theme that follows the system preference and supports manual
+    switching.
+  </Card>
+  <Card title="bat" href="/coldark/ports/coldark-bat/" icon="seti:shell">
+    Terminal syntax highlighting for bat with both Cold and Dark variants.
+  </Card>
+  <Card title="dircolors" href="/coldark/ports/coldark-dircolors/" icon="seti:folder">
+    File-type coloring for shells and tools that use `LS_COLORS`.
+  </Card>
+  <Card
+    title="GTKSourceView"
+    href="/coldark/ports/coldark-gtksourceview/"
+    icon="pencil"
+  >
+    Editor themes for GTK-based applications like Mousepad and Gedit.
+  </Card>
+  <Card
+    title="XFCE4 Terminal"
+    href="/coldark/ports/coldark-xfce4-terminal/"
+    icon="seti:powershell"
+  >
+    Terminal presets tailored for the XFCE4 terminal.
+  </Card>
+</CardGrid>

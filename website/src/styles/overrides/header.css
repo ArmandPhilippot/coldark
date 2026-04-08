@@ -1,0 +1,44 @@
+.header {
+  --sl-color-black: var(--coldark02);
+  --sl-color-white: var(--coldark06);
+  --sl-color-text-accent: var(--sl-color-black);
+  accent-color: var(--coldark00);
+}
+
+.header a:hover {
+  color: var(--coldark00);
+}
+
+.header button {
+  --sl-color-black: var(--coldark06);
+  --sl-color-white: var(--coldark02);
+
+  &:hover {
+    background-color: var(--coldark05);
+    border-color: var(--coldark05);
+  }
+}
+
+:where(:root[data-theme="light"], [data-theme="light"] ::backdrop)
+  .header
+  button {
+  background-color: var(--coldark01);
+
+  &:hover {
+    background-color: var(--coldark00);
+    border-color: var(--coldark01);
+    color: var(--sl-color-black);
+  }
+}
+
+.header label {
+  color: var(--sl-color-black);
+
+  &:hover {
+    color: var(--coldark00);
+  }
+}
+
+.header option {
+  background-color: var(--sl-color-gray-7);
+}

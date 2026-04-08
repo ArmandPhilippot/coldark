@@ -1,0 +1,60 @@
+---
+title: Firefox
+description: Coldark for Firefox, with automatic dark preference detection and manual switching.
+---
+
+import { Steps } from "@astrojs/starlight/components";
+import ColdarkHex from "../../../components/ColdarkHex.astro";
+
+Coldark is also available for Firefox's browser chrome, with automatic dark preference detection and manual switching.
+
+## Features
+
+In addition to the color schemes, the extension also provides the following features:
+
+- Detects the user's preferred dark mode and applies the matching variant automatically.
+- Lets users switch between variants from a toolbar icon.
+- Supports a keyboard shortcut to toggle the theme.
+
+## Installation
+
+<Steps>
+1. Download the latest `.xpi` from the `web-ext-artifacts` directory in this package.
+2. Open `about:addons` in Firefox.
+3. Use the add-ons gear menu and choose **Install Add-on From File...**
+4. Select the downloaded Coldark package.
+</Steps>
+
+## Colors
+
+The Firefox port of Coldark reuses [Coldark colors](/coldark/colors/) to provide a consistent experience across applications despite the different theming capabilities.
+
+Firefox only exposes a smaller theming surface than editors like VS Code, so this port uses a reduced subset of the full Coldark palette.
+
+### Coldark Cold
+
+| Token | Preview | Role |
+| --- | --- | --- |
+| `coldark00` | <ColdarkHex token="coldark00" /> | Popup and focused toolbar field background, plus translucent hover and pressed button backgrounds |
+| `coldark01` | <ColdarkHex token="coldark01" /> | Frame, new tab page, and default toolbar field background |
+| `coldark02` | <ColdarkHex token="coldark02" /> | Toolbar, selected tab, sidebar, and inactive frame background |
+| `coldark03` | <ColdarkHex token="coldark03" /> | Popup and sidebar borders, toolbar separators, and translucent popup or sidebar row highlights |
+| `coldark04` | <ColdarkHex token="coldark04" /> | Toolbar icons plus popup, sidebar, new tab page, and toolbar field text |
+| `coldark05` | <ColdarkHex token="coldark05" /> | Not used directly |
+| `coldark06` | <ColdarkHex token="coldark06" /> | Selected tab, toolbar, and bookmark or find bar text |
+| `coldark07` | <ColdarkHex token="coldark07" /> | Not used directly |
+| `coldark13` | <ColdarkHex token="coldark13" variant="cold" /> | Attention icons, selected tab line, tab loading indicator, focused field border, and translucent toolbar field highlight |
+
+### Coldark Dark
+
+| Token | Preview | Role |
+| --- | --- | --- |
+| `coldark00` | <ColdarkHex token="coldark00" /> | Not used directly |
+| `coldark01` | <ColdarkHex token="coldark01" /> | Selected tab, toolbar, bookmark or find bar, and focused toolbar field text |
+| `coldark02` | <ColdarkHex token="coldark02" /> | Toolbar icons plus inactive tab, new tab page, popup, sidebar, and unfocused toolbar field text |
+| `coldark03` | <ColdarkHex token="coldark03" /> | Not used directly |
+| `coldark04` | <ColdarkHex token="coldark04" /> | Toolbar, selected tab, and sidebar background |
+| `coldark05` | <ColdarkHex token="coldark05" /> | Popup and focused toolbar field background, plus translucent hover and pressed button backgrounds |
+| `coldark06` | <ColdarkHex token="coldark06" /> | Frame, new tab page, and default toolbar field background |
+| `coldark07` | <ColdarkHex token="coldark07" /> | Inactive frame, popup and sidebar borders, toolbar separators, and translucent popup or sidebar row highlights |
+| `coldark13` | <ColdarkHex token="coldark13" variant="dark" /> | Attention icons, selected tab line, tab loading indicator, focused field border, and translucent toolbar field highlight |

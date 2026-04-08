@@ -1,0 +1,67 @@
+---
+title: Prism
+description: Coldark syntax highlighting for Prism.js.
+---
+
+import { Steps } from "@astrojs/starlight/components";
+import ColdarkHex from "../../../components/ColdarkHex.astro";
+
+Coldark Prism brings the same blue-grey language to Prism.js with a cold and a dark stylesheet.
+
+## Highlights
+
+- Built for [Prism.js](https://prismjs.com/).
+- Offers both `prism-coldark-cold.css` and `prism-coldark-dark.css`.
+- Stays visually close to the VS Code port while adapting to Prism's token set.
+
+## Colors
+
+Prism uses a syntax-focused subset of the Coldark palettes. It keeps the main foreground, comment, and accent colors, while skipping many interface-specific colors that only exist in editors.
+
+### Coldark Cold
+
+| Hex | Typical role |
+| --- | --- |
+| <ColdarkHex token="coldark01" /> | Background contrast and bright text support |
+| <ColdarkHex token="coldark02" /> | Secondary surfaces |
+| <ColdarkHex token="coldark06" /> | Main code foreground |
+| <ColdarkHex token="coldark03" /> | Secondary emphasis and soft highlights |
+| <ColdarkHex token="coldark04" /> | Comments |
+| <ColdarkHex token="coldark13" variant="cold" /> | Names, classes, and strong accents |
+| <ColdarkHex token="coldark12" variant="cold" /> | Tags and embedded punctuation |
+| <ColdarkHex token="coldark11" variant="cold" /> | Strings |
+| <ColdarkHex token="coldark10" variant="cold" /> | Numbers and booleans |
+| <ColdarkHex token="coldark15" variant="cold" /> | Regex, escapes, and special values |
+| <ColdarkHex token="coldark14" variant="cold" /> | Functions and selectors |
+| <ColdarkHex token="coldark09" variant="cold" /> | Keywords |
+| <ColdarkHex token="coldark08" variant="cold" /> | Errors and invalid tokens |
+
+### Coldark Dark
+
+| Hex | Typical role |
+| --- | --- |
+| <ColdarkHex token="coldark06" /> | Background |
+| <ColdarkHex token="coldark07" /> | Deeper surface contrast |
+| <ColdarkHex token="coldark01" /> | Main code foreground |
+| <ColdarkHex token="coldark03" /> | Comments and subdued text |
+| <ColdarkHex token="coldark04" /> | Secondary surfaces and soft highlights |
+| <ColdarkHex token="coldark13" variant="dark" /> | Names, classes, and strong accents |
+| <ColdarkHex token="coldark12" variant="dark" /> | Tags and embedded punctuation |
+| <ColdarkHex token="coldark11" variant="dark" /> | Strings |
+| <ColdarkHex token="coldark10" variant="dark" /> | Numbers and booleans |
+| <ColdarkHex token="coldark15" variant="dark" /> | Regex, escapes, and special values |
+| <ColdarkHex token="coldark14" variant="dark" /> | Functions and selectors |
+| <ColdarkHex token="coldark09" variant="dark" /> | Keywords |
+| <ColdarkHex token="coldark08" variant="dark" /> | Errors and invalid tokens |
+
+## Installation
+
+<Steps>
+1. Download Prism from the [official website](https://prismjs.com/) with the languages and plugins you need.
+2. Copy `prism-coldark-cold.css` and/or `prism-coldark-dark.css` from this package into your project.
+3. Include the Prism JavaScript file and the selected Coldark stylesheet in your page.
+</Steps>
+
+## Notes
+
+The Prism token model is less comprehensive than VS Code's, so some mappings are necessarily approximate.

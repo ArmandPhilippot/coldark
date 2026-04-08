@@ -1,0 +1,52 @@
+---
+type Props = {
+  hex: string | string[];
+  decorative?: boolean;
+};
+
+const { hex, decorative = false } = Astro.props;
+const swatches = Array.isArray(hex) ? hex : [hex];
+
+if (swatches.length === 0) {
+  throw new Error("The `Swatch` component could not resolve any colors.");
+}
+
+const label =
+  swatches.length === 1
+    ? `Color swatch: ${swatches[0]}.`
+    : `Color swatches: ${swatches.join("; ")}.`;
+---
+
+<span
+  class="swatch-group"
+  role={decorative ? undefined : "img"}
+  aria-label={decorative ? undefined : label}
+  aria-hidden={decorative ? "true" : undefined}
+>
+  {
+    swatches.map((value) => (
+      <span class="swatch-dot" style={`--swatch: ${value};`} aria-hidden="true" />
+    ))
+  }
+</span>
+
+<style>
+  .swatch-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .swatch-dot {
+    width: 1rem;
+    height: 1rem;
+    flex: none;
+    border-radius: 999px;
+    background: var(--swatch);
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--coldark07) 18%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--sl-color-white) 12%, transparent);
+  }
+</style>

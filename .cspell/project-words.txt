@@ -5,6 +5,7 @@ cpio
 dircolors
 dtterm
 dvtm
+eslintcache
 Eterm
 flac
 gedit
@@ -20,9 +21,11 @@ MULTIHARDLINK
 Nord
 objc
 pacman
+Poldark
 prereq
 rmvb
 rxvt
+seti
 Stackframe
 svgz
 tzst
