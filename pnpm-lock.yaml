@@ -68,8 +68,8 @@ importers:
         specifier: ^11.0.0
         version: 11.0.0
       ovsx:
-        specifier: ^0.10.9
-        version: 0.10.9
+        specifier: ^0.10.11
+        version: 0.10.11
 
   packages/coldark-xfce4-terminal: {}
 
@@ -2665,8 +2665,8 @@ packages:
   outdent@0.5.0:
     resolution: {integrity: sha512-/jHxFIzoMXdqPzTaCpFzAAWhpkSjZPF4Vsn6jAfNpmbH/ymsmd7Qc6VE9BGn0L6YMj6uwpQLxCECpus4ukKS9Q==}
 
-  ovsx@0.10.9:
-    resolution: {integrity: sha512-gY6912U50YzzNdAEFr9IxAqu59pKySXZzJUxzHRzi3/h/fWFdDDFCCXyjik6VL4TmiVKeor1Yv/cg7I3KfOUuQ==}
+  ovsx@0.10.11:
+    resolution: {integrity: sha512-VYYlAWO7hvcrP0EIM/Q5lCdXTumXIiGyDnSXm8ztNbGN9zCSNW6iGiJMMMUNhPRWqJjNKpo/Vc2+B4uFRy8ACg==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -6615,7 +6615,7 @@ snapshots:
 
   outdent@0.5.0: {}
 
-  ovsx@0.10.9:
+  ovsx@0.10.11:
     dependencies:
       '@vscode/vsce': 3.7.1
       commander: 6.2.1
