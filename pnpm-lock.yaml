@@ -13,7 +13,7 @@ importers:
         version: 1.0.7(@commitlint/cli@20.4.3(@types/node@25.3.3)(typescript@5.9.3))
       '@arphi/prettier-config':
         specifier: ^1.0.4
-        version: 1.0.4(prettier@3.8.1)
+        version: 1.0.4(prettier@3.8.3)
       '@changesets/cli':
         specifier: ^2.30.0
         version: 2.30.0(@types/node@25.3.3)
@@ -30,8 +30,8 @@ importers:
         specifier: ^16.3.2
         version: 16.3.2
       prettier:
-        specifier: ^3.8.1
-        version: 3.8.1
+        specifier: ^3.8.3
+        version: 3.8.3
 
   packages/coldark-assets: {}
 
@@ -2825,8 +2825,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+  prettier@3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3505,9 +3505,9 @@ snapshots:
       '@commitlint/cli': 20.4.3(@types/node@25.3.3)(typescript@5.9.3)
       '@commitlint/config-conventional': 20.4.3
 
-  '@arphi/prettier-config@1.0.4(prettier@3.8.1)':
+  '@arphi/prettier-config@1.0.4(prettier@3.8.3)':
     dependencies:
-      prettier: 3.8.1
+      prettier: 3.8.3
 
   '@azu/format-text@1.0.2': {}
 
@@ -6793,7 +6793,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.8.1: {}
+  prettier@3.8.3: {}
 
   private@0.1.8: {}
 
