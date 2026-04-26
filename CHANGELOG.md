@@ -1,5 +1,21 @@
 # coldark
 
+## 2.0.0
+
+### Major Changes
+
+- 555f654: Reorganizes the shared Coldark denominations to ease maintenance and variant porting.
+  - `coldark00` to `coldark07` now form a stable neutral ramp ordered from the lightest common shade to the darkest.
+  - `coldark08` to `coldark15` now form stable accent slots ordered by hue from red to magenta.
+
+  The documentation have been updated to preserve the rendered colors while making the palette easier to understand, maintain, and port to other tools.
+
+- 663783c: Reorganizes the project as a monorepo.
+
+  Previously, this repo was listing theme variants using Git submodules. This wasn't a convenient choice for maintenance.
+
+  Since v2, all theme variants live directly inside this monorepo. Note that, the Git tags attached to this repo have been deleting during the migration process.
+
 ## v1.2.0
 
 ### Commits
