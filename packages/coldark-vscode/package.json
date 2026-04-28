@@ -50,7 +50,7 @@
     }
   ],
   "engines": {
-    "vscode": "^1.45.0"
+    "vscode": "^1.117.0"
   },
   "contributes": {
     "themes": [
