@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.10
         version: 1.0.10(@commitlint/cli@20.5.3(@types/node@25.3.3)(typescript@5.9.3))
       '@arphi/prettier-config':
-        specifier: ^1.0.4
-        version: 1.0.4(prettier@3.9.6)
+        specifier: ^1.0.5
+        version: 1.0.5(prettier@3.9.6)
       '@changesets/cli':
         specifier: ^2.31.1
         version: 2.31.1(@types/node@25.3.3)
@@ -80,10 +80,10 @@ packages:
     peerDependencies:
       '@commitlint/cli': '>=21.0.0'
 
-  '@arphi/prettier-config@1.0.4':
-    resolution: {integrity: sha512-wBS1WXoVsglLkxkqAy5EW6rJEFFRPkCzcqRz/1lS5IG6kRgq9pgIocEvcKHERGxZeP9DVFrBL9IDhiLGNHgrkw==}
+  '@arphi/prettier-config@1.0.5':
+    resolution: {integrity: sha512-fZimW/OmzSDR32Awqvb533TiJAwNbieNTEQWIaGQisrmS70q6B7LXDVPRNxushf0GBIObcEAOB5GKoDRcXb9Tg==}
     peerDependencies:
-      prettier: '>=3.8.1'
+      prettier: ^3.8.1
 
   '@azu/format-text@1.0.2':
     resolution: {integrity: sha512-Swi4N7Edy1Eqq82GxgEECXSSLyn6GOb5htRFPzBDdUkECGXtlf12ynO5oJSpWKPwCaUssOu7NfhDcCWpIC6Ywg==}
@@ -3458,7 +3458,7 @@ snapshots:
       '@commitlint/config-conventional': 21.2.2
       '@commitlint/types': 21.2.0
 
-  '@arphi/prettier-config@1.0.4(prettier@3.9.6)':
+  '@arphi/prettier-config@1.0.5(prettier@3.9.6)':
     dependencies:
       prettier: 3.9.6
 
