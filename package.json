@@ -34,7 +34,7 @@
     "@arphi/prettier-config": "^1.0.5",
     "@changesets/cli": "^2.31.1",
     "@commitlint/cli": "^20.5.3",
-    "cspell": "^10.1.1",
+    "cspell": "^10.2.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.9.6"
