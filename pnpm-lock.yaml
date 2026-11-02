@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@arphi/commitlint-config':
-        specifier: ^1.0.10
-        version: 1.0.10(@commitlint/cli@20.5.3(@types/node@25.3.3)(typescript@5.9.3))
+        specifier: ^1.0.11
+        version: 1.0.11(@commitlint/cli@20.5.3(@types/node@25.3.3)(typescript@5.9.3))
       '@arphi/prettier-config':
         specifier: ^1.0.5
         version: 1.0.5(prettier@3.9.10)
@@ -75,8 +75,8 @@ importers:
 
 packages:
 
-  '@arphi/commitlint-config@1.0.10':
-    resolution: {integrity: sha512-8bkIke33GlwO2VpRiqXMETNd6hZ1PmnvVRbPkvrYddb7p+l/XMrQmjw+8qiv8CYnTAQjIbvihpN0RhVLtFar4w==}
+  '@arphi/commitlint-config@1.0.11':
+    resolution: {integrity: sha512-sZ9WV1yEKC+AQbLD6pK5K1+FvWwG0mp5PnVM5/BA+/g2Py94COS1CRfpFS3vH17znRjb2o4jOXf8A6EHurOaHQ==}
     peerDependencies:
       '@commitlint/cli': '>=21.0.0'
 
@@ -210,8 +210,8 @@ packages:
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@21.2.2':
-    resolution: {integrity: sha512-NxA37SZviusFUEYOQZ5hNnZ1h7O/KiemPkxjOlpzKJNnWxThiwc6/SaZhaPa8fyLvfRBAywhQhJJk8XESHWlpQ==}
+  '@commitlint/config-conventional@21.2.4':
+    resolution: {integrity: sha512-IRldtwgNmR0SySR7wizFbhRmq45lPt6H3XCNTMyVN7jrPLgi8JlTRR6Eg1HLWUQt9P1Lh3k6eY25ilDa47EE6w==}
     engines: {node: '>=22.12.0'}
 
   '@commitlint/config-validator@20.5.0':
@@ -274,8 +274,8 @@ packages:
     resolution: {integrity: sha512-ZJoS8oSq2CAZEpc/YI9SulLrdiIyXeHb/OGqGrkUP6Q7YV+0ouNAa7GjqRdXeQPncHQIDz/jbCTlHScvYvO/gA==}
     engines: {node: '>=v18'}
 
-  '@commitlint/types@21.2.0':
-    resolution: {integrity: sha512-7zVFCDB2reMvJH5dmbKnOQPjZEvjdJTH8jc0U/PIPU1r3/+vf5pD1HlfitV2MWsWXrvu7u39iY1lyLUPOaN0Gw==}
+  '@commitlint/types@21.2.3':
+    resolution: {integrity: sha512-sGEA473TlCvhCGNoTBY9OXZVWdscIXdGt0dm8EpB+2MRfmt8LNh/X56P/T3nCtEB+eH5qGEa3odphSAoUxSfSQ==}
     engines: {node: '>=22.12.0'}
 
   '@conventional-changelog/git-client@2.7.0':
@@ -3463,11 +3463,11 @@ packages:
 
 snapshots:
 
-  '@arphi/commitlint-config@1.0.10(@commitlint/cli@20.5.3(@types/node@25.3.3)(typescript@5.9.3))':
+  '@arphi/commitlint-config@1.0.11(@commitlint/cli@20.5.3(@types/node@25.3.3)(typescript@5.9.3))':
     dependencies:
       '@commitlint/cli': 20.5.3(@types/node@25.3.3)(typescript@5.9.3)
-      '@commitlint/config-conventional': 21.2.2
-      '@commitlint/types': 21.2.0
+      '@commitlint/config-conventional': 21.2.4
+      '@commitlint/types': 21.2.3
 
   '@arphi/prettier-config@1.0.5(prettier@3.9.10)':
     dependencies:
@@ -3732,9 +3732,9 @@ snapshots:
       - conventional-commits-parser
       - typescript
 
-  '@commitlint/config-conventional@21.2.2':
+  '@commitlint/config-conventional@21.2.4':
     dependencies:
-      '@commitlint/types': 21.2.0
+      '@commitlint/types': 21.2.3
       conventional-changelog-conventionalcommits: 10.4.0
 
   '@commitlint/config-validator@20.5.0':
@@ -3827,7 +3827,7 @@ snapshots:
       conventional-commits-parser: 6.3.0
       picocolors: 1.1.1
 
-  '@commitlint/types@21.2.0':
+  '@commitlint/types@21.2.3':
     dependencies:
       conventional-commits-parser: 7.1.2
       picocolors: 1.1.1
